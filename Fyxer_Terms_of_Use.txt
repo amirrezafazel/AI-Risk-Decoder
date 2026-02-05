@@ -1,0 +1,296 @@
+Source: https://app.fyxer.com/terms-of-use
+
+Terms of Use
+
+between
+
+Fyxer AI Limited
+
+and
+
+User
+Agreed terms
+ Term
+This agreement shall commence when the User signs up for the Service and continue until the User terminates their account, or until the account is otherwise terminated in accordance with clause 12, collectively the term of the agreement (Term).
+ Use of the Service
+ Subject to the User signing up to the Service, the restrictions set out in this clause 2 and the other terms and conditions of this agreement, Fyxer AI hereby grants to the User a non-exclusive, non-transferable right and licence, without the right to grant sublicences, to permit the User to use the Service and the Documentation during the Term.
+ The User shall not access, store, distribute or transmit any Viruses, or any material during the course of its use of the Service that:
+ is unlawful, harmful, threatening, defamatory, obscene, infringing, harassing or racially or ethnically offensive;
+ facilitates illegal activity;
+ depicts sexually explicit images;
+ promotes unlawful violence;
+ is discriminatory based on race, gender, colour, religious belief, sexual orientation, disability; or
+ is otherwise illegal or causes damage or injury to any person or property;
+and Fyxer AI reserves the right, without liability or prejudice to its other rights to the User, to disable the User's access to any material that breaches the provisions of this clause.
+ The User shall not:
+ except as may be allowed by any applicable law which is incapable of exclusion by agreement between the parties and except to the extent expressly permitted under this agreement:
+ attempt to copy, modify, duplicate, create derivative works from, frame, mirror, republish, download, display, transmit, or distribute all or any portion of the Software and/or Documentation (as applicable) in any form or media or by any means;
+ attempt to de-compile, reverse compile, disassemble, reverse engineer or otherwise reduce to human-perceivable form all or any part of the Software;
+ access all or any part of the Service and Documentation in order to build a product or service which competes with the Service and/or the Documentation;
+ use the Service and/or Documentation to provide the Service to third parties;
+ subject to clause 20.1, license, sell, rent, lease, transfer, assign, distribute, display, disclose, or otherwise commercially exploit, or otherwise make the Service and/or Documentation available to any third party;
+ attempt to obtain, or assist third parties in obtaining, access to the Service and/or Documentation, other than as provided under this clause 2;
+ introduce or permit the introduction of, any Virus or Vulnerability into Fyxer AI's network and information systems.
+ The User shall use all reasonable endeavours to prevent any unauthorised access to, or use of, the Service and/or the Documentation and, in the event of any such unauthorised access or use, promptly notify Fyxer AI.
+ Service
+ Fyxer AI shall, during the Term, provide the Service and make available the Documentation to the User on and subject to the terms of this agreement.
+ Fyxer AI shall use commercially reasonable endeavours to make the Service available 24 hours a day, seven days a week, except for planned maintenance carried out during Normal Business Hours and unscheduled maintenance carried out outside of Normal Business Hours.
+ Fyxer AI will, as part of the Service, provide the User with Fyxer AI's standard User support Service during Normal Business Hours in accordance with Fyxer AI's Support Service Policy in effect at the time that the Service are provided.  Fyxer AI may amend the Support Service Policy in its sole and absolute discretion from time to time.
+ Data protection
+ Both parties must comply with the Data Protection Laws in connection with this agreement and the Data Protection Agreement at Schedule 1.
+ The User consents to Fyxer AI storing and accessing information in the terminal equipment used by the User to access the Service for the purpose of gathering information relating to the provision, use and performance of the Service (Usage Data).
+ During and after the agreement, Fyxer AI may:
+ use Usage Data to improve the Service and for development, diagnostic and correction purposes connected with the Service and Fyxer AI’s other offerings similar to the Service;
+ use Usage Data in connection with its business of providing the Service and Services similar to the Service, including to train machine learning algorithms (on an aggregated and anonymised basis) and for its other data processes; and
+ disclose Usage Data to others, in each case solely in aggregated, anonymised form and to the extent reasonably necessary for proper performance of Fyxer AI’s business of providing the Service and Services similar to the Service.
+ Fyxer AI's obligations
+ Fyxer AI undertakes that the Service will be performed substantially in accordance with the Documentation and with reasonable skill and care.
+ Fyxer AI:
+ does not warrant that:
+ the User's use of the Service will be uninterrupted or error-free;
+ that the Service, Documentation and/or the information obtained by the User through the Service will meet the User's requirements; or
+ the Software or the Service will be free from Vulnerabilities or Viruses;
+ is not responsible for any delays, delivery failures, or any other loss or damage resulting from the transfer of data over communications networks and facilities, including the internet, and the User acknowledges that the Service and Documentation may be subject to limitations, delays and other problems inherent in the use of such communications facilities.
+ Fyxer AI has and will maintain all necessary licences, consents, and permissions necessary for the performance of its obligations under this agreement.
+ Fyxer AI shall follow its archiving procedures for User Data as set out in its Back-Up Policy available at app.Fyxer.com or such other website address as may be notified to the User from time to time, as such document may be amended by Fyxer AI in its sole discretion from time to time. In the event of any loss or damage to User Data, the User's sole and exclusive remedy against Fyxer AI shall be for Fyxer AI to use reasonable commercial endeavours to restore the lost or damaged User Data from the latest back-up of such User Data maintained by Fyxer AI in accordance with the archiving procedure described in its Back-Up Policy. Fyxer AI shall not be responsible for any loss, destruction, alteration or disclosure of User Data caused by any third party (except those third parties sub-contracted by Fyxer AI to perform Service related to User Data maintenance and back-up for which it shall remain fully liable).
+ User's obligations
+ The User:
+ shall provide Fyxer AI with:
+ all necessary co-operation in relation to this agreement; and
+ all necessary access to such information as may be required by Fyxer AI;
+in order to provide the Service, including but not limited to User Data, security access information and configuration of the Service;
+ hereby consents to Fyxer AI providing such User Data and User Content as may be (i) recorded or transmitted using the Service, (ii) gathered from User’s communications with Fyxer AI, or (iii) otherwise collected or processed by Fyxer AI during the provision of the Service under the Agreement, with the Language Model Provider or otherwise, in order to perform the Service, only as necessary to provide the Service and subject to termination by the sending of an e-mail notice;
+ without affecting its other obligations under this agreement, complies with all applicable laws and regulations with respect to its activities under this agreement;
+ agrees to carry out all other User responsibilities set out in this agreement in a timely and efficient manner;
+ uses the Service and the Documentation in accordance with the terms and conditions of this agreement;
+ has obtained and shall maintain all necessary licences, consents, and permissions necessary for Fyxer AI, its contractors and agents (including the Language Model Provider) to perform their obligations under this agreement, including without limitation the Service;
+ has ensured and shall continue to ensure that its network and systems comply with the relevant specifications provided by Fyxer AI from time to time;
+ has obtained the required consent of every meeting participant to record each call before the call begins and obtain any other legally required consents related thereto;
+ shall not use the recording Service if any meeting participant does not consent to be recorded;
+ is and shall be, to the extent permitted by law and except as otherwise expressly provided in this agreement, solely responsible for procuring, maintaining and securing its network connections and telecommunications links from its systems to Fyxer AI's systems, and all problems, conditions, delays, delivery failures and all other loss or damage arising from or relating to the User's network connections or telecommunications links or caused by the internet; and
+ is solely responsible for compliance with all recording laws, and User acknowledges and agrees that (i) it is solely responsible for providing any notices to, and obtaining consent from, participants in connection with any recordings are required under applicable law, and (ii) the laws regarding notice and notifications requirements of recorded conversations vary by location.
+ The User shall own all right, title and interest in and to all of the User Data that is not personal data and shall have sole responsibility for the legality, reliability, integrity, accuracy and quality of all such User Data.
+ Subject to clause 6.2, the User acknowledges that Fyxer AI (and its licensors, where applicable) own all right title and interest in and to any suggestions, ideas, feedback, recommendations or other information provided by User and its personnel in connection with the Service and User hereby assigns any intellectual property rights in such items to Fyxer AI.
+ Language Model Providers.  Fyxer AI uses Large Language Models (LLMs) through Language Model Provider to enable AI features in the Service.  While Fyxer AI may share User Data or User Content with Language Model Provider, it is only to provide you with the Service and for no other purpose.  No User Data or User Content is used to train Language Model Provider’s LLMs or that of any other third party provider.  
+ License to use User’s company logo
+ Permission to Use Logo:  The User hereby grants Fyxer AI a non-exclusive, royalty-free, worldwide license to use the User’s company logo, trademark, or service mark ("Client Logo") on Fyxer AI's website and marketing materials. This use is solely for the purpose of identifying the User as a client of Fyxer AI.
+ Duration and Termination:  This permission shall be effective from the commencement of the User’s subscription and shall continue until the subscription is terminated or upon written notice from the User requesting the cessation of such use, whichever comes first. Upon termination, Fyxer AI will promptly remove the Client Logo from its website and any marketing materials.
+ Representation and Warranty:  The User represents and warrants that it has all necessary rights to grant this permission and that the use of the Client Logo as permitted herein will not infringe upon the rights of any third party.
+ Usage Standards:  Fyxer AI agrees to use the Client Logo in a manner that is consistent with any branding guidelines provided by the User and will not alter the Client Logo in any way without the User’s prior written consent.
+ Charges and payment
+ The User shall pay any Subscription Fees to Fyxer AI for the User Packages as set out on the Subscription Page and in accordance with this clause 7.
+ The User shall at the point of subscribing to a User Package, provide to Fyxer AI valid, up-to-date and complete credit card details and any other relevant valid, up-to-date and complete contact and billing details and the User hereby authorises Fyxer AI to bill such credit card for the Subscription Fees payable in respect of the User Packages.
+ Fyxer AI shall be entitled to alter the Subscription Fees at any point in time, upon written notice to the User.
+ The User may terminate any User Package in accordance with the relevant termination provisions set out on the Subscription Page.
+ Proprietary rights
+ The User acknowledges and agrees that Fyxer AI and/or its licensors own all intellectual property rights in the Service and the Documentation. Except as expressly stated herein, this agreement does not grant the User any rights to, under or in, any patents, copyright, database right, trade secrets, trade names, trade marks (whether registered or unregistered), or any other rights or licences in respect of the Service or the Documentation.
+ Fyxer AI confirms that it has all the rights in relation to the Service and the Documentation that are necessary to grant all the rights it purports to grant under, and in accordance with, the terms of this agreement.
+ Confidentiality and compliance with policies
+ Confidential Information means all confidential information (however recorded or preserved) disclosed by a party or its Representatives (as defined below) to the other party and that party's Representatives whether before or after the date of this agreement in connection with this Agreement, including but not limited to:
+ any information that would be regarded as confidential by a reasonable business person relating to:
+ the business, assets, affairs, Users, clients, suppliers, or plans, intentions, or market opportunities of the disclosing party (or of any member of the group of companies to which the disclosing party belongs); and
+ the operations, processes, product information, know-how, designs, trade secrets or software of the disclosing party (or of any member of the group of companies to which the disclosing party belongs);
+ any information developed by the parties in the course of carrying out this agreement and the parties agree that:
+ details of the Service, and the results of any performance tests of the Service, shall constitute Fyxer AI Confidential Information; and
+ User Data shall constitute User Confidential Information;
+Representatives means, in relation to a party, its employees, officers, contractors, subcontractors, representatives and advisers.
+ The provisions of this clause shall not apply to any Confidential Information that:
+ is or becomes generally available to the public (other than as a result of its disclosure by the receiving party or its Representatives in breach of this clause);
+ was available to the receiving party on a non-confidential basis before disclosure by the disclosing party;
+ was, is or becomes available to the receiving party on a non-confidential basis from a person who, to the receiving party's knowledge, is not bound by a confidentiality agreement with the disclosing party or otherwise prohibited from disclosing the information to the receiving party;
+ the parties agree in writing is not confidential or may be disclosed; or
+ is developed by or for the receiving party independently of the information disclosed by the disclosing party.
+ Each party shall keep the other party's Confidential Information secret and confidential and shall not:
+ use such Confidential Information except for the purpose of exercising or performing its rights and obligations under or in connection with this agreement (Permitted Purpose); or
+ disclose such Confidential Information in whole or in part to any third party, except as expressly permitted by this clause 9.
+ A party may disclose the other party's Confidential Information to those of its Representatives who need to know such Confidential Information for the Permitted Purpose, provided that:
+ it informs such Representatives of the confidential nature of the Confidential Information before disclosure; and
+ at all times, it is responsible for such Representatives' compliance with the confidentiality obligations set out in this clause.
+ A party may disclose Confidential Information to the extent such Confidential Information is required to be disclosed by law, by any governmental or other regulatory authority or by a court or other authority of competent jurisdiction provided that, to the extent it is legally permitted to do so, it gives the other party as much notice of such disclosure as possible and, where notice of disclosure is not prohibited and is given in accordance with this clause 9.5, it takes into account the reasonable requests of the other party in relation to the content of such disclosure.
+ A party may, provided that it has reasonable grounds to believe that the other party is involved in activity that may constitute a criminal offence under the Bribery Act 2010, disclose Confidential Information to the Serious Fraud Office without first informing the other party of such disclosure.
+ Each party reserves all rights in its Confidential Information. No rights or obligations in respect of a party's Confidential Information other than those expressly stated in this clause or agreement are granted to the other party, or to be implied from this agreement.
+ On termination of this agreement, each party shall:
+ destroy or return to the other party all documents and materials (and any copies) containing, reflecting, incorporating or based on the other party's Confidential Information;
+ erase all the other party's Confidential Information from computer and communications systems and devices used by it, including such systems and data storage Service provided by third parties (to the extent technically and legally practicable); and
+ certify in writing to the other party that it has complied with the requirements of this clause, provided that a recipient party may retain documents and materials containing, reflecting, incorporating or based on the other party's Confidential Information to the extent required by law or any applicable governmental or regulatory authority. The provisions of this clause shall continue to apply to any such documents and materials retained by a recipient party, subject to clause 12 (Termination).
+ No party shall make, or permit any person to make, any public announcement concerning this agreement without the prior written consent of the other parties (such consent not to be unreasonably withheld or delayed), except as required by law, any governmental or regulatory authority (including, without limitation, any relevant securities exchange), any court or other authority of competent jurisdiction.
+ Except as expressly stated in this agreement, no party makes any express or implied warranty or representation concerning its Confidential Information.
+ The above provisions of this clause 9 shall survive for a period of five years from termination of this agreement.
+ In performing its obligations under this agreement the User shall comply with the Mandatory Policies.
+ Indemnity
+ The User shall defend, indemnify and hold harmless Fyxer AI against claims, actions, proceedings, losses, damages, expenses and costs (including without limitation court costs and reasonable legal fees) arising out of or in connection with the User's use of the Service and/or Documentation, provided that:
+ the User is given prompt notice of any such claim;
+ Fyxer AI provides reasonable co-operation to the User in the defence and settlement of such claim, at the User's expense; and
+ the User is given sole authority to defend or settle the claim.
+ Fyxer AI shall defend the User, its officers, directors and employees against any claim that the User's use of the Service or Documentation in accordance with this agreement infringes any United Kingdom patent effective as of the Effective Date, copyright, trade mark, database right or right of confidentiality, and shall indemnify the User for any amounts awarded against the User in judgment or settlement of such claims, provided that:
+ Fyxer AI is given prompt notice of any such claim;
+ the User does not make any admission, or otherwise attempt to compromise or settle the claim and provides reasonable co-operation to Fyxer AI in the defence and settlement of such claim, at Fyxer AI's expense; and
+ Fyxer AI is given sole authority to defend or settle the claim.
+ In the defence or settlement of any claim, Fyxer AI may procure the right for the User to continue using the Service, replace or modify the Service so that they become non-infringing or, if such remedies are not reasonably available, terminate this agreement on 2 Business Days' notice to the User without any additional liability or obligation to pay liquidated damages or other additional costs to the User.
+ In no event shall Fyxer AI, its employees, agents and sub-contractors be liable to the User to the extent that the alleged infringement is based on:
+ a modification of the Service or Documentation by anyone other than Fyxer AI; or
+ the User's use of the Service or Documentation in a manner contrary to the instructions given to the User by Fyxer AI; or
+ the User's use of the Service or Documentation after notice of the alleged or actual infringement from Fyxer AI or any appropriate authority.
+ The foregoing  and clause 10.3 states the User's sole and exclusive rights and remedies, and Fyxer AI's (including Fyxer AI's employees', agents' and sub-contractors') entire obligations and liability, for infringement of any patent, copyright, trade mark, database right or right of confidentiality.
+ Limitation of liability
+ Except as expressly and specifically provided in this agreement:
+ the User remains solely responsible for any opinions, recommendations, or other conclusions made or actions taken by User, its personnel or any third party based (wholly or in part) on the results obtained from the provision of the Service. User also remains solely responsible for ensuring all User Content that User provides to Fyxer AI is complete, accurate and up-to-date. We will have no liability for any damage caused by errors, inaccuracies or omissions in any information or instructions provided to Fyxer AI by User in connection with the Service;
+ given the probabilistic nature of machine learning, use of the Service may in some situations result in incorrect output that does not accurately reflect real people, places, or facts. Whilst Fyxer AI will always seek to verify the accuracy of the output, User should also evaluate the accuracy of any output as appropriate for User’s use case, including by using human review of the output; and
+ THE SERVICE IS PROVIDED “AS IS.” EXCEPT TO THE EXTENT PROHIBITED BY LAW, Fyxer AI MAKES NO WARRANTIES (EXPRESS, IMPLIED, STATUTORY OR OTHERWISE) WITH RESPECT TO THE SERVICE AND DISCLAIM ALL WARRANTIES INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, SATISFACTORY QUALITY, NON-INFRINGEMENT, AND QUIET ENJOYMENT, AND ANY WARRANTIES ARISING OUT OF ANY COURSE OF DEALING OR TRADE USAGE. Fyxer AI DOES NOT WARRANT THAT THE SERVICE WILL BE UNINTERRUPTED, ACCURATE OR ERROR FREE, OR THAT ANY USER CONTENT WILL BE SECURE OR NOT LOST OR ALTERED.
+ Nothing in this agreement excludes the liability of Fyxer AI:
+ for death or personal injury caused by Fyxer AI's negligence; or
+ for fraud or fraudulent misrepresentation.
+ Subject to clause 11.1 and clause 11.2:
+ Fyxer AI shall not be liable whether in tort (including for negligence or breach of statutory duty), contract, misrepresentation, restitution or otherwise for any loss of profits, loss of business, wasted expenditure, depletion of goodwill and/or similar losses or loss or corruption of data or information, or pure economic loss, or for any special, indirect, incidental, exemplary or consequential loss, costs, damages, charges or expenses however arising under this agreement, even if Fyxer AI has been advised of the possibility of such damages; and
+ Fyxer AI's total aggregate liability in contract (including in respect of the indemnity at clause 10.2), tort (including negligence or breach of statutory duty), misrepresentation, restitution or otherwise, arising in connection with the performance or contemplated performance of this agreement shall be limited to the greater of £1000 or the Subscription Fees that the User has paid in the preceding 6 months of the agreement.
+ Nothing in this agreement excludes the liability of the User for any breach, infringement or misappropriation of Fyxer AI’s intellectual property rights.
+ The limitations in this section apply only to the maximum extent permitted by applicable law.
+ Termination
+ This agreement shall terminate if:
+ Fyxer AI provides the User with 30 days notice to terminate the User’s account;
+ if Fyxer AI’s access to the Language Model Provider ceases for any reason in which case this agreement shall terminate with immediate effect;
+ if User breaches the terms of this agreement or the Language Model Provider’s terms and conditions in any way in which case this agreement shall terminate with immediate effect;
+ if User notifies Fyxer AI by e-mail that they have withdrawn their relevant consent to the use of the Service, in which case this agreement shall terminate with immediate effect; or
+ otherwise terminated in accordance with the provisions of this agreement.
+ Without affecting any other right or remedy available to it, either party may terminate this agreement with immediate effect by giving written notice to the other party if:
+ the other party fails to pay any amount due under this agreement on the due date for payment and remains in default not less than 30 days after being notified in writing to make such payment; or
+ the other party commits a material breach of any other term of this agreement and (if such breach is remediable) fails to remedy that breach within a period of 30 days after being notified in writing to do so.
+ On termination of this agreement for any reason:
+ all licences granted under this agreement shall immediately terminate and the User shall immediately cease all use of the Service and/or the Documentation;
+ Fyxer AI may destroy or otherwise dispose of any of the User Data in its possession unless Fyxer AI receives, no later than ten days after the effective date of the termination of this agreement, a written request for the delivery to the User of the then most recent back-up of the User Data. Fyxer AI shall use reasonable commercial endeavours to deliver the back-up to the User within 30 days of its receipt of such a written request, provided that the User has, at that time, paid all fees and charges outstanding at and resulting from termination (whether or not due at the date of termination). The User shall pay all reasonable expenses incurred by Fyxer AI in returning or disposing of User Data;
+ any rights, remedies, obligations or liabilities of the parties that have accrued up to the date of termination, including the right to claim damages in respect of any breach of the agreement which existed at or before the date of termination shall not be affected or prejudiced; and
+ Fyxer AI shall use commercially reasonable efforts to ensure the Language Model Provider ceases to access or otherwise use User Content.
+ Force majeure
+Neither party shall be in breach of this agreement or otherwise liable for any failure or delay in the performance of its obligations if such delay or failure results from events, circumstances or causes beyond its reasonable control. The time for performance of such obligations shall be extended accordingly. If the period of delay or non-performance continues for 3 months, the party not affected may terminate this agreement by giving 30 days' written notice to the affected party.
+ Conflict
+If there is an inconsistency between any of the provisions in the main body of this agreement and the Schedules, the provisions in the main body of this agreement shall prevail.
+ Variation
+No variation of this agreement shall be effective unless it is in writing and signed by the parties (or their authorised representatives).
+ Waiver
+ A waiver of any right or remedy is only effective if given in writing and shall not be deemed a waiver of any subsequent right or remedy.
+ A delay or failure to exercise, or the single or partial exercise of, any right or remedy shall not waive that or any other right or remedy, nor shall it prevent or restrict the further exercise of that or any other right or remedy.
+ Rights and remedies
+Except as expressly provided in this agreement, the rights and remedies provided under this agreement are in addition to, and not exclusive of, any rights or remedies provided by law.
+ Severance
+ If any provision or part-provision of this agreement is or becomes invalid, illegal or unenforceable, it shall be deemed deleted, but that shall not affect the validity and enforceability of the rest of this agreement.
+ If any provision or part-provision of this agreement is deemed deleted under clause 18.1 the parties shall negotiate in good faith to agree a replacement provision that, to the greatest extent possible, achieves the intended commercial result of the original provision.
+ Entire agreement
+ This agreement constitutes the entire agreement between the parties and supersedes and extinguishes all previous and contemporaneous agreements, promises, assurances and understandings between them, whether written or oral, relating to its subject matter.
+ Each party acknowledges that in entering into this agreement it does not rely on, and shall have no remedies in respect of, any statement, representation, assurance or warranty (whether made innocently or negligently) that is not set out in this agreement.
+ Each party agrees that it shall have no claim for innocent or negligent misrepresentation [or negligent misstatement] based on any statement in this agreement.
+ Nothing in this clause shall limit or exclude any liability for fraud.
+ Assignment
+ The User shall not, without the prior written consent of Fyxer AI, assign, transfer, mortgage, charge, subcontract, delegate, declare a trust over or deal in any other manner with any of its rights and obligations under this agreement.
+ Fyxer AI may at any time assign, mortgage, charge, subcontract, delegate, declare a trust over or deal in any other manner with any or all of its rights and obligations under this agreement.
+ No partnership or agency
+Nothing in this agreement is intended to or shall operate to create a partnership between the parties, or authorise either party to act as agent for the other, and neither party shall have the authority to act in the name or on behalf of or otherwise to bind the other in any way (including, but not limited to, the making of any representation or warranty, the assumption of any obligation or liability and the exercise of any right or power).
+ Third party rights
+ This agreement does not give rise to any rights under the Contracts (Rights of Third Parties) Act 1999 to enforce any term of this agreement.
+ The rights of the parties to rescind or vary this agreement are not subject to the consent of any other person.
+ Notices
+ Any notice given to a party under or in connection with this agreement shall be in writing and shall be sent by email to the following addresses (or an address substituted in writing by the party to be served):
+ Fyxer AI:  support@fyxer.com
+ User:  the email address that the User signed up the Service with.
+ Any notice shall be deemed to have been received at the time of transmission, or, if this time falls outside Business Hours in the place of receipt, when Business Hours resume.
+ This clause does not apply to the service of any proceedings or other documents in any legal action or, where applicable, any arbitration or other method of dispute resolution.
+ Governing law
+This agreement and any dispute or claim arising out of or in connection with it or its subject matter or formation (including non-contractual disputes or claims) shall be governed by and interpreted in accordance with the law of England and Wales.
+ Jurisdiction
+Each party irrevocably agrees that the courts of England and Wales shall have exclusive jurisdiction to settle any dispute or claim arising out of or in connection with this agreement or its subject matter or formation (including non-contractual disputes or claims).
+ Interpretation
+ The definitions and rules of interpretation in this clause apply in this agreement.
+ Business Day:  a day other than a Saturday, Sunday or public holiday in England when banks in London are open for business.
+ Confidential Information:  information that is proprietary or confidential and is either clearly labelled as such or identified as Confidential Information in clause 9.1.
+ User Content:  messages, images, text, audio content (including voice, sound recordings, and musical works), comments, photos, video (including all sound recordings and musical works embodied therein) or other types of works of authorship that (i) User may be able to record or transmit using the Service, including content that is accessible by or visible to third parties, such as other users of the Service or (ii) as may be gathered from User’s communications with Fyxer AI, or (iii) otherwise collected or processed by Fyxer AI during the provision of the Service
+ User Data:  the data inputted by the User or Fyxer AI on the User's behalf for the purpose of using the Service or facilitating the User's use of the Service.
+ Data Controller:  shall have the same meaning as in the Data Protection Laws.
+ Data Processor:  shall have the same meaning as in the Data Protection Laws.
+ Data Protection Laws:  any applicable laws and regulations in any relevant jurisdiction relating to the use or processing of Personal Data including (i) unless and until the GDPR is no longer directly applicable in the UK, the General Data Protection Regulation ((EU) 2016/679) and any national implementing laws, regulations and secondary legislation, as amended or updated from time to time, in the UK and then (ii) any successor legislation to the GDPR or the Data Protection Act 2008.
+ Data Subject:  shall have the same meaning as in the Data Protection Laws.
+ Documentation:  the document made available to the User by Fyxer AI online via app.Fyxer.com or such other web address notified by Fyxer AI to the User from time to time which sets out a description of the Service and the user instructions for the Service.
+ Effective Date:  the date that the User signs up to use the Service.
+ Normal Business Hours:  8.00 am to 6.00 pm local UK time, each Business Day.
+ Language Model Provider:  the third-party provider that supplies the language model that the Service use in order to provide results to the User.
+ Personal Data:  shall have the same meaning as in the Data Protection Laws.
+ Personal Data Breach:  shall have the same meaning as in the Data Protection Laws.
+ Process/Processing:  shall have the same meaning as in the Data Protection Laws.
+ Service:  the subscription Service provided by Fyxer AI to the User under this agreement via http://app.Fyxer.com/, as more particularly described in the Documentation.
+ Software:  the online software applications provided by Fyxer AI as part of the Service.
+ Subscription Fees:  the subscription fees payable by the User to Fyxer AI for the User Packages.
+ Subscription Page:  the page available in the Service that sets out the User Packages and their Subscription Fees.
+ Supervisory Authority:  shall have the same meaning as in the Data Protection Laws.
+ Fyxer AI:  Fyxer AI Limited, incorporated and registered in England and Wales with company number 15189973 whose registered office is at 85 Great Portland Street, London, England, W1W 7LT.
+ Support Service Policy:  Fyxer AI's policy for providing support in relation to the Service as made available at app.Fyxer.com or such other website address as may be notified to the User from time to time.
+ Term:  shall have the meaning set out in clause 1.
+ Usage Data:  shall have the meaning set out in clause 4.2.
+ User:  the person that signs up to the Service in accordance with clause 1 of this agreement.
+ User Packages:  the packages of Subscription Service that the User can access by paying the Subscription Fees as set out at the Subscription Page.
+ Virus:  any thing or device (including any software, code, file or programme) which may:  prevent, impair or otherwise adversely affect the operation of any computer software, hardware or network, any telecommunications service, equipment or network or any other service or device; prevent, impair or otherwise adversely affect access to or the operation of any programme or data, including the reliability of any programme or data (whether by re-arranging, altering or erasing the programme or data in whole or part or otherwise); or adversely affect the user experience, including worms, trojan horses, viruses and other similar things or devices.
+ Vulnerability:  a weakness in the computational logic (for example, code) found in software and hardware components that when exploited, results in a negative impact to the confidentiality, integrity, or availability, and the term Vulnerabilities shall be interpreted accordingly.
+ Clause, schedule and paragraph headings shall not affect the interpretation of this agreement.
+ A person includes an individual, corporate or unincorporated body (whether or not having separate legal personality) and that person's legal and personal representatives, successors or permitted assigns.
+ A reference to a company shall include any company, corporation or other body corporate, wherever and however incorporated or established.
+ Unless the context otherwise requires, words in the singular shall include the plural and in the plural shall include the singular.
+ Unless the context otherwise requires, a reference to one gender shall include a reference to the other genders.
+ A reference to a statute or statutory provision is a reference to it as it is in force as at the date of this agreement.
+ A reference to a statute or statutory provision shall include all subordinate legislation made as at the date of this agreement under that statute or statutory provision.
+ A reference to writing or written excludes fax but not email.
+ References to clauses and schedules are to the clauses and schedules of this agreement; references to paragraphs are to paragraphs of the relevant schedule to this agreement.
+Schedule 1
+
+Data Processing Agreement
+ Each parties’ roles:  The parties acknowledge and agree that to the extent that Fyxer AI processes Personal Data on User’s behalf in the course of providing the Service:
+ for the purpose of Data Protection Laws, User is the Data Controller and Fyxer AI is the Data Processor;
+ the subject matter and duration of the Processing, the nature and purpose of the Processing and the types of Personal Data and categories of Data Subject are set out in Appendix A of this Data Processing Agreement; and
+ this Data Processing Agreement incorporates the terms of the Terms of Use and any terms not defined in this Data Processing Agreement shall have the meaning set forth in the Terms of Use.
+ Compliance with the Data Protection Laws:  Each party shall comply with all applicable Data Protection Laws relating to its Processing of the Personal Data under, or in connection with this Agreement.
+ Client warranty:  User warrants, represents and undertakes that (a) all Personal Data Processed by Fyxer AI on User’s behalf as envisaged under this Agreement has been and shall be collected and Processed by User in accordance with Data Protection Laws and that User has all necessary appropriate consents in place to enable lawful transfer of the Personal Data to Fyxer AI for the duration and purposes of the Agreement; and (b) all instructions given by User to Fyxer AI in respect of the Processing of the Personal Data shall comply with Data Protection Laws. Where the Services are used by or on behalf of User to Process, including to analyze and transcribe, audio recordings generated from audio and video conferences that include the Personal Data of third parties, User warrants, represents and undertakes that it has secured the necessary and appropriate permissions and consents from those third parties before Processing such Personal Data using the Services.
+ Fyxer AI as Processor:  Where Personal Data is processed by Fyxer AI as Data Processor on User’s behalf in the course of providing the Service, Fyxer AI shall:
+ only Process the Personal Data (i) as required to meet User’s lawful, documented and reasonable instructions (which shall, unless otherwise agreed, be to Process Personal Data as necessary to provide the Service under the Agreement); or (ii) as required to comply with any applicable law in which case Fyxer AI shall (to the extent permitted by law) inform User of that legal requirement before Processing that Personal Data;
+ inform User if Fyxer AI becomes aware of an instruction from User that, in our opinion, infringes Data Protection Laws;
+ implement appropriate technical and organisational measures in relation to the Processing of the Personal Data by Fyxer AI:
+ such that the Processing will meet the requirements of Data Protection Laws and ensure the protection of the rights of Data Subjects; and
+ so as to ensure a level of security in respect of the Personal Data Processed by Fyxer AI is appropriate to the risks that are presented by the Processing, in particular from accidental or unlawful destruction, loss, alteration, unauthorised disclosure of, or access to Personal Data transmitted, stored or otherwise Processed, having regard to the state of technological development and the cost of implementing any measures;
+ provide reasonable assistance, information and cooperation to User in responding to any request from a Data Subject and to ensure compliance with User's obligations under Data Protection Laws with respect to:  (i) security of Processing; (ii) notification by User of Personal Data Breaches to Supervisory Authorities or Data Subjects; (iii) Data Protection Impact Assessments (as defined in Data Protection Laws); and (iv) prior consultation with a Supervisory Authority regarding high risk Processing, provided in each case that User shall reimburse Fyxer AI in full for all costs (including for internal resources of Fyxer AI and any third party costs) reasonably incurred by Fyxer AI in performing its obligations under this paragraph;
+ upon becoming aware of a Personal Data Breach notify User without undue delay and provide details of the breach;
+ ensure that all Fyxer AI’s Personnel authorised to Process the Personal Data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality;
+ maintain, in accordance with Data Protection Laws, written records of all categories of Processing activities carried out on User’s behalf; and
+ at your written request, either delete or return the Personal Data to User within a reasonable time after the end of the provision of the Service pursuant to the Agreement (unless storage of any data is required by applicable law).
+ Sub-contracting:
+ User generally authorises the appointment by Fyxer AI of any sub-contractors to Process the Personal Data (“Sub-Processors”) who may from time to time be engaged by Fyxer AI to perform the Service in accordance with the Agreement, who in each case are, or (as the case may be) will be, subject to terms between Fyxer AI and the Sub-Processor which are substantially similar to those set out in this Data Processing Agreement. We shall provide you with a list of current Sub-Processors on request and as between us, we shall remain fully liable for all acts or omissions of any Sub-Processor.
+ Before authorising any new Sub-Processor to Process Personal Data in connection with the Service, Fyxer AI shall inform User of the intended engagement of the new Sub-Processor and User, acting reasonably, may object to the appointment within ten (10) Business Days of being so informed.
+ Transfer of data outside the EEA:  User authorises Fyxer AI to transfer Personal Data which Fyxer AI Processes on User’s behalf outside the European Economic Area (EEA) as required to perform the Service, including to any countries in which Fyxer AI’s Sub-Processors operate, provided that Fyxer AI shall ensure that all such transfers are effected in accordance with Data Protection Laws and by way of a legally enforceable mechanism for transfers of Personal Data as may be permitted under Data Protection Laws from time to time.
+ Accountability:  Fyxer AI shall make available to User such information as is reasonably necessary to demonstrate User's compliance with User’s obligations under this Data Processing Agreement, and allow for and contribute to audits, including inspections, by User (or another auditor mandated by User) for this purpose, subject to User:
+ giving Fyxer AI reasonable prior notice of such information request and/or audit being required by Fyxer AI;
+ paying Fyxer AI’s reasonable costs for assisting with the provision of information and allowing for and contributing to audits;
+ ensuring that all information obtained or generated in connection with such audit or inspection is kept strictly confidential (save for disclosure to a Supervisory Authority or as otherwise required by applicable law);
+ ensuring that such audit or inspection is undertaken with minimal disruption to Fyxer AI’s business, other service recipients and Fyxer AI’s Sub-Processors and acknowledging that such audit or inspection:  (i) shall not oblige Fyxer AI to provide or permit access to information concerning Fyxer AI internal pricing information or relating to other recipients of Service from Fyxer AI and (ii) shall be subject to any reasonable policies and procedures of Fyxer AI’s Sub-Processors for the purposes of preserving security and confidentiality; and
+ being permitted to conduct a maximum of one audit or inspection in any twelve (12) month period.
+Appendix A
+
+Data Processing Details
+1        Subject matter of the Processing
+Our provision of the Service to you pursuant to the Agreement.
+2        Nature and purpose of the Processing
+We will Process Personal Data in the course of providing you with the Service.
+3        Duration of the Processing
+We will Process Personal Data until the end of the provision of the Service pursuant to the Agreement and thereafter where storage of any data is required by applicable law.
+4        Categories of Data Subjects
+Your Users and business associates and other third parties with whom you conduct business.
+5        Type of Personal Data
+Name, contact details, billing address, job title/position, email content data, including subject lines, email body text, and sender and recipient information, calendar data, including event titles, dates, and times, audio recording data, including conversation participants, dates, times, the content of audio recordings generated by User which may contain personal data, IP addresses, geolocation information, user device information, bank details and card details and such other Personal Data provided or disclosed to us by you in the course of the provision of the Service.
+6        Technical and organisational security measures
+FYXER.AI’s information security framework integrates administrative, technical and physical protocols customised to protect the Personal Information under our management from anticipated threats or risks to its confidentiality and integrity.
+Here are Principles of FYXER.AI security program:
+ Principle of Least Privilege — Services and users are provided with only the minimum permissions needed to fulfill their responsibilities.
+ Encryption at Rest and in Transit — All data is encrypted, whether stored or transit.
+ Automatic Updates — Laptops, servers, and containers are set to update automatically to the latest versions shortly after they are available.
+ Clear Security Boundaries — Environments like production, staging, and development are kept separate.
+Here are examples of how FYXER.AI Ensures Product Security
+ We use AES256 encryption for data at rest in our production database and TLS for data in transit.
+We promptly delete your data once your account is closed.
+ FYXER.AI conducts annual security audits through a third-party firm to identify potential cyber risks.
+ User identification is handled by your email provider (Google or Microsoft), and we rely extensively on Oauth2 for authorization.
+FYXER.AI employees must use multi-factor authentication.
+ FYXER.AI’s infrastructure is fully hosted on Google Cloud and is therefore covered by Google's ISO 27001 certification and SOC 2 attestations.
+GDSVF&H\10591063.2
