@@ -1,0 +1,620 @@
+https://workspace.google.com/terms/education_terms/
+Google Workspace for Education Terms of Service
+Last modified: 30 January 2025
+New to Google Cloud? A quick overview of Google Cloud's online contracting can be found here.
+
+For translations of this Agreement into other languages, please click here.
+
+If you signed an offline variant of this Agreement for use of the Google Workspace for Education Services under the same Google Workspace for Education Account, the terms below do not apply to you and your offline terms govern your use of the Google Workspace for Education Services.
+
+お客様の請求先アカウントが日本の場合、お客様のGoogle Workspace for Educationのご利用に対してはこちらの利用規約が適用されます.
+
+These Google Workspace for Education Terms of Service (together, the 'Agreement') (formerly known as 'G Suite for Education Terms of Service' or 'G Suite for Education (Online) Agreement') are entered into by Google and the entity or person agreeing to them ('Customer') and govern the Customer's access to and use of the Services. 'Google' has the meaning given at https://cloud.google.com/terms/google-entity.
+
+This Agreement is effective when the Customer clicks to accept it (the 'Effective Date'). If you are accepting on behalf of the Customer, you represent and warrant that (i) you have full legal authority to bind the Customer to this Agreement; (ii) you have read and understand this Agreement; and (iii) you agree, on behalf of the Customer, to this Agreement.
+
+1. Provision of the Services.
+
+1.1 Services use. During the Term, Google will provide the Services in accordance with the Agreement, including the SLA. The Customer may use the Services ordered in the applicable Order Form or Reseller Order in accordance with this Agreement.
+
+1.2 Admin Console. The Customer will have access to the Admin Console, through which the Customer may manage its use of the Services.
+
+1.3 Accounts; Verification to use Services.
+
+(a) Accounts. The Customer must have an Account to use the Services and is responsible for the information that they provide to create the Account, the security of its passwords for the Account and any use of its Account. Google has no obligation to provide multiple accounts to the Customer.
+
+(b) Verification to use Services. The Customer must verify a Domain Email Address or a Domain Name to use the Services. If the Customer does not have valid permission to use the Domain Email Address or does not own or control the Domain Name, then Google will have no obligation to provide the Customer with the Services and may delete the Account without notice.
+
+1.4 Updates.
+
+(a) To the Services. Google may make commercially reasonable updates to the Services from time to time.
+
+(b) To the Agreement. Google may update the terms of this Agreement from time to time by posting any such update at https://workspace.google.com/terms/education_terms.html. These updates will only take effect if and when the Customer's Order Term renews. This Section 1.4(b) (Modifications to the Agreement) does not apply to updates to URL Terms.
+
+(c) To the URL Terms. Google may update the URL Terms from time to time by posting any such update at the relevant URL Term. Unless otherwise noted by Google, material updates to the URL Terms will become effective 30 days after they have been posted. Notwithstanding the preceding sentence, to the extent that the updates apply to new functionality or the Cloud Data Processing Addendum, or are required to comply with applicable law, they will be effective immediately.
+
+(d) To the Cloud Data Processing Addendum. Google may only update the Cloud Data Processing Addendum where such update is required to comply with applicable law, is expressly permitted by the Cloud Data Processing Addendum, or:
+
+(i) is commercially reasonable;
+
+(ii) does not result in a material reduction of the security of the Services;
+
+(iii) does not expand the scope of or remove any restrictions on Google's processing of 'Customer Personal Data', as described in the 'Compliance with the Customer's Instruction' section of the Cloud Data Processing Addendum; and
+
+(iv) does not otherwise have a material adverse impact on the Customer's rights under the Cloud Data Processing Addendum.
+
+(e) Discontinuation of Core Services. Google will notify the Customer at least 12 months before discontinuing any Core Service (or associated material functionality) unless Google replaces such discontinued Core Service or functionality with a materially similar Core Service or functionality. Nothing in this Section 1.4(e) (Discontinuation of Core Services) limits Google's ability to make changes required to comply with applicable law, address a material security risk or avoid a substantial economic or material technical burden. This Section 1.4(e) (Discontinuation of Core Services) does not apply to Other Services or to pre-general availability Services, offerings or functionality.
+
+2. Payment Terms. If Fees are applicable to the Customer's use of any Services, the terms in this Section 2 (Payment Terms) apply to those Services.
+
+2.1 Usage measurement and billing options. On or after the Billing Start Date, Google will invoice the Customer in advance for the Monthly Charge or Annual Charge, as applicable according to the Order Form. Google's measurement tools will be used to determine the Customer's usage of the Services.
+
+2.2 Payment. The Customer will pay all Fees in the currency stated in the invoice. All Fees are due 30 days after the invoice date. Google has no obligation to provide multiple invoices. Payments made via wire transfer must include the bank information provided by Google.
+
+2.3 Taxes.
+
+(a) The Customer is responsible for any Taxes, and will pay Google for the Services without any reduction for Taxes. If Google is obligated to collect or pay any Taxes, the Taxes will be invoiced to the Customer and the Customer will pay such Taxes to Google, unless the Customer provides Google with a timely and valid tax exemption certificate in respect of those Taxes.
+
+(b) The Customer will provide Google with any applicable tax identification information that Google may require under applicable law to ensure its compliance with applicable tax regulations and authorities in applicable jurisdictions. The Customer will be liable to pay (or reimburse Google for) any taxes, interest, penalties or fines arising out of any misdeclaration by the Customer.
+
+2.4 Payment disputes. Any payment disputes must be submitted in good faith before the payment due date. If Google, having reviewed the dispute in good faith, determines that certain billing inaccuracies are attributable to Google, Google will not issue a corrected invoice but will instead issue a credit memo specifying the incorrect amount in the affected invoice. If a disputed invoice has not yet been paid, Google will apply the credit memo amount to the disputed invoice and the Customer will be responsible for paying the resulting net balance due on that invoice. Nothing in this Agreement obligates Google to extend credit to any party.
+
+2.5 Delinquent payments; Suspension. Late payments (which, for clarity, do not include amounts subject to a good-faith payment dispute submitted before the payment due date) may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less) from the payment due date until paid in full. The Customer will be responsible for all reasonable expenses (including lawyers' fees) incurred by Google in collecting such delinquent amounts. Further, in the event of any late payment for the Services, Google may Suspend the Services.
+
+2.6 No purchase order number required. The Customer is obligated to pay all applicable Fees without any requirement for Google to provide a purchase order number on Google's invoice (or otherwise).
+
+2.7 Price revisions. Google may change the Prices at any time unless otherwise expressly agreed in an addendum or Order Form. Google will notify the Customer at least 30 days in advance of any changes. The Customer's pricing will change if and when the Customer's Order Term renews after the 30-day period.
+
+3. Customer obligations.
+
+3.1 Permitted uses. Use of the Services under this Agreement is permitted only by (a) educational institutions that meet the criteria at https://support.google.com/a/answer/134628 or a successor URL and (b) non-profit entities (as defined under applicable laws).
+
+3.2 Compliance. The Customer will (a) ensure that the Customer and its End Users' use of the Services complies with the Agreement, (b) use commercially reasonable efforts to prevent and terminate any unauthorised use of, or access to, the Services, and (c) promptly notify Google if Customer becomes aware of any unauthorised use of, or access to, the Services, Account or Customer's password. Google reserves the right to investigate any potential violation of the AUP by the Customer, which may include reviewing Customer Data.
+
+3.3 Privacy. The Customer is responsible for any consents and notices required to permit (a) the Customer's use and receipt of the Services, and (b) Google's accessing, storing and processing of data provided by the Customer (including Customer Data) under the Agreement.
+
+3.4 Restrictions. The Customer will not, and will not allow End Users to, (a) copy, modify or create a derivative work of the Services; (b) reverse engineer, decompile, translate, disassemble or otherwise attempt to extract any or all of the source code of the Services (except to the extent that such restriction is expressly prohibited by applicable law); (c) sell, resell, sublicense, transfer or distribute any or all of the Services; or (d) access or use the Services (i) for High Risk Activities; (ii) in violation of the AUP; (iii) in a manner intended to avoid incurring any applicable Fees (including creating multiple Customer Accounts to simulate or act as a single Customer Account or to circumvent Service-specific usage limits or quotas); (iv) to engage in cryptocurrency mining without Google's prior written approval; (v) to place or receive emergency service calls, unless stated otherwise in the Service-Specific Terms; (vi) for materials or activities that are subject to the International Traffic in Arms Regulations (ITAR) maintained by the United States Department of State; (vii) in a manner that breaches, or causes the breach of, Export Control Laws; or (viii) to transmit, store or process health information subject to United States HIPAA regulations, except as permitted by an executed HIPAA BAA.
+
+3.5 Additional Products and Third-Party Offerings. Optional Additional Products and Third-Party Offerings may be available for use in conjunction with the Services and may be enabled or disabled through the Admin Console. Any use of Additional Products is subject to the Additional Product Terms, which are incorporated by reference into the Agreement and which may be updated by Google from time to time. Any use of Third-Party Offerings is subject to separate terms and policies with the relevant service provider. If the Customer intends to enable End Users under the age of 18 to access or use any Additional Products or Third-Party Offerings, then the Customer will, before allowing any such End User to access or use those products or offerings, obtain parental consent for the collection and use of personal information by (a) the Additional Products, and (b) to the extent required by applicable law, the Third-Party Offerings.
+
+3.6 Administration of Services. The Customer may specify through the Admin Console one or more Administrators who will have the right to access Admin Accounts. The Customer is responsible for (a) maintaining the confidentiality and security of the End-User Accounts and associated passwords and (b) any use of the End-User Accounts. The Customer agrees that Google's responsibilities do not extend to the internal management or administration of the Services for the Customer or any End Users.
+
+3.7 Abuse monitoring. The Customer is solely responsible for monitoring, responding to and otherwise processing emails sent to the 'abuse' and 'postmaster' aliases for Customer Domain Names, but Google may monitor emails sent to these aliases to allow Google to identify Services abuse.
+
+3.8 Requesting additional End-User Accounts during Order Term. The Customer may request additional End-User Accounts during an Order Term by means of an additional Order Form or Reseller Order or by ordering via the Admin Console. Such additional End-User Accounts will have a pro-rated term ending on the last day of the applicable Order Term.
+
+3.9 Copyright. Google responds to notices of alleged copyright infringement and terminates the Accounts of repeat infringers in appropriate circumstances as required to maintain safe harbour for online service providers under the US Digital Millennium Copyright Act.
+
+4. Suspension.
+
+4.1 AUP Violations. If Google becomes aware that the Customer's or any End User's use of the Services violates the AUP, Google will notify the Customer and request that the Customer corrects the violation. If the Customer fails to correct the violation within 24 hours of Google's request, then Google may Suspend all or part of the Customer's use of the Services until the violation has been corrected. Suspension of the Services may include removal or unsharing of content that violates the AUP.
+
+4.2 Other Suspension. Notwithstanding Section 4.1 (AUP Violations), Google may immediately Suspend all or part of the Customer's use of the Services (including use of the underlying Account) if (a) Google reasonably believes that Suspension is needed to protect the Services, Google's infrastructure supporting the Services, or any other customer of the Services (or their end users); (b) there is suspected unauthorised third-party access to the Services; (c) Google reasonably believes that immediate Suspension is required to comply with any applicable law; or (d) the Customer is in breach of Section 3.4 (Restrictions) or the Service-Specific Terms. Google will lift any such Suspension when the circumstances giving rise to the Suspension have been resolved. At the Customer's request, Google will, unless prohibited by applicable law, notify the Customer of the basis for the Suspension as soon as is reasonably possible. For Suspension of End-User Accounts, Google will provide the Customer's Administrator the ability to restore End-User Accounts in certain circumstances.
+
+5. Intellectual Property Rights; Protection of Customer Data; Feedback; Using Brand Features within the Services.
+
+5.1 Intellectual Property Rights. Except as expressly stated in this Agreement, this Agreement does not grant either party any rights, implied or otherwise, to the other's content or any of the other's intellectual property. As between the parties, the Customer retains all Intellectual Property Rights in Customer Data and Google retains all Intellectual Property Rights in the Services.
+
+5.2 Protection of Customer Data. Google will only access, use and otherwise process Customer Data in accordance with the Cloud Data Processing Addendum and will not access, use or process Customer Data for any other purpose. Without limiting the generality of the preceding sentence, Google will not process Customer Data for Advertising purposes or serve Advertising in the Services. Google has implemented and will maintain technical, organisational and physical safeguards to protect Customer Data, as further described in the Cloud Data Processing Addendum.
+
+5.3 Customer Feedback. At its option, the Customer may provide feedback or suggestions about the Services to Google ('Feedback'). If the Customer provides Feedback, then Google and its Affiliates may use that Feedback without restriction and without obligation to the Customer.
+
+5.4 Using Brand Features within the Services. Google will display within the Services only those Customer Brand Features that the Customer authorises by uploading them into the Services. Google will display those Customer Brand Features within designated areas of the web pages displaying the Services to the Customer or its End Users. The Customer may specify details of this use in the Admin Console. Google may also display Google Brand Features on such web pages to indicate that the Services are provided by Google.
+
+6. Technical Support Services. Subject to the payment of applicable Fees, Google will provide TSS to the Customer during the Term in accordance with the TSS Guidelines. Certain TSS levels include a minimum recurring Fee as described at https://workspace.google.com/terms/tssg.html. If the Customer downgrades its TSS level during any calendar month, Google may continue to provide TSS at the same level and for the same TSS Fees as applied before the downgrade for the remainder of that month.
+
+7. Confidential Information.
+
+7.1 Obligations. The recipient will only use the disclosing party's Confidential Information to exercise the recipient's rights and fulfil its obligations under the Agreement, and will use reasonable care to protect against the disclosure of the disclosing party's Confidential Information. The recipient may disclose Confidential Information only to its and its Affiliates' employees, agents, subcontractors or professional advisors ('Delegates') who need to know it and who have agreed in writing (or in the case of professional advisors are otherwise bound) to keep it confidential. The recipient will ensure that its Delegates use the received Confidential Information only to exercise rights and fulfil obligations under this Agreement.
+
+7.2 Required disclosure. Notwithstanding any provision to the contrary in this Agreement, the recipient or its Affiliate may also disclose Confidential Information to the extent required by applicable Legal Process; provided that the recipient or its Affiliate uses commercially reasonable efforts to (a) promptly notify the other party before any such disclosure of its Confidential Information, and (b) comply with the other party's reasonable requests regarding its efforts to oppose the disclosure. Notwithstanding the foregoing, subsections (a) and (b) above will not apply if the recipient determines that complying with (a) and (b) could (i) result in a violation of Legal Process; (ii) obstruct a governmental investigation; or (iii) lead to death or serious physical harm to an individual.
+
+8. Term and termination.
+
+8.1 Agreement Term. The term of this Agreement (the 'Term') will begin on the Effective Date and continue until the Agreement is terminated or not renewed as stated in this Section 8 (Term and termination).
+
+8.2 Renewal. At the end of each Order Term, the Services (and any End-User Accounts previously subject to Fees) will automatically renew for an additional Order Term of 12 months. If either party does not want the Services to renew, then it must notify the other party to this effect at least 15 days before the end of the then-current Order Term, and this notice of non-renewal will take effect at the end of the then-current Order Term.
+
+8.3 Termination for breach. To the extent permitted by applicable law, either party may terminate this Agreement immediately on written notice if (a) the other party is in material breach of the Agreement and fails to cure that breach within 30 days after receipt of written notice of the breach, or (b) the other party ceases its business operations or becomes subject to insolvency proceedings and the proceedings are not dismissed within 90 days.
+
+8.4 Termination for convenience. The Customer may stop using the Services at any time. Subject to the Customer fulfilling all its financial commitments (if applicable) under an Order Form or otherwise under this Agreement (including payment of any and all Fees for the Order Term), the Customer may also terminate this Agreement for its convenience at any time on prior written notice.
+
+8.5 Termination due to applicable law; Violation of laws. Google may terminate this Agreement and/or any applicable Order Form immediately on written notice if Google reasonably believes that (a) continued provision of any Service used by the Customer would violate applicable law(s) or (b) the Customer has violated or caused Google to violate any Anti-Bribery Laws or Export Control Laws.
+
+8.6 Effect of termination or non-renewal. If the Agreement is terminated or not renewed, then (a) all rights and access to the Services will cease (including access to Customer Data), unless otherwise described in this Agreement, and (b) any and all Fees owed by the Customer to Google are immediately due upon the Customer's receipt of the final invoice.
+
+8.7 No refunds. Unless expressly stated otherwise in this Agreement or required by law, termination or non-renewal under any section of this Agreement (including the Cloud Data Processing Addendum) will not oblige Google to refund any Fees.
+
+9. Publicity. Neither party may use the other party's Brand Features or issue, publish or present a press release, blog post, speech, social media post or investor relations call or announcement discussing the Customer's use of the Services or this Agreement without the prior written consent of the other party, except as expressly permitted in this Agreement. Subject to the preceding sentence, the Customer may state publicly that it is a Google Cloud customer and display Brand Features in accordance with the Branding Guidelines. Google may use the Customer's name and Brand Features in online or offline promotional materials of the Services. Any use of a party's Brand Features will inure to the benefit of the party holding Intellectual Property Rights to those Brand Features.
+
+10. Representations and warranties. Each party represents and warrants that (a) it has full power and authority to enter into the Agreement, and (b) it will comply with all laws applicable to its provision, receipt or use of the Services, as applicable.
+
+11. Disclaimer. Except as expressly provided for in the Agreement, Google does not make and expressly disclaims to the fullest extent permitted by applicable law (a) any warranties of any kind, whether express, implied, statutory or otherwise, including warranties of merchantability, fitness for a particular use, title, non-infringement, or error-free or uninterrupted use of the Services and (b) any representations about content or information accessible through the Services.
+
+12. Limitation of Liability.
+
+12.1 Limitation on indirect Liability. To the extent permitted by applicable law and subject to Section 12.3 (Unlimited Liabilities), neither party will have any Liability arising out of or relating to the Agreement for any (a) indirect, consequential, special, incidental or punitive damages or (b) lost revenues, profits, savings or goodwill.
+
+12.2 Limitation on amount of Liability. Each party's total aggregate Liability for damages arising out of or relating to the Agreement is limited to the greater of (a) US$1,000 or (b) the Fees that the Customer paid during the 12-month period before the event giving rise to Liability.
+
+12.3 Unlimited Liabilities. Nothing in the Agreement excludes or limits either party's Liability for:
+
+(a) its fraud or fraudulent misrepresentation;
+
+(b) its obligations under Section 13 (Indemnification);
+
+(c) its infringement of the other party's Intellectual Property Rights;
+
+(d) its payment obligations (if any) under the Agreement; or
+
+(e) matters for which liability cannot be excluded or limited under applicable law.
+
+13. Indemnification.
+
+13.1 Google indemnification obligations. Google will defend the Customer and its Affiliates using the Services under the Customer's Account and indemnify them against Indemnified Liabilities in any Third-Party Legal Proceeding to the extent arising from an allegation that any Service or any Google Brand Feature, in each case used in accordance with the Agreement, infringes the third party's Intellectual Property Rights.
+
+13.2 indemnification obligations. The Customer will defend Google and its Affiliates providing the Services and indemnify them against Indemnified Liabilities in any Third-Party Legal Proceeding to the extent arising from (a) any Customer Data or Customer Brand Features or (b) the Customer's or an End User's use of the Services in breach of the AUP or Section 3.3 (Restrictions).
+
+13.3 Exclusions. Sections 13.1 (Google indemnification obligations) and 13.2 (Customer indemnification obligations) will not apply to the extent that the underlying allegation arises from (a) the indemnified party's breach of the Agreement or (b) a combination of the indemnifying party's technology or Brand Features with materials not provided by the indemnifying party under the Agreement, unless the combination is required by the Agreement.
+
+13.4 Conditions. Sections 13.1 (Google indemnification obligations) and 13.2 (Customer indemnification obligations) are conditioned on the following:
+
+(a) Any indemnified party must promptly notify the indemnifying party in writing of any allegation(s) that preceded the Third-Party Legal Proceeding and cooperate reasonably with the indemnifying party to resolve the allegation(s) and Third-Party Legal Proceeding. If breach of this Section 13.4(a) prejudices the defence of the Third-Party Legal Proceeding, the indemnifying party's obligations under Section 13.1 (Google indemnification obligations) or 13.2 (Customer indemnification obligations) (as applicable) will be reduced in proportion to the prejudice.
+
+(b) Any indemnified party must tender sole control of the indemnified portion of the Third-Party Legal Proceeding to the indemnifying party, subject to the following: (i) the indemnified party may appoint its own non-controlling counsel, at its own expense and (ii) any settlement requiring the indemnified party to admit liability, pay money or take (or refrain from taking) any action, will require the indemnified party's prior written consent, not to be unreasonably withheld, conditioned or delayed.
+
+13.5 Remedies.
+
+(a) If Google reasonably believes that the Services might infringe a third party's Intellectual Property Rights, then Google may, at its sole option and expense (i) procure the right for the Customer to continue using the Services; (ii) modify the Services to make them non-infringing without materially reducing their functionality; or (iii) replace the Services with a non-infringing alternative that has materially equivalent functionality.
+
+(b) If Google does not believe that the remedies in Section 13.5(a) are commercially reasonable, then Google may Suspend or terminate the Customer's use of the impacted Services. If Google terminates the impacted Services, then Google will provide a pro-rata refund of any unearned Fees actually paid by the Customer applicable to the period following termination of such Services.
+
+13.6 Sole rights and obligations. Without affecting any other termination rights of either party and to the extent permitted by applicable law, this Section 13 (Indemnification) states the parties' sole and exclusive remedy under this Agreement for any third-party allegations of Intellectual Property Rights infringement covered by this Section 13 (Indemnification).
+
+14. Resold Customers. This Section 14 (Resold Customers) applies only if the Customer orders the Services from a Reseller under a Reseller Agreement (such Services, 'Resold Services').
+
+14.1 Applicable terms. For the purposes of Resold Services:
+
+(a) Section 2 (Payment Terms) of this Agreement will not apply;
+
+(b) Reseller Fees, if applicable, will be payable directly to the Reseller, and any prices for Resold Services will be solely determined between the Reseller and the Customer;
+
+(c) The Customer will not enter into any Order Form with Google for Resold Services; Google will provide to the Customer the Resold Services described in the Reseller Order and communicated by the Reseller to Google;
+
+(d) The Customer will receive any applicable SLA credits or monetary refunds described in the Agreement from the Reseller only;
+
+(e) In the event of termination of this Agreement, Google will send the Reseller (and not the Customer) the final invoice (if applicable) for payment obligations related to Resold Services. The Customer will notify (i) the Reseller of any termination of this Agreement and (ii) Google of any termination of the Reseller Agreement;
+
+(f) Any renewal(s) of the Services and/or any Reseller Order will be as agreed between the Customer and the Reseller.
+
+(g) If the Reseller fails to pay an undisputed invoice for Resold Services to Google due to the Customer's failure to pay the Reseller, Google may Suspend the Customer's access to the Services;
+
+(h) 'Order Term', as it is used in the Agreement, means the period of time starting on the Services Start Date or the renewal date (as applicable) for the Resold Services and continuing for the period indicated on the then-current Reseller Order unless terminated in accordance with the Agreement; and
+
+(i) 'Services Start Date', as it is used in the Agreement, means either the start date described in the Reseller Order or, if none is specified in the Reseller Order, the date on which Google makes the Resold Services available to the Customer.
+
+14.2 Liability cap. For the purposes of Section 12.2 (Limitation on amount of Liability), where the event giving rise to Liability is a breach of this Agreement or otherwise arises in connection with the Resold Services, 'Fees' as it is used in that Section means 'Reseller Fees'. If the Customer or Google brings a claim under the Agreement, then for the purposes of establishing the Liability cap under Section 12.2, upon Google's request, the Customer will (a) promptly disclose to Google the amount of any Reseller Fees paid or payable under the Reseller Agreement; (b) consent to the Reseller disclosing such amount to Google, notwithstanding the Reseller's confidentiality obligations under the Reseller Agreement; and (c) procure any consents necessary to enable the Customer's or the Reseller's disclosure under this Section 14.2 (Liability cap).
+
+14.3 Sharing Confidential Information. Google may share Customer Confidential Information with the Reseller as a Delegate subject to Section 7.1 (Obligations).
+
+14.4 Reseller-Customer relationship. At the Customer's discretion, the Reseller may access the Customer's Account or End-User Accounts. As between Google and the Customer, the Customer is solely responsible for (a) any access by the Reseller to the Customer's Account or End-User Accounts and (b) defining in the Reseller Agreement any rights or obligations as between the Reseller and the Customer with respect to the Resold Services. Google will not have any Liability arising out of the Reseller's (x) suspension or termination of the Customer's access to the Services; (y) access to and visibility of the Customer's Account and the Customer's Account's billing-related metadata; or (z) offering or provisioning of Reseller or third-party products or services.
+
+14.5 Reseller technical support. The Customer acknowledges and agrees that the Reseller may disclose End User personal data to Google as reasonably required in order for the Reseller to handle any support issues that the Customer escalates to or via the Reseller
+
+15. Miscellaneous.
+
+15.1 Notices. Under the Agreement, notices to the Customer must be sent to the Notification Email Address and notices to Google must be sent to legal-notices@google.com. Notice will be treated as received when the email is sent. The Customer is responsible for keeping its Notification Email Address current throughout the Term.
+
+15.2 Emails. The parties may use emails to satisfy written approval and consent requirements under the Agreement.
+
+15.3 Assignment. Neither party may assign any part of this Agreement without the written consent of the other, except to an Affiliate where (a) the assignee has agreed in writing to be bound by the terms of this Agreement, and (b) the assigning party has notified the other party of the assignment. Any other attempt to assign is void. If the Customer assigns this Agreement to an Affiliate in another jurisdiction such that there is a change in the Google contracting entity as defined at https://cloud.google.com/terms/google-entity: (i) this Agreement is automatically assigned to the new Google contracting entity; and (ii) if the Affiliate's billing account is in Japan, the applicable terms of service linked above, and not this Agreement, will apply from the moment of the assignment.
+
+15.4 Change of Control. If a party experiences a change of Control other than as part of an internal restructuring or reorganisation (for example, through a stock purchase or sale, merger or other form of corporate transaction), that party will give written notice to the other party within 30 days after the change of Control. If the Customer ceases to be a non-profit educational institution or other non-profit entity as described in Section 3.1 (Permitted uses), the Customer will notify Google immediately.
+
+15.5 Force majeure. Neither party will be liable for failure or delay in performance to the extent caused by circumstances beyond its reasonable control, including acts of God, natural disasters, terrorism, riots or war.
+
+15.6 Subcontracting. Google may subcontract obligations under the Agreement, but will remain liable to the Customer for any subcontracted obligations.
+
+15.7 No agency. This Agreement does not create any agency, partnership or joint venture between the parties.
+
+15.8 No waiver. Neither party will be treated as having waived any rights by not exercising (or delaying the exercise of) any rights under this Agreement.
+
+15.9 Severability. If any part of this Agreement is invalid, illegal or unenforceable, the rest of the Agreement will remain in effect.
+
+15.10 No third-party beneficiaries. This Agreement does not confer any benefits on any third party unless it expressly states that it does.
+
+15.11 Equitable relief. Nothing in this Agreement will limit either party's ability to seek equitable relief.
+
+15.12 Governing law. ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES WILL BE GOVERNED BY CALIFORNIA LAW, EXCLUDING THAT STATE'S CONFLICT OF LAWS RULES, AND WILL BE LITIGATED EXCLUSIVELY IN THE FEDERAL OR STATE COURTS OF SANTA CLARA COUNTY, CALIFORNIA, US; THE PARTIES CONSENT TO PERSONAL JURISDICTION IN THOSE COURTS.
+
+15.13 Amendments. Except as stated in Section 1.4(b) (Modifications: To the Agreement), (c) (Modifications: To the URL Terms) or (d) (Modifications: To the Cloud Data Processing Addendum), any amendment to this Agreement after the Effective Date must be in writing, signed by both parties and expressly state that it is amending this Agreement. For clarity, Google's provision of an updated URL in place of any URL stated in this Agreement will not constitute an amendment to or modification of the terms of the Agreement.
+
+15.14 Survival. The following Sections will survive expiry or termination of this Agreement: Section 2 (Payment terms), Section 5 (Intellectual Property Rights; protection of Customer Data; feedback; using Brand Features within the Services), Section 7 (Confidential Information), Section 8.6 (Effect of termination or non-renewal), Section 11 (Disclaimer), Section 12 (Limitation of Liability), Section 13 (Indemnification), Section 14.1 (Applicable terms), Section 14.2 (Sharing Confidential Information) and Section 15 (Miscellaneous).
+
+15.15 Entire Agreement. This Agreement sets out all terms agreed between the parties and terminates and supersedes any and all other agreements between the parties relating to its subject matter, including any prior versions of this Agreement. In entering into this Agreement, neither party has relied on and neither party will have any right or remedy based on any statement, representation or warranty (whether made negligently or innocently), except those expressly stated in this Agreement. The URL Terms are incorporated by reference into the Agreement. After the Effective Date, Google may provide an updated URL in place of any URL in this Agreement.
+
+15.16 Conflicting terms. If there is a conflict between the documents that make up this Agreement, the documents will control in the following order (of decreasing precedence): the Order Form, the Cloud Data Processing Addendum, the remainder of the Agreement (excluding the URL Terms) and the URL Terms (other than the Cloud Data Processing Addendum).
+
+15.17 Headers. Headings and captions used in the Agreement are for reference purposes only, and will not have any effect on the interpretation of the Agreement.
+
+15.18 Conflicting languages. If this Agreement is translated into any language other than English and there is a discrepancy between the English text and the translated text, the English text will govern unless expressly stated otherwise in the translation.
+
+15.19 Definitions.
+
+▪ 'Account' means the Customer's Google Account credentials and correlating access to the Services under this Agreement.
+
+▪ 'Additional Products' means products, services or applications offered by Google or its Affiliates that are not incorporated into the Services but that may be accessible for use in conjunction with the Services.
+
+▪ 'Additional Product Terms' means the then-current terms stated at https://workspace.google.com/terms/additional_services.html.
+
+▪ 'Admin Account' means a type of End User Account that the Customer (or Reseller, if applicable) may use to administer the Services.
+
+▪ 'Admin console' means the online console(s) or dashboard provided by Google to the Customer for administering the Services.
+
+▪ 'Administrators' mean the Customer-designated personnel who administer the Services to End Users on the Customer's behalf, and have the ability to access Customer Data and End User Accounts. Such access includes the ability to access, monitor, use, modify, withhold or disclose any data available to End Users associated with their End User Accounts.
+
+▪ 'Advertising' means online advertisements displayed by Google to End Users, excluding any advertisements that the Customer expressly chooses to have Google or any of its Affiliates display in connection with the Services under a separate agreement (for example, Google AdSense advertisements implemented by the Customer on a website created by the Customer using the 'Google Sites' functionality within the Services).
+
+▪ 'Affiliate' means any entity that directly or indirectly Controls, is Controlled by or is under common Control with a party.
+
+▪ 'Annual Charge' means the annual charge for the Services as stated in the Order Form.
+
+▪ 'Anti-Bribery Laws' means all applicable commercial and public anti-bribery laws, including the US Foreign Corrupt Practices Act of 1977 and the UK Bribery Act 2010, that prohibit corrupt offers of anything of value, either directly or indirectly, to anyone, including government officials, to obtain or keep business or to secure any other improper commercial advantage. Government officials include: any government employees, candidates for public office, members of royal families, and employees of government-owned or government-controlled companies, public international organisations and political parties.
+
+▪ 'AUP' means the then-current Acceptable Use Policy for the Services stated at https://workspace.google.com/terms/use_policy.html.
+
+▪ 'BAA'; or 'Business Associate Agreement' is an amendment to the Agreement covering the handling of Protected Health Information (as defined in HIPAA).
+
+▪ 'Billing Start Date' means the date from which Google will charge Fees for the Services (if applicable).
+
+▪ 'Brand Features' means the trade names, trademarks, service marks, logos, domain names and other distinctive brand features of each party, respectively, as secured by such party from time to time.
+
+▪ 'Cloud Data Processing Addendum' means the then-current terms describing data processing and security obligations with respect to Customer Data, as described at https://cloud.google.com/terms/data-processing-addendum.
+
+▪ 'Confidential Information' means information that one party (or an Affiliate) discloses to the other party under this Agreement, and that is marked as confidential or would normally under the circumstances be considered confidential information. It does not include information that is independently developed by the recipient, is rightfully given to the recipient by a third party without confidentiality obligations or that becomes public through no fault of the recipient. Subject to the preceding sentence, Customer Data is considered as the Customer's Confidential Information.
+
+▪ 'Control' means control of greater than 50 per cent of the voting rights or equity interests of a party.
+
+▪ 'Core Services' means the then-current 'Core Services' as described in the Services Summary, excluding any Third-Party Offerings.
+
+▪ 'Customer Data' means data submitted, stored, sent or received via the Services by the Customer or its End Users.
+
+▪ 'Domain Email Address' means the email address on the Domain Name for use in connection with the Services.
+
+▪ 'Domain Name' means the domain name specified in the Order Form or Reseller Order to be used in connection with the Services.
+
+▪ 'End Users' means the individuals who are permitted by the Customer to use the Services and managed by an Administrator. For clarity, End Users may include employees of Customer Affiliates and other third parties.
+
+▪ 'End User Account' means a Google-hosted account established by the Customer through the Services in order for an End User to use the Services.
+
+▪ 'Export Control Laws' means all applicable export and re-export control laws and regulations, including (a) the Export Administration Regulations ('EAR') maintained by the US Department of Commerce, (b) trade and economic sanctions maintained by the US Treasury Department's Office of Foreign Assets Control, and (c) the International Traffic in Arms Regulations ('ITAR') maintained by the US Department of State.
+
+▪ 'Fees' means (a) the product of the amount of the Services used or ordered by the Customer multiplied by the Prices (if applicable), or (b) the applicable fees for TSS, plus any applicable Taxes.
+
+▪ 'Help Centre' means the Google Help Centre accessible at https://www.google.com/support/.
+
+▪ 'High-Risk Activities' means activities where the use or failure of the Services would reasonably be expected to lead to death, personal injury, or environmental or property damage (such as the creation or operation of nuclear facilities, air traffic control, life support systems or weaponry).
+
+▪ 'HIPAA' means the Health Insurance Portability and Accountability Act of 1996 as it may be amended from time to time, and any regulations issued under it.
+
+▪ 'including' means including but not limited to.
+
+▪ 'Indemnified Liabilities' means any (i) settlement amounts approved by the indemnifying party, and (ii) damages and costs finally awarded against the indemnified party by a court of competent jurisdiction.
+
+▪ 'Intellectual Property Rights' means all patent rights, copyrights, trademark rights, rights in trade secrets (if any), design rights, database rights, domain name rights, moral rights and any other intellectual property rights (registered or unregistered) throughout the world.
+
+▪ 'Legal Process' means an information disclosure request made under law, governmental regulation, court order, subpoena, warrant or other valid legal authority, legal procedure or similar process.
+
+▪ 'Liability' means any liability, whether under contract, tort (including negligence) or otherwise, regardless of whether foreseeable or contemplated by the parties.
+
+▪ 'Monthly Charge' means the monthly charge for the Services as stated in the Order Form.
+
+▪ 'Notification Email Address' means the email address(es) designated by the Customer in the Admin console.
+
+▪ 'Order Form' means an order form executed by the Customer, or an order placed by the Customer via a Google website, in either case specifying the Services that Google will provide to the Customer under the Agreement.
+
+'Order Term' means the period of time starting on the Services Start Date or the renewal date (as applicable) and continuing for the period indicated on the Order Form unless terminated in accordance with this Agreement. If no Order Form applies to the Services, the initial Order Term is the term that begins on the Effective Date and continues for 12 months.
+
+▪ 'Other Services' means the then-current 'Other Services' as described in the Services Summary, excluding any Third-Party Offerings.
+
+▪ 'Prices' means the then-current applicable prices for the Services described at https://workspace.google.com/pricing.html (incorporated into the Agreement by this reference), unless otherwise agreed in an addendum or Order Form. Prices do not include Taxes.
+
+▪ 'Reseller' means, if applicable, the authorised unaffiliated third-party reseller that sells or supplies the Services to the Customer.
+
+▪ 'Reseller Agreement' means, if applicable, the separate agreement between the Customer and the Reseller regarding the Services. The Reseller Agreement is independent of and outside the scope of this Agreement.
+
+▪ 'Reseller Fees' means the fees (if any) for Services used or ordered by the Customer as agreed in a Reseller Agreement, plus any applicable Taxes.
+
+▪ 'Reseller Order' means, if applicable, an Order Form (including a renewal Order Form) issued by a Reseller and executed by the Customer and the Reseller specifying the Services that the Customer is ordering from the Reseller.
+
+▪ 'Service Specific Terms' means the then-current terms specific to one or more Services stated at https://workspace.google.com/terms/service-terms/.
+
+▪ 'Services' means those Core Services and Other Services included in the then-current applicable Google Workspace for Education edition of the Services.
+
+▪ 'Services Start Date' means either the start date stated in the Order Form or, if none is specified in the Order Form, the date that Google makes the Services available to the Customer.
+
+▪ 'Services Summary' means the then-current description set out at https://workspace.google.com/terms/user_features.html.
+
+▪ 'SLA' means the then-current service level agreement(s) at https://workspace.google.com/terms/sla.html.
+
+▪ 'Suspend' or 'Suspension' means disabling access to or use of the Services or components of the Services.
+
+▪ 'Taxes' means all government-imposed taxes, except for taxes based on Google's net income, net worth, asset value, property value or employment.
+
+▪ 'Term' has the meaning stated in Section 8.1 (Agreement Term) of this Agreement.
+
+▪ 'Third-Party Legal Proceeding' means any formal legal proceeding filed by an unaffiliated third party before a court or government tribunal (including any appellate proceeding).
+
+▪ 'Third-Party Offerings' means third-party services, software, products and other offerings that are not incorporated into the Services.
+
+▪ 'Trademark Guidelines' means Google's then-current Guidelines for Third-Party Use of Google Brand Features at https://www.google.com/permissions/guidelines.html.
+
+▪ 'TSS' means the then-current Google technical support service.
+
+▪ 'TSS Guidelines' means Google's then-current guidelines for technical support services, as stated at https://workspace.google.com/terms/tssg.html.
+
+▪ 'URL Terms' means, collectively, the AUP, Cloud Data Processing Addendum, Service Specific Terms, SLA and TSS Guidelines.
+
+16. Region-specific terms. The Customer agrees to the following modifications to the Agreement if the Customer's billing address is in the applicable region as described below:
+
+Asia Pacific – All regions
+
+Section 2.3 (Taxes) is replaced as follows:
+
+2.3 Taxes. Google will itemise any invoiced Taxes. If Taxes must be withheld from any payment to Google, then the Customer will increase the payment to Google so that the net amount received by Google is equal to the amount invoiced, without reduction for Taxes.
+
+The definition of 'Taxes' under Section 15.19 (Definitions) is replaced as follows:
+
+15.19 Definitions.
+
+'Taxes' means all government-imposed taxes, as per the applicable law associated with the rendering and performance of the Services, including but not limited to any duties, customs duties, and any direct or indirect taxes, including any related penalties or interest, except for taxes based on Google's profit.
+
+Asia Pacific (all regions excluding Australia, Japan, India, New Zealand, Singapore) and Latin America (all regions excluding Brazil and Mexico)
+
+Section 15.12 (Governing law) is replaced as follows:
+
+15.12 Governing law; arbitration.
+
+(a) ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY RELATED GOOGLE PRODUCTS OR SERVICES (INCLUDING ANY DISPUTE REGARDING THE INTERPRETATION OR PERFORMANCE OF THE AGREEMENT) ('Dispute') WILL BE GOVERNED BY THE LAWS OF THE STATE OF CALIFORNIA, US, EXCLUDING CALIFORNIA'S CONFLICTS OF LAWS RULES.
+
+(b) The parties will try in good faith to settle any Dispute within 30 days after the Dispute arises. If the Dispute is not resolved within 30 days, it must be resolved by arbitration by the American Arbitration Association's International Centre for Dispute Resolution in accordance with its Expedited Commercial Rules in force as of the date of this Agreement ('Rules').
+
+(c) The parties will mutually select one arbitrator. The arbitration will be conducted in English in Santa Clara County, California, US.
+
+(d) Either party may apply to any competent court for injunctive relief necessary to protect its rights pending resolution of the arbitration. The arbitrator may order equitable or injunctive relief consistent with the remedies and limitations in the Agreement.
+
+(e) Subject to the confidentiality requirements in Subsection (g), either party may petition any competent court to issue any order necessary to protect that party's rights or property; this petition will not be considered a violation or waiver of this governing law and arbitration section and will not affect the arbitrator's powers, including the power to review the judicial decision. The parties stipulate that the courts of Santa Clara County, California, US are competent to grant any order under this Subsection 15.12 (e).
+
+(f) The arbitral award will be final and binding on the parties, and its execution may be presented in any competent court, including any court with jurisdiction over either party or any of its property.
+
+(g) Any arbitration proceeding conducted in accordance with this Section 15.12 (Governing law; arbitration) will be considered Confidential Information under Section 7 (Confidential Information), including: (i) the existence of, (ii) any information disclosed during, and (iii) any oral communications or documents related to, the arbitration proceedings. In addition to the disclosure rights under Section 7 (Confidential Information), the parties may disclose the information described in this Subsection 15.12 (g) to a competent court as may be necessary to file any order under Subsection 15.12 (e) or execute any arbitral decision, but the parties must request that those judicial proceedings be conducted in camera (in private).
+
+(h) The parties will pay the arbitrator's fees, the arbitrator's appointed experts' fees and expenses, and the arbitration centre's administrative expenses, in accordance with the Rules. In its final decision, the arbitrator will determine the non-prevailing party's obligation to reimburse the amount paid in advance by the prevailing party for these fees.
+
+(i) Each party will bear its own lawyers' and experts' fees and expenses, regardless of the arbitrator's final decision regarding the Dispute.
+
+Asia Pacific – India
+
+Google India Private Limited has been appointed by Google Asia Pacific Pte. Ltd. ('GAP') as a non-exclusive Reseller of the Services (as defined below) in India. For the avoidance of any doubts, while in the Agreement, both the entities have been referred to as 'Google'. It is hereby clarified that wherever the provisions refer to Google for sales or rights and the obligations in relation thereto (including any terms relating to invoicing for the sale of Services, credit limit, termination of this Agreement, etc.), 'Google' shall mean Google India Private Limited, and wherever in the Agreement the provisions refer to 'Google' as a provider of the Services or rights and obligations in relation thereto shall mean 'GAP'.
+
+Google India Private Limited may execute Order Form(s) referencing the Agreement, but the Order Form will form a separate contract between Google India Private Limited and the Customer, and incorporate all of the terms of this Agreement. As a Reseller of Services, Google India Private Limited purchases the Services from GAP for resale to the Customer, the entire obligation to provide such Services under the Agreement will be met by GAP and as such, Google India Private Limited will not have any obligation related to performance of Services.
+
+Section 2 (Payment terms) is replaced as follows:
+
+2. Payment terms.
+
+2.1 Usage measurement and billing options. Google's measurement tools will be used to determine the Customer's usage of the Services and any such determination by Google for the purpose of calculating Fees is final. The Customer may elect one of the billing options below or any other option offered by Google when the Customer places its order for the Services.
+
+(a) Flexible Plan. If the Customer selects this option, the Customer will not be committed to purchase the Services for a pre-defined Term but will pay Fees based on its daily usage of the Services, billed monthly in arrears. Any partial day of Services usage will be rounded up to a full day of Services usage for the purposes of calculating Fees.
+
+(b) Annual/Fixed-Term Plan. If the Customer selects this option, the Customer will be committed to purchasing the Services for one or more annual terms (as selected by the Customer). Google will bill the Customer according to the terms associated with the Customer's elections on the Order Form.
+
+Google may change its offering of billing options (including by limiting or ceasing to offer any billing option) upon 30 days' notice to the Customer, and any such change will take effect at the beginning of the Customer's next Order Term. Billing options may not be available to all customers. The Customer may pay for the Services using the payment options listed in Section 2.2 (Payment) below.
+
+2.2 Payment. All payments are due in the currency stated on the Order Form or invoice.
+
+(a) Credit card or debit card. If the Customer is paying with a credit card, debit card or other non-invoice form of payment, payments are due at the end of the month during which the Customer received the Services. For credit cards or debit cards, as applicable: (i) Google will issue an electronic bill for all applicable Fees when due, and (ii) these Fees are considered overdue 60 days after the end of the month during which the Customer received the Services.
+
+(b) Invoices. Payments for invoices are due 60 days after the invoice date (unless otherwise specified on the Order Form), and are considered overdue after such date.
+
+(c) Other forms of payment. The Customer may change its payment method to any other method that Google may enable in the Admin console, subject to acceptance by the Customer of any additional terms applicable to that payment method.
+
+(d) Payment information. Payments made via wire transfer must include the bank information provided by Google.
+
+2.3 Taxes.
+
+(a) In consideration of Services, the Customer agrees to pay to Google the Fees as mentioned above plus applicable Taxes. If Google is obligated to collect or pay Taxes, the Taxes will be invoiced to the Customer, unless the Customer provides Google with a timely and valid tax exemption certificate authorised by the appropriate taxing authority.
+
+(b) If required under applicable law, the Customer will provide Google with applicable tax identification information (Goods and Services Tax Identification Number ('GSTIN'), location where the Services would be received by the Customer, tax status, etc.) that Google may require to ensure its compliance with applicable tax regulations in India. The Customer acknowledges that all the details provided, such as the GSTIN, location where the Services would be received by the Customer, tax status, etc., must be correct. The address and GSTIN provided must be of the location where the Services would be received by the Customer. The Customer will be liable to pay (or reimburse Google for) any Taxes, interest, penalties or fines arising out of any mis-declaration by the Customer.
+
+(c) If the Customer is required by law to withhold any amounts for Income Tax on its payments to Google, the Customer must provide Google in a timely manner with a withholding tax certificate or other appropriate documentation to support such withholding as per the applicable tax laws.
+
+2.4 Payment disputes. Any payment disputes must be submitted before the payment due date. If the parties determine that certain billing inaccuracies are attributable to Google, Google will not issue a corrected invoice, but will instead issue a credit memo specifying the incorrect amount in the affected invoice. If a disputed invoice has not yet been paid, Google will apply the credit memo amount to the disputed invoice and the Customer will be responsible for paying the resulting net balance due on that invoice. Nothing in this Agreement obligates Google to extend credit to any party.
+
+2.5 Delinquent payments; suspension. Late payments may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less) from the payment due date until paid in full. The Customer will be responsible for all reasonable expenses (including lawyers' fees) incurred by Google in collecting such delinquent amounts. Further, if the Customer's payment for the Services is overdue, Google may through Google suspend the Services.
+
+2.6 No purchase order number required. The Customer is obligated to pay all applicable Fees without any requirement for Google to provide a purchase order number on Google's invoice (or otherwise).
+
+2.7 Price revisions. Google may change the Prices at any time unless otherwise expressly agreed in an addendum or Order Form. Google will notify the Customer at least 30 days in advance of any changes. The Customer's pricing will change at the beginning of the Customer's next Order Term after the 30-day period.
+
+Section 15.12 (US governing law) is replaced as follows:
+
+15.12 Governing law. All claims arising out of or related to this Agreement will be governed by the laws of India. In case of any Disputes, the Courts at New Delhi shall have jurisdiction. Notwithstanding the above, the Customer can and will bring all claims with respect to Google under the Agreement against Google India Private Limited.
+
+The definition of 'Taxes' under Section 15.19 (Definitions) is replaced as follows:
+
+15.19 Definitions.
+
+'Taxes' means all taxes as per the applicable law including but not limited to any duties or taxes (other than income tax), including indirect taxes such as goods and services tax ('GST') or such taxes associated with the purchase of the Services.
+
+Asia Pacific – Indonesia
+
+A new Section 8.8 is added:
+
+8.8 Termination waiver. The parties agree to waive any provisions under any applicable laws to the extent that a court decision or order is required for the cancellation of this Agreement.
+
+The Indonesian version of this Agreement is accessible here, and Section 15.18 (Conflicting languages) is replaced as follows:
+
+15.18 Conflicting languages. This Agreement has been made in the Indonesian and English languages. Both versions are equally authentic. In the event of any inconsistency or different interpretation between the Indonesian version and the English version, the parties agree to amend the Indonesian version to make the relevant part of the Indonesian version consistent with the relevant part of the English version.
+
+Asia Pacific – Australia
+
+A new Section 11A is added as follows:
+
+11A. This Section 11A applies only if the Services are subject to statutory guarantees under the Australian Competition and Consumer Act 2010 ('ACCA'). Applicable laws, including the ACCA, may confer rights and remedies into this Agreement that cannot be excluded and which are not excluded by this Agreement. To the extent that the applicable laws permit Google to limit their operation, Google's and its Affiliates' Liability under those laws will be limited at its option to the supply of the Services again or payment of the cost of having the Services supplied again.
+
+Section 15.12(c) (US governing law) is amended by inserting the following text at the end of that Section: 'IF APPLICABLE LAW PREVENTS A DISPUTE FROM BEING RESOLVED IN A CALIFORNIA COURT, THEN THE CUSTOMER MAY FILE THE DISPUTE IN CUSTOMER'S LOCAL COURTS. IF APPLICABLE LAW PREVENTS THE CUSTOMER'S LOCAL COURT FROM APPLYING CALIFORNIA LAW TO RESOLVE A DISPUTE, THEN THE DISPUTE WILL BE GOVERNED BY THE APPLICABLE LOCAL LAWS OF THE CUSTOMER'S COUNTRY, STATE OR OTHER PLACE OF RESIDENCE'.
+
+Section 15.15 (Entire Agreement) is amended by inserting the following text at the end of that Section: 'Nothing in this Agreement excludes a party's Liability for prior written or oral misrepresentation'.
+
+Europe, Middle East and Africa – All regions
+
+Section 2.2 (Payment) is replaced as follows:
+
+2.2 Payment. The Customer will pay all Fees in the currency stated in the invoice. All Fees are due 30 days from the invoice date. Google has no obligation to provide multiple invoices. Payments made via wire transfer must include the bank information provided by Google. If the Customer has entered into the Agreement with Google Commerce Limited, Google may collect payments via Google Payment Limited, a company incorporated in England and Wales with offices at Belgrave House, 76 Buckingham Palace Road, London, SW1W 9TQ, United Kingdom.
+
+Europe, Middle East and Africa – European Economic Area, the United Kingdom and Switzerland
+
+Section 15.19 (Definitions) is changed to Section 15.20 (Definitions).
+
+A new Section 15.19 is added:
+
+15.19 EECC waiver.
+
+(a) For the purposes of this Section 15.19 (EECC waiver), the terms 'microenterprise', 'small enterprise' and 'not-for-profit' will have the meanings in the EECC. 'EECC' means the European Electronic Communications Code (as established by Directive (EU) 2018/1972 of the European Parliament and of the Council of 11 December 2018).
+
+(b) The parties acknowledge that under the EECC: (i) certain rights extend to microenterprises, small enterprises and not for profits; and (ii) Customers falling within the categories referred to in (i) can explicitly agree to waive certain rights.
+
+(c) If the Customer is a microenterprise, small enterprise or not for profit, the Customer agrees to waive any rights it may have under:
+
+(i) Article 102(1) EECC, which allows the Customer to receive certain pre-contractual information;
+
+(ii) Article 102(3) EECC, which allows the Customer to receive a contract summary;
+
+(iii) Article 105(1) EECC, which limits the maximum contract duration to 24 months for certain services; and
+
+(iv) Article 107(1) EECC, which extends other rights in the EECC (including Articles 102(3) and 105(1) as described above) to all services provided under the same Google Workspace agreement.
+
+Europe, Middle East and Africa – Algeria, Bahrain, Jordan, Kuwait, Libya, Mauritania, Morocco, Oman, Palestine, Qatar, Tunisia, Yemen, Egypt, Israel, United Arab Emirates and Lebanon
+
+A new Section 8.8 has been added as follows:
+
+8.8 No requirement for court order. Both parties acknowledge and agree that a court order will not be required to give effect to any termination or amendment of the Agreement or to give effect to any other Section of the Agreement.
+
+Section 15.12 (Governing law) has been replaced as follows:
+
+15.12 Governing law; arbitration.
+
+(a) ALL CLAIMS ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY RELATED GOOGLE PRODUCTS OR SERVICES (INCLUDING ANY DISPUTE REGARDING THE INTERPRETATION OR PERFORMANCE OF THE AGREEMENT) ('Dispute') WILL BE GOVERNED BY THE LAWS OF THE STATE OF CALIFORNIA, USA, EXCLUDING CALIFORNIA'S CONFLICT OF LAWS RULES.
+
+(b) The parties will try in good faith to settle any Dispute within 30 days of the Dispute arising. If the Dispute is not resolved within 30 days, it must be resolved by arbitration under the arbitration rules of the London Court of International Arbitration (LCIA) ('Rules'); these Rules are deemed to be incorporated by reference to this Section.
+
+(c) The parties will mutually select one arbitrator. The arbitration will be conducted in English and the place and the legal seat of the arbitration will be the Dubai International Financial Centre, DIFC, Dubai UAE.
+
+(d) Either party may apply to any competent court for injunctive relief as necessary to protect its rights pending resolution of the arbitration. The arbitrator may order equitable or injunctive relief consistent with the remedies and limitations in the Agreement.
+
+(e) The arbitral award will be final and binding on the parties and its execution may be presented in any competent court, including any court with jurisdiction over either party or any of its property.
+
+(f) Any arbitration proceeding conducted in accordance with this Section 15.12 (Governing law; arbitration) will be considered Confidential Information under Section 7 (Confidential information), including: (i) the existence of; (ii) any information disclosed during; and (iii) any oral communications or documents related to the arbitration proceedings. In addition to the disclosure rights under Section 7 (Confidential information), the parties may disclose the information described in this Subsection 15.12 (f) to a competent court as may be necessary to execute any arbitral decision, but the parties must request that those judicial proceedings be conducted in camera (in private).
+
+(g) The parties will pay the arbitrator's fees, the arbitrator's appointed experts' fees and expenses and the arbitration centre's administrative expenses in accordance with the Rules. In its final decision, the arbitrator will determine the non-prevailing party's obligation to reimburse the amount paid in advance by the prevailing party for these fees.
+
+(h) Each party will bear its own lawyers' and experts' fees and expenses, regardless of the arbitrator's final decision regarding the Dispute.
+
+North America – United States and Latin America (all regions excluding Brazil and Mexico)
+
+A new Section 3.10 has been added:
+
+3.10 COPPA and parental consent. If the Customer allows End Users under the age of 13 years old to use the Services, the Customer consents as required under the US Children's Online Privacy Protection Act ('COPPA') to the collection and use of personal information by the Services, as described in the Google Workspace for Education Privacy Notice, from such End Users (to the extent that COPPA is applicable in the Customer's jurisdiction).
+
+A new Section 7.3 has been added:
+
+7.3 FERPA. The parties acknowledge that (a) Customer Data may include personally identifiable information from education records that are subject to FERPA ('FERPA Records') and (b) to the extent that Customer Data includes FERPA Records, Google will be considered a 'School Official' (as that term is used in FERPA and its implementing regulations) and will comply with FERPA. 'FERPA' means the US Family Educational Rights and Privacy Act (20 USC 1232g) and the US Family Educational Rights and Privacy Act Regulations (34 CFR Part 99), as amended or otherwise modified from time to time.
+
+Section 15.19 (Definitions) has been changed to Section 15.20 (Definitions).
+
+A new Section 15.19 has been added:
+
+15.19 Services development. The Services were developed solely at private expense and are commercial computer software and related documentation within the meaning of the applicable US Federal Acquisition Regulations and their agency supplements.
+
+Applicable to public educational institutions only: North America – United States and Latin America (all regions excluding Brazil and Mexico)
+
+Section 2.5 (Delinquent payments; suspension) has been replaced as follows:
+
+2.5 Delinquent payments; suspension. Late payments may bear interest at the rate of 1.5% per month (or the highest rate permitted by law, if less) starting 30 days from the payment due date until paid in full. Furthermore, if the Customer is late on payment for the Services, Google may suspend the services or terminate the Agreement for breach under Section 8.3 (Termination for breach).
+
+Section 13.2 (Customer indemnification obligations) has been replaced as follows:
+
+13.2 Customer indemnification obligations. If Google is damaged or becomes subject to a third-party legal proceeding as a result of the Customer's infringement of any third-party intellectual property, Google will pursue available remedies under applicable federal, state, local or other law.
+
+Section 15.12 (Governing law) has been replaced as follows:
+
+15.12 Governing law. If the Customer is a US city, county or state government entity, then the Agreement will be silent regarding governing law and venue.
+
+Latin America – Brazil
+
+If the Google contracting entity is Google Cloud Brasil Computação e Serviços de Dados Ltda., Section 15.12 (US governing law) has been replaced as follows:
+
+15.12 Governing law and arbitration. This Agreement is governed by Brazilian law. ALL DISPUTES ARISING OUT OF OR RELATING TO THIS AGREEMENT OR ANY RELATED GOOGLE PRODUCTS OR SERVICES WILL BE SETTLED BY ARBITRATION, AS DESCRIBED BELOW.
+
+(a) Definitions. 'Dispute' means any contractual or non-contractual dispute regarding this Agreement, including its formation, validity, subject matter, interpretation, performance or termination. 
+
+(b) Settlement. The parties will try in good faith to settle any Dispute within 30 days of a party receiving the first notice regarding the Dispute in accordance with Section 15.12 (Notices). If the parties are unable to resolve the Dispute within this 30-day period, either party may refer the Dispute to arbitration in accordance with Section 15.12 (c) (Arbitration).  
+
+(c) Arbitration. The parties will refer all Disputes to final, binding arbitration under the rules in force by the Center for Arbitration and Mediation of the Chamber of Commerce Brazil-Canada as of this Agreement's Effective Date ('Rules'). The arbitration will be conducted in Portuguese by three arbitrators in São Paulo, SP, Brazil, which will be the seat of arbitration.
+
+(d) Confidentiality. The arbitration is Confidential Information (including the arbitration's existence and any oral or written information related to it). However, the parties may disclose to a competent court any information necessary to execute any arbitral decision, but only if the confidentiality of those materials is maintained in those judicial proceedings.
+
+(e) Non-monetary relief. The arbitrator(s) may only issue an award based on law, not in equity, and may not award non-monetary relief.
+
+(f) Fees and expenses. Each party will bear its own lawyers' and experts' fees and expenses, regardless of the arbitrator's final decision regarding the Dispute.
+
+Latin America – Mexico 
+
+If the Google contracting entity is Google Cloud México, S de RL de CV, the following Sections have been replaced as shown below: 
+
+Section 2.3 (Taxes) has been replaced as follows:
+
+2.3 Taxes. 
+
+(a) Tax invoicing and payments. Taxes are not included in the Fees and will be separately itemised on Google's invoices if applicable. The Customer will pay correctly invoiced Taxes unless the Customer provides a valid tax exemption certificate. If the Customer is required by law to withhold any Taxes from its payments to Google, the Customer must provide Google with an official tax receipt or other appropriate documentation to support such withholding.
+
+(b) Tax documentation. Google will provide customary tax documentation reasonably requested by the Customer in a timely manner and vice versa.
+
+Section 3.4 (Restrictions) has been replaced as follows: 
+
+3.4 Restrictions. The Customer will not and will not allow End Users to (a) copy, modify or create a derivative work of the Services; (b) reverse engineer, decompile, translate, disassemble or otherwise attempt to extract any or all of the source code of the Services (except to the extent that such restriction is expressly prohibited by applicable law); (c) sell, resell, sublicense, transfer or distribute any or all of the Services; or (d) access or use the Services (i) for High Risk Activities; (ii) in violation of the AUP; (iii) in a manner intended to avoid incurring any applicable Fees (including creating multiple Customer Accounts to simulate or act as a single Customer Account or to circumvent Service-specific usage limits or quotas); (iv) to engage in cryptocurrency mining without Google's prior written approval; (v) to place or receive emergency service calls, unless stated otherwise in the Service-Specific Terms; (vi) for materials or activities that are subject to the International Traffic in Arms Regulations (ITAR) maintained by the United States Department of State or any other applicable local legislation that regulates arms traffic; (vii) in a manner that breaches or causes the breach of Export Control Laws; or (viii) to transmit, store or process health information subject to United States HIPAA regulations, except as permitted by an executed HIPAA BAA and in compliance with any Applicable Privacy Laws.
+
+Section 12.2 (Limitation on amount of liability) has been replaced as follows: 
+
+12.2 Limitation on amount of liability. To the extent permitted by applicable law, each party's total aggregate Liability for damages arising out of or relating to the Agreement is limited to the greater of (a) US$1,000 or its equivalent in local currency calculated in accordance with Section 15.18.1 or (b) the Fees that the Customer paid during the 12-month period before the event giving rise to Liability.
+
+Section 15.12 (Governing law) has been replaced as follows: 
+
+15.12 Governing law and arbitration. 
+
+(a) Governing law. This Agreement is governed by the laws of the United Mexican States, excluding the choice of law rules. 
+
+(b) Arbitration. 
+
+(i) Definitions. 'Dispute' means any contractual or non-contractual dispute regarding this Agreement, including its formation, validity, subject matter, interpretation, performance or termination.
+
+(ii) Settlement. The parties will try in good faith to settle any Dispute within 30 days of a party receiving the first notice regarding the Dispute in accordance with Section 15.1 (Notices). If the parties are unable to resolve the Dispute within this 30-day period, either party may refer the Dispute to arbitration in accordance with Section 15.12 (iii) (Arbitration).
+
+(iii) Arbitration. Except as prohibited by applicable law, the parties will refer all Disputes to final, binding arbitration under the arbitration rules in force by the National Chamber of Commerce of Mexico City as of this Agreement's Effective Date ('Rules'). The arbitration will be conducted in Spanish by one arbitrator, mutually selected by the parties, in Mexico City, Mexico, which will be the seat of arbitration.
+
+(iv) Confidentiality. The arbitration is Confidential Information (including the arbitration's existence and any oral or written information related to it). However, the parties may disclose to a competent court any information necessary (a) to require the aid of the competent courts before or during the arbitral proceeding; or (b) to execute any arbitral decision, but only if the confidentiality of those materials is maintained in those judicial proceedings.
+
+(v) Non-monetary relief. The arbitrator may only issue an award based on law, not in equity, and may not award non-monetary relief.
+
+(vi) Fees and expenses. Each party will bear its own lawyers' and experts' fees and expenses and the arbitrator's final decision must not include any rulings in this regard.
+
+A new Section 15.18.1 (Currency) has been included as follows. As a consequence, Section 15.18 has been revised as follows:
+
+15.18 Conflicting languages. If this Agreement is translated into any language other than English and there is a discrepancy between the English text and the translated text, the English text will govern unless expressly stated otherwise in the translation. 
+
+15.18.1 Currency. Unless otherwise specified in this Agreement, any ancillary document or corresponding invoice, all references to '$' in this Agreement refer to Mexican pesos. If a currency conversion is required in relation to the calculation of the Fees, that conversion will be carried out using the daily average exchange rate set by a reputable third party chosen by Google in accordance with applicable law. 
+
+The 'Taxes' definition in Section 15.19 (Definitions) has been replaced as follows: 
+
+'Tax(es)' means all government-imposed tax obligations (including taxes, duties and withholdings), except those based on net income, net worth, asset value, property value or employment.
