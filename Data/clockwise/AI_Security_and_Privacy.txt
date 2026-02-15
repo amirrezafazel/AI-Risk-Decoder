@@ -1,0 +1,18 @@
+Source: https://www.getclockwise.com/security-ai
+
+Clockwise AI: security & privacy
+We are committed to upholding our guiding principles regarding data security and privacy.
+
+As AI and LLMs evolve, we’re constantly adapting our security measures to stay ahead of the curve. We’re dedicated to staying informed about the latest developments in the security landscape to ensure your data remains safe.
+
+Data collection and usage
+Any information used to power Clockwise AI will be shared with our partners for the sole purpose of providing you with the Clockwise AI features. We explicitly do not allow Open AI or 3rd parties to use your data for training their models.
+
+Data privacy
+We are committed to respecting your privacy and protecting your data. We want to emphasize there has been no significant changes to our data handling practices. These practices remain consistent as outlined in our Terms of Service (ToS) and Privacy Policy.
+
+Third-party risk management
+We treat our AI third-party vendors with the same due diligence as our other vendors to ensure their compliance with our overall security practices. Before engaging with any third-party vendors, including AI service providers, we conduct a security review of their security measures, data management practices, and compliance with applicable regulations/requirements. Our SOC 2, Type II compliance report serves as a testament to our third-party risk management approach throughout our vendor ecosystem.
+
+Transparency and trust
+We are dedicated to maintaining transparency and trust in our security and privacy practices, including our use of large language models (LLMs) and our relationships with third-party AI vendors. We recognize the importance of compliance and security in your organization and are committed to ensuring your peace of mind. Our team is committed and ready to partner with you to address any security or privacy concerns.

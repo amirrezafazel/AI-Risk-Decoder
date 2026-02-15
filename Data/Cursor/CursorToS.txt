@@ -1,3 +1,5 @@
+Source: https://cursor.com/terms-of-service
+
 Terms of Service
 Last updated Jan 13, 2026
 Welcome, and thank you for your interest in Anysphere, Inc. (“Anysphere,” “we,” or “us”), makers of the Cursor software platform. These Terms of Service (“Terms”) govern your access to and use of Anysphere's software, platform, APIs, Documentation, and related tools, including the website www.cursor.com, and all related software made available by Anysphere to build, deploy, host, and manage software projects (collectively, the “Service”). By using the Service, you agree to these Terms.
