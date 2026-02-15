@@ -1,0 +1,104 @@
+{
+  "service": "DALL-E",
+  "provider": "OpenAI",
+  "risks_by_category": [
+    {
+      "cat_id": 1,
+      "category": "User Liability & Indemnification",
+      "findings": [
+        { "risk": "You own the output therefore any infringement it causes is your fault" }
+      ]
+    },
+    {
+      "cat_id": 2,
+      "category": "Biometric & Identity Theft",
+      "findings": [
+        { "risk": "It can generate information that could potentially be used in fraud" },
+        { "risk": "It can imitate people’s linkness" }
+      ]
+    },
+    {
+      "cat_id": 3,
+      "category": "Data Training Loopholes",
+      "findings": [
+        { "risk": "Deleted information is retained even if you try to remove it (just gets de-identified and dissociated from your account" },
+        { "risk": "Opting out of your data being used for training might limit you" },
+        { "risk": "Any content uploaded could be used and modified by DALLE legally" },
+        { "risk": "Defaults you as an “opt in” participant to using your content to train models, and you must opt out of this feature, also ambiguity about what data they still use" },
+        { "risk": "Any generated content can be used worldwide by openAI" },
+        { "risk": "Collection of many details including personal information, log data, prompts and uploaded content including images" },
+        { "risk": "Any personal information given to the service may be lost, altered, misused and accessed without authorisation" },
+        { "risk": "Risk that (possibly sensitive) content is used in training models" }
+      ]
+    },
+    {
+      "cat_id": 4,
+      "category": "Third-Party Data Exposure",
+      "findings": [
+        { "risk": "Will transfer your personal data with counterparties and other companies involved in their “strategic transactions or organisations”" },
+        { "risk": "Will provide personal data to affiliates (which could be any shareholders/investors in a company)" },
+        { "risk": "It will store your prompts & other data and pass it on to third parties" }
+      ]
+    },
+    {
+      "cat_id": 5,
+      "category": "Intellectual Property (IP) Dilution",
+      "findings": [
+        { "risk": "Violates intellectual property frequently enough to warrant a form" },
+        { "risk": "If a user publishes a video to the explore page they lose control of their IP" },
+        { "risk": "Users can input content of any people or place or thing, and manipulate it with no proof of consent" },
+        { "risk": "Risk of intellectual property rights being infringed" }
+      ]
+    },
+    {
+      "cat_id": 6,
+      "category": "Misinformation & Deception",
+      "findings": [
+        { "risk": "Super realistic output which could be used for misinformation" },
+        { "risk": "Risk of users representing that output was human-generated" },
+        { "risk": "Output may be inaccurate, incomplete or offensive" },
+        { "risk": "Risk of hallucination in high-risk areas such as health information" },
+        { "risk": "The model is not suitable for interpreting specialized medical images like CT scans and shouldn't be used for medical advice" },
+        { "risk": "The model may generate incorrect descriptions or captions in certain scenarios" }
+      ]
+    },
+    {
+      "cat_id": 8,
+      "category": "Civil Liberties & Surveillance",
+      "findings": [
+        { "risk": "Risk that service can violate peoples rights" }
+      ]
+    },
+    {
+      "cat_id": 12,
+      "category": "Privacy of Non-Users (Contact Scraping)",
+      "findings": [
+        { "risk": "If you connect contacts it will share all of them and store it" },
+        { "risk": "You share the names and phone numbers of anyone in your address book who never agreed to OpenAI’s terms" }
+      ]
+    },
+    {
+      "cat_id": 13,
+      "category": "Content Safety & Offensive Material",
+      "findings": [
+        { "risk": "Will use any public data on the internet, this could lead to a model training itself on harmful or abusive content" },
+        { "risk": "Openly states that it can produce harmful content that goes against company values" },
+        { "risk": "No active detection for content that violates ToS all “proactive”" }
+      ]
+    },
+    {
+      "cat_id": 14,
+      "category": "Age Compliance & Child Safety",
+      "findings": [
+        { "risk": "Doesn’t verify age of users, claims that only 13+ but no policies enforce this" }
+      ]
+    },
+    {
+      "cat_id": 15,
+      "category": "Warranty & Service Reliability",
+      "findings": [
+        { "risk": "The API doesn’t have to necessarily respect your privacy rights, so a wrapper might not need to follow the rules" }
+      ]
+    }
+  ]
+}

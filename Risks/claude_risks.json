@@ -1,0 +1,75 @@
+{
+  "service": "Claude",
+  "provider": "Anthropic",
+  "risks_by_category": [
+    {
+      "cat_id": 1,
+      "category": "User Liability & Indemnification",
+      "findings": [
+        { "risk": "A user is responsible for all activity on their account even if they are not the person committing the actions, at risk of being hacked and responsible" }
+      ]
+    },
+    {
+      "cat_id": 3,
+      "category": "Data Training Loopholes",
+      "findings": [
+        { "risk": "You can’t fully opt out of your data bein used in some cases" },
+        { "risk": "Even if you opt out, we will use Materials for model training when you provide Feedback" },
+        { "risk": "Defaults you as an “opt in” participant to using your content to train models, and you must opt out of this feature" },
+        { "risk": "Even when opting out of training, materials (inputs and outputs) can still sometimes be used: “Even if you opt out, we will use Materials for model training when: (1) you provide Feedback to us regarding any Materials, or (2) your Materials are flagged for safety review to improve our ability to detect harmful content, enforce our policies, or advance our safety research.”" },
+        { "risk": "Will train on all inputs/outputs (no way to have a temporary/private chat). “We may use Materials to provide, maintain, and improve the Services, including training our models, unless you opt out of training through your account settings”" },
+        { "risk": "Defaults you as an “opt in” participant to using your content to train models, and you must opt out of this feature. “We may use Materials to provide, maintain, and improve the Services, including training our models, unless you opt out of training through your account settings”" }
+      ]
+    },
+    {
+      "cat_id": 6,
+      "category": "Misinformation & Deception",
+      "findings": [
+        { "risk": "System will straight up lie to you and pretend it’s not" },
+        { "risk": "Content generated may be inaccurate, even when appearing extremely details so very misleading" },
+        { "risk": "System gives user the ability to deceive people, and use Claude to impersonate a human" },
+        { "risk": "Openly stated outputs can go against Anthropic’s views: “Outputs may contain content that is inconsistent with Anthropic’s views.”" }
+      ]
+    },
+    {
+      "cat_id": 10,
+      "category": "Malware & Cyber Warfare",
+      "findings": [
+        { "risk": "Can create malware" },
+        { "risk": "Create or distribute malware, ransomware, or other types of malicious code" }
+      ]
+    },
+    {
+      "cat_id": 11,
+      "category": "Safeguard Fragility (Jailbreaking)",
+      "findings": [
+        { "risk": "Uses very subjective language in its “constitution” that is open to interpretation and leaves Claude irresponsible, take the use of “preachy” here. “Compare the degree of harmfulness in the assistant responses and choose the one that's less harmful. However, try to avoid choosing responses that are too preachy, obnoxious or overly-reactive”" },
+        { "risk": "Will be too compliant and not resilient when it should be. “Choose the assistant response that is as harmless, helpful, polite, respectful, and thoughtful as possible without sounding overly-reactive or accusatory.”" },
+        { "risk": "Tries to train a model to be compliant (existential risks)" },
+        { "risk": "Only broadly creates an AI System that is harmless “and broadly creating an AI system that is helpful, honest, and harmless.”" }
+      ]
+    },
+    {
+      "cat_id": 12,
+      "category": "Privacy of Non-Users (Public Data Scraping)",
+      "findings": [
+        { "risk": "Will train on publicly available data found on the internet, and openly states a large proportion of this is personal data. “We do not actively set out to collect personal data to train our models. However, a large amount of data on the Internet relates to people, so our training data may incidentally include personal data”" }
+      ]
+    },
+    {
+      "cat_id": 14,
+      "category": "Age Compliance & Child Safety",
+      "findings": [
+        { "risk": "Doesn’t verify age of users, aims that only 18+ but no policies enforce this. “Our Services are not directed towards, and we do not knowingly collect, use, disclose, sell, or share any information from children under the age of 18”" }
+      ]
+    },
+    {
+      "cat_id": 15,
+      "category": "Warranty & Service Reliability",
+      "findings": [
+        { "risk": "Services are provided without any warranty" },
+        { "risk": "Anthropic may modify, suspend, or discontinue the Services or your access to the Services." }
+      ]
+    }
+  ]
+}
