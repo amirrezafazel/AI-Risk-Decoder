@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#main_page{
+    width: 100%;
+    height:100%;
+}
+.risk_grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+.card{
+    background-color: white;
+    border-radius: 2vw;
+    color: black;
+    margin: 0.5vw ;
+    width:20vw;
+
+}
+.card:hover{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: blue;
+}
+.card__risks{
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 0.5vw;
+    margin: 1vw;
+    text-align: left;
+}
+.card__header{
+    margin: 1vw 2vw 1vw 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+}
+.card__header h2{
+    width: 100%;
+}
+.icon{
+    width: 16px;
+}
+.logo{
+    width: 24px;
+}
+.risk_record{
+    padding: 0.5vw;
+}
+.header{
+
+}
+.search_bar{
+    background-color: white;
+    width:60%;
+    height: 5vh;
+    border-radius: 5vh;
+    text-align: left;
+    margin: 3vh auto
+}
+.search_bar:hover{
+    background-color: lightgray;
+}
+
+.search_bar div{
+    padding-top: 0.8vh;
+    margin-left: 1.5vw;
+}
+

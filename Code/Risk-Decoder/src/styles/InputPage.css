@@ -1,0 +1,95 @@
+.preferences-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.preferences-wrapper h1 {
+  margin-bottom: 0.25rem;
+}
+
+.preferences-wrapper p {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.preferences-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.category-card {
+  background-color: #ffffff;
+  border: 2px solid #c5d5dd;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #1a1a1a;
+  transition: border-color 0.2s, background-color 0.2s, color 0.2s, transform 0.1s;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-card:hover {
+  border-color: #4a7a8a;
+}
+
+.category-card.selected {
+  background-color: #4a7a8a;
+  border-color: #4a7a8a;
+  color: #ffffff;
+}
+
+.additional-prefs {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.additional-prefs label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.95rem;
+  color: #000000;
+}
+
+.additional-prefs-input {
+  width: 100%;
+  border: 2px solid #c5d5dd;
+  border-radius: 10px;
+  padding: 0.75rem;
+  font-size: 0.95rem;
+  font-family: inherit;
+  resize: vertical;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+  background-color: #ffffff;
+  color: #000000
+}
+
+.additional-prefs-input:focus {
+  outline: none;
+  border-color: #4a7a8a;
+}
+
+.submit-btn {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75em 2.5em;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.submit-btn:hover {
+  background-color: #4a7a8a;
+}

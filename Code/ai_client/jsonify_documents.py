@@ -15,8 +15,15 @@ for company_dir in DATA_PATH.iterdir():
             if doc_file.is_file():
                 try:
                     content = doc_file.read_text(encoding='utf-8', errors='ignore')
-                    
-                    company_entry[doc_file.name] = content
+                    if content.startswith("Source: "):
+                        content_link = content.splitlines()[0][len("Source: "):].strip()
+                        content_body = "\n".join(content.splitlines()[1:]).strip()
+                        company_entry[doc_file.stem] = {
+                            "source": content_link,
+                            "content": content_body
+                        }
+                    else:
+                        raise ValueError(f"Document {company_name}/{doc_file.name} does not start with 'Source: '") 
                     
                 except Exception as e:
                     print(f"Could not read {doc_file.name}: {e}")
@@ -24,6 +31,6 @@ for company_dir in DATA_PATH.iterdir():
         output_data[company_name] = company_entry
 
 with open(OUTPUT_PATH, "w", encoding='utf-8') as f:
-    json.dump(output_data, f, indent=4)
+    json.dump(output_data, f, indent=4, sort_keys=True)
 
 print("Export Complete")
