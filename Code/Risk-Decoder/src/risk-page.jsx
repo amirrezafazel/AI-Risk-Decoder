@@ -4,14 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './styles/main-page.css'
 import './styles/InputPage.css'
-import { Link } from 'react-router-dom';
-
-function handleSubmit() {
-navigate('/main')
-}
+import { useNavigate } from 'react-router-dom'
 
 function RiskPage() {
+  const navigate = useNavigate()
   const [count, setCount] = useState(0)
+
+  function handleBack() {
+    navigate('/main')
+  }
 
   return (
     <>
@@ -36,8 +37,8 @@ function RiskPage() {
                 <h2>risk 4</h2>
             </div>
       </div>
-      <button className="submit-btn" onClick={handleSubmit}>
-        back to main page
+      <button className="submit-btn" onClick={handleBack}>
+        main page
       </button>
     </>
   )
