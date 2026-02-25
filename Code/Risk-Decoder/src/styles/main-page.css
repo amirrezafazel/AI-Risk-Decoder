@@ -14,19 +14,37 @@
     width: 100%;
     height: 100%;
 }
+.full_card{
+    transform-style: preserve-3d;
+    transform: rotateY(var(--rotate-y,0));
+    transition: 0.7s;
+    position: relative;
+    margin: 0.5vw ;
+    @media (max-aspect-ratio: 1) { width:90vw;}
+    @media (min-aspect-ratio: 1) { width:40vw;}
+    height: 70vh;
+}
 .card{
     background-color: white;
     border-radius: 2vw;
     color: black;
-    margin: 0.5vw ;
-    width:20vw;
-
+    width:100%;
+    height:100%;
+    backface-visibility: hidden;
+    position: absolute;
 }
 .card:hover{
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: blue;
+    opacity: 0.8;
 }
+
+.back{
+    color: red;
+    transform: rotateY(180deg);
+}
+.flipped{
+    --rotate-y: 180deg;
+}
+
 .card__risks{
     list-style: none;
     background-color: lightgray;
@@ -40,20 +58,35 @@
     flex-direction: row;
     justify-content: left;
     align-items: center;
+    @media (max-aspect-ratio: 1) { font-size: 4vw;}
+    @media (min-aspect-ratio: 1) { font-size: 2vw;}
 
 }
 .card__header h2{
     width: 100%;
 }
 .icon{
-    width: 16px;
+    @media (max-aspect-ratio: 1) { width:6vw;}
+    @media (min-aspect-ratio: 1) { width:3vw;}
 }
 .logo{
-    width: 24px;
+    @media (max-aspect-ratio: 1) { height: 10vw;}
+    @media (min-aspect-ratio: 1) { height: 5vw;}
 }
 .risk_record{
     padding: 0.5vw;
 }
+.risk_record div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+.risk_text{
+    align-items: center;
+    padding: 0.6vw;
+}
+
+
 .header{
 
 }
@@ -72,5 +105,9 @@
 .search_bar div{
     padding-top: 0.8vh;
     margin-left: 1.5vw;
+}
+.card__body{
+    @media (max-aspect-ratio: 1) { font-size:3vw;}
+    @media (min-aspect-ratio: 1) { font-size:1.5vw;}
 }
 
