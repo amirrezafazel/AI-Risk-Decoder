@@ -97,20 +97,45 @@
 }
 .search_bar{
     background-color: white;
-    width:60%;
-    height: 5vh;
+    width:40vw;
+    height: 7vh;
     border-radius: 5vh;
     text-align: left;
-    margin: 3vh auto
+    margin: 3vh;
+    display: flex;
 }
 .search_bar:hover{
     background-color: lightgray;
 }
-
-.search_bar div{
-    padding-top: 0.8vh;
-    margin-left: 1.5vw;
+.search_bar input{
+    @media (max-aspect-ratio: 1) { font-size: 4vh;}
+    @media (min-aspect-ratio: 1) { font-size: 3vh;}
+    width:30vw;
+    padding-left: 3vh;
+    color:black;
+    background-color: transparent;
+    border: none;
 }
+.search_bar input:focus {
+    outline: none;
+}
+
+.search_bar button{
+    width:8vw;
+    margin-left: 2vw;
+    height: 7vh;
+    background-color: whitesmoke;
+    border: solid black 0.3vh;
+    border-radius: 5vh;
+
+}
+.search_bar button:hover{
+    background-color: darkgray;
+}
+
+
+
+
 .card__body{
     @media (max-aspect-ratio: 1) { font-size:3vw;}
     @media (min-aspect-ratio: 1) { font-size:1.5vw;}

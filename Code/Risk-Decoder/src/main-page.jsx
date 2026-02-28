@@ -124,12 +124,13 @@ const Card = ({service_name,risk_page,icon}) => {
 }
 const SearchBar = () =>{
     return (
-        <div className="search_bar">
-            <div>
-                <img className="icon" src={search} alt={"risk"}/>
-                &nbsp;Search...
-            </div>
-        </div>
+        <form className="search_bar">
+            <input placeholder="Search..."/>
+
+                <button >
+                    <img className="min_icon" src={search} alt={"risk"}/>
+                </button>
+        </form>
     )
 
 }
