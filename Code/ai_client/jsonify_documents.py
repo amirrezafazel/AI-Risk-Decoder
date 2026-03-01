@@ -10,7 +10,7 @@ for company_dir in DATA_PATH.iterdir():
     if company_dir.is_dir():
         company_name = company_dir.name
         
-        company_entry = {}
+        company_entry = { "documents" : {} }
         for doc_file in company_dir.iterdir():
             if doc_file.is_file():
                 try:
@@ -18,7 +18,8 @@ for company_dir in DATA_PATH.iterdir():
                     if content.startswith("Source: "):
                         content_link = content.splitlines()[0][len("Source: "):].strip()
                         content_body = "\n".join(content.splitlines()[1:]).strip()
-                        company_entry[doc_file.stem] = {
+
+                        company_entry["documents"][doc_file.stem] = {
                             "source": content_link,
                             "content": content_body
                         }
