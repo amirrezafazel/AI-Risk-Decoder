@@ -1,4 +1,5 @@
 import os
+import json
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -12,9 +13,13 @@ client = OpenAI(api_key=API_KEY, max_retries=0)
 SYSTEM_PROMPT_PATH = Path("Code/ai_client/ai_summary_prompt.txt")
 SYSTEM_PROMPT = SYSTEM_PROMPT_PATH.read_text(encoding="utf8")
 
+OUTPUT_SCHEMA_PATH = Path('Code/ai_client/response_output_schema.json')
+with open(OUTPUT_SCHEMA_PATH, "r") as f:
+    schema = json.load(f)
 
 
-def request_with_system_prompt(prompt: str, model: str = "gpt-5.2") -> str:
+
+def ai_query(prompt: str, model: str = "gpt-5-mini") -> dict:
     resp = client.responses.create(
         model=model,
         input=[
@@ -23,9 +28,10 @@ def request_with_system_prompt(prompt: str, model: str = "gpt-5.2") -> str:
                 {"type": "input_text", "text": prompt},
             ]},
         ],
+        text=schema
     )
 
-    return resp.output_text
+    return json.loads(resp.output_text)
 
 if __name__ == "__main__":
-    print(request_with_system_prompt("what is 5 + 4"))
+    print(ai_query("Describe the risks of grok"))
