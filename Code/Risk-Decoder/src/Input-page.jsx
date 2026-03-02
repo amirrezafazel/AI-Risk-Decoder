@@ -7,8 +7,11 @@ import './styles/components/category-card.css';
 import './styles/components/button.css';
 
 function InputPage() {
-  const { updatePreferences, getSelectedCategoryIds, getAdditionalPrefs } = useContext(UserPreferencesContext)
+
+  // Shared context for user preferences
+  const { updatePreferences } = useContext(UserPreferencesContext)
   
+  // Local state for user preferences
   const [selectedCategories, setSelectedCategories] = useState(
     new Map(CATEGORIES.map(({ id }) => [id, false]))
   )
