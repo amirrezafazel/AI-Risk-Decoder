@@ -1,13 +1,20 @@
 import { createContext, useState } from 'react'
 
+import safety from '../Proper_icons/information&safety.svg'
+import malicious from '../Proper_icons/malicious.svg'
+import autonomy from '../Proper_icons/human_autonomy&integrity.svg'
+import misinformation from '../Proper_icons/misinformation.svg'
+import toxicity from '../Proper_icons/representation&toxicity.svg'
+import environment from '../Proper_icons/socioeconomics&enviromental.svg'
+
 // The 6 risk categories used throughout the app
 export const CATEGORIES = [
-  { id: 'representation-toxicity', label: 'Representation & Toxicity Risks' },
-  { id: 'misinformation', label: 'Misinformation Risks' },
-  { id: 'information-safety', label: 'Information & Safety Risks' },
-  { id: 'malicious-use', label: 'Malicious Use Risks' },
-  { id: 'human-autonomy', label: 'Human Autonomy & Integrity Risks' },
-  { id: 'socioeconomic-environmental', label: 'Socioeconomic & Environmental Risks' },
+  { id: 'representation-toxicity', label: 'Representation & Toxicity Risks', icon: toxicity },
+  { id: 'misinformation', label: 'Misinformation Risks', icon: misinformation },
+  { id: 'information-safety', label: 'Information & Safety Risks', icon: safety },
+  { id: 'malicious-use', label: 'Malicious Use Risks', icon: malicious },
+  { id: 'human-autonomy', label: 'Human Autonomy & Integrity Risks', icon: autonomy },
+  { id: 'socioeconomic-environmental', label: 'Socioeconomic & Environmental Risks', icon: environment },
 ]
 
 // Create React Context API shared state

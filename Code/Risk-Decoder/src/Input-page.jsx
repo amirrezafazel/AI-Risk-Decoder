@@ -37,12 +37,13 @@ function InputPage() {
       <h1>AI Risk Decoder</h1>
       <p>Select the risk categories most important to you.</p>
       <div className="preferences-container">
-        {CATEGORIES.map(({ id, label }) => (
+        {CATEGORIES.map(({ id, label, icon }) => (
           <div
             key={id}
             className={`category-card${selectedCategories.get(id) ? ' selected' : ''}`}
             onClick={() => toggleCategory(id)}
           >
+            <img className="icon" src={icon} alt="risk"/>
             {label}
           </div>
         ))}
