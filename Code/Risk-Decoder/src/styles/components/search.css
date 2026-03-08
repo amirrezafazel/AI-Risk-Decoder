@@ -9,6 +9,7 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    border: 1px solid transparent;
 }
 .search_bar:hover{
     border: 1px solid var(--extra-muted, #ffffff);
