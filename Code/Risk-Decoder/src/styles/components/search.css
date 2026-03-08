@@ -1,11 +1,11 @@
 /* Search bar component */
 .search_bar{
     background-color: var(--card-bg);
-    width:40vw;
+    width:37vw;
     height: 7vh;
     border-radius: 5vh;
     text-align: left;
-    margin: 3vh;
+    margin-left: 5vw;
     display: flex;
     align-items: center;
     gap: 0.75rem;
