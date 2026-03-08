@@ -23,7 +23,7 @@ import DALLE from './TMP/DALLE.svg'
 import Gemini from './TMP/Gemini.svg'
 import Copilot from './TMP/Copilot.svg'
 
-import Risks from '../../../Risks/claude_risks.json'
+import Risks from '../../../Data/database.json'
 
 
 import {useState, useContext} from "react";
@@ -68,12 +68,7 @@ const Card = ({service_name,risk_page,icon,record}) => {
                          onWheel={(e) => e.stopPropagation()}
                          onTouchStart={(e) => e.stopPropagation()}>
                         <ul className="card__risks">
-                            {record.risks_by_category.map(record => {return (<RiskRecord  icon_name={toxicty} risk={record.cat_id}/>)})}
-                            <RiskRecord  icon_name={misinformation} risk="Misinformation Risks"/>
-                            <RiskRecord  icon_name={safety} risk="Information & Safety Risks"/>
-                            <RiskRecord  icon_name={malicious} risk="Malicious Use Risks"/>
-                            <RiskRecord  icon_name={autonomy} risk="Human Autonomy & Integrity Risks"/>
-                            <RiskRecord  icon_name={enviroment} risk="Socioeconomic & Environmental Risks"/>
+                            {record.risks && record.risks.map(record => {return (<RiskRecord  icon_name={toxicty} risk={record.description}/>)})}
                         </ul>
                     </div>
                     <div className="card__footer">
@@ -117,12 +112,11 @@ const Card = ({service_name,risk_page,icon,record}) => {
     )
 
 }
-const SearchBar = () =>{
+const SearchBar = ({setSearchTerm}) =>{
     return (
-        <form className="search_bar">
-            <input placeholder="Search..."/>
-
-                <button >
+        <form className="search_bar" onSubmit={event => {event.preventDefault()}}>
+            <input placeholder="Search..." onChange={event => setSearchTerm(event.target.value)}/>
+                <button  >
                     <img className="min_icon" src={search} alt={"risk"}/>
                 </button>
         </form>
@@ -138,21 +132,21 @@ function MainPage() {
     as a string.
   */
   const { _, getSelectedCategoryIds, getAdditionalPrefs } = useContext(UserPreferencesContext)
-
+    const [searchTerm, setSearchTerm] = useState("")
   return (
       <div id='main_page'>
           <div className="header">
               <h1>AI risk decoder</h1>
-              <SearchBar />
-              {getSelectedCategoryIds()}
-              {getAdditionalPrefs()}
+              <SearchBar setSearchTerm={setSearchTerm}/>
           </div>
           <div className="risk_grid">
-              <Card service_name="ChatGPT" risk_page="/risk" icon={ChatGPT} record={Risks}/>
-              <Card service_name="Claude" risk_page="/risk" icon={Claude} record={Risks}/>
-              <Card service_name="Gemini" risk_page="/risk" icon={Gemini} record={Risks}/>
-              <Card service_name="DALLE" risk_page="/risk" icon={DALLE} record={Risks}/>
-              <Card service_name="Copilot" risk_page="/risk" icon={Copilot} record={Risks}/>
+              {Object.entries(Risks).map(([key,val])=> {
+                  if (key.toLowerCase().includes(searchTerm.toLowerCase())) {
+                      return (
+                          <Card service_name={key.replaceAll("_", " ")} risk_page="/risk" icon={ChatGPT} record={val}/>
+                      )
+                }
+              })}
           </div>
       </div>
   )
