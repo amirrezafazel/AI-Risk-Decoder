@@ -38,11 +38,12 @@ const symbol_conversions ={
 const icon_conversions ={
     "Apple Intelligence":"Apple",
     "ChatGPT":"OpenAI",
-    "Claude":"Anthropic",
+    "Claude":"Claude",
     "Canva Magic Studio":"Canva",
     "Copilot":"Copilot",
     "Cursor":"Cursor",
     "DALLE":"OpenAI",
+    "DeepSeek":"Deepseek",
 
 }
 
