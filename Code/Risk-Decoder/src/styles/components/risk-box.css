@@ -31,7 +31,7 @@
 .risk_box .left {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* let label wrap and start at top of bullet */
+  justify-content: flex-start;
   gap: 0.75rem;
   flex: 1 1 auto;
   min-width: 0;
@@ -43,19 +43,23 @@
   flex: 0 0 48px;
 }
 
-.risk_box .label {
-  padding: 0.6vw 0;
-  white-space: normal;
-  overflow: visible;
-  text-overflow: unset;
+.risk_box {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(0,0,0,0.09);
+  border-radius: var(--radius, 16px);
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.85rem 1.1rem
   color: #111;
-  font-weight: 500;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: transform 120ms ease, box-shadow 120ms ease;
 }
 
-/* slight jitter */
 .risk_box:hover {
   transform: translateY(-2px);
-  transition: transform 120ms ease;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.13);
 }
 
 @media (max-width: 520px) {

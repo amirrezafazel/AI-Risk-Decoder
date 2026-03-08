@@ -3,8 +3,8 @@
   --card-bg: #ffffff;
   --card-inner: #f7eff4;
   --extra-muted: #c9b0bc;
-  --muted: #7a5068;          /* darker — better contrast on light bg */
-  --accent: #5e1f3c;         /* deeper burgundy — more punch */
+  --muted: #7a5068;
+  --accent: #5e1f3c; 
   --card-radius: 4vw;
   --radius: 1.5vw;
   --small-radius: 2vw;
@@ -13,9 +13,9 @@
 
 body {
   font-family: var(--font-family);
-  background: linear-gradient(135deg, #e8dce7 0%, #d9ccdf 100%);  /* slightly richer */
+  background: linear-gradient(135deg, #e8dce7 0%, #d9ccdf 100%);
   background-attachment: fixed;
-  color: #1a0a14;            /* darker body text — was a bit grey */
+  color: #1a0a14;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
