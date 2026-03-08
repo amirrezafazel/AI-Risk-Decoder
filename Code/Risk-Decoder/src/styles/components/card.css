@@ -5,9 +5,8 @@
   position: relative;
   width: 100%;
   box-sizing: border-box;
-  height: 100vh;
-  /*capitalizes*/
-  text-transform: capitalize;
+  height: 80vh;
+
 }
 
 .card {
@@ -74,6 +73,8 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  /*capitalizes*/
+  text-transform: capitalize;
 }
 .card__header h2{ width: 100%; }
 
@@ -99,7 +100,7 @@
 .icon{ width: 3vw; }
 .iconselected{ filter: "brightness(0) invert(1)" }
 .min_icon{ width: 2vw; }
-.logo{ height: 7.5vh; }
+.logo{ width: 7.5vh; }
 
 .risk_record{ padding: 0.5vw; }
 .risk_record div{ display:flex; align-items:center; }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './styles/main-page.css';
 import './styles/components/card.css';
 import './styles/components/button.css';
@@ -17,19 +17,34 @@ import details from './assets/details.svg'
 import original from './assets/original.svg'
 import turn from './assets/flip.svg'
 
-import ChatGPT from './TMP/chatGPT.svg'
-import Claude from './TMP/Claude.svg'
-import DALLE from './TMP/DALLE.svg'
-import Gemini from './TMP/Gemini.svg'
-import Copilot from './TMP/Copilot.svg'
 
 import Risks from '../../../Data/database.json'
+import Incidents from '../../../Data/incidents.json'
 
 
 import {useState, useContext} from "react";
 import {useNavigate} from "react-router-dom";
 
 import { UserPreferencesContext } from './contexts/UserPreferencesContext';
+
+const symbol_conversions ={
+    "privacy":safety,
+    "security":malicious,
+    "technical":autonomy,
+    "legal":misinformation,
+    "compliance":toxicty,
+    "operational":enviroment
+}
+const icon_conversions ={
+    "Apple Intelligence":"Apple",
+    "ChatGPT":"OpenAI",
+    "Claude":"Anthropic",
+    "Canva Magic Studio":"Canva",
+    "Copilot":"Copilot",
+    "Cursor":"Cursor",
+    "DALLE":"OpenAI",
+
+}
 
 const RiskRecord = ({icon_name,risk}) =>{
     return (
@@ -45,13 +60,22 @@ const RiskRecord = ({icon_name,risk}) =>{
     )
 }
 
-const Card = ({service_name,risk_page,icon,record}) => {
+const Card = ({service_name,risk_page,record,articles}) => {
     let  [is_flipped,set_is_flipped]= useState(false);
     let navigate = useNavigate();
+    const [icon, setIcon] = useState(null);
+    useEffect(() => {
+        import(`../../Logos/${icon_conversions[service_name]}.svg`)
+            .then(module => setIcon(module.default))
+            .catch(() => setIcon(null)); // fallback or error handling
+    }, [service_name]);
 
     function flip(){
         set_is_flipped(!is_flipped);
     }
+    const goToExternalUrl = (url) => {
+        window.location.href = url;
+    };
 
     return (
         <div className="card_shadow">
@@ -68,7 +92,9 @@ const Card = ({service_name,risk_page,icon,record}) => {
                          onWheel={(e) => e.stopPropagation()}
                          onTouchStart={(e) => e.stopPropagation()}>
                         <ul className="card__risks">
-                            {record.risks && record.risks.map(record => {return (<RiskRecord  icon_name={toxicty} risk={record.description}/>)})}
+                            {record.risks && record.risks.map(record => {return (
+                                <RiskRecord  icon_name={symbol_conversions[record.tags[0]]} risk={record.description}/>
+                            )})}
                         </ul>
                     </div>
                     <div className="card__footer">
@@ -78,7 +104,11 @@ const Card = ({service_name,risk_page,icon,record}) => {
                             &nbsp;View Details
                         </button>
                         <button className="card_button"
-                                onClick={(e)=>{e.stopPropagation();navigate(risk_page)}}>
+                                onClick={(e)=>{e.stopPropagation();
+                                    if(record.documents){
+                                        goToExternalUrl(Object.values(record.documents)[0].source);}
+                                }
+                                   }>
                             <img className="min_icon" src={read} alt="analyze icon" />
                             &nbsp;Analyze Documents
                         </button>
@@ -92,16 +122,20 @@ const Card = ({service_name,risk_page,icon,record}) => {
                      onTouchStart={(e) => e.stopPropagation()}>
                     <div className="card__header">
                         <img className="logo" src={icon} alt={service_name+" icon"}/>
-                        <h2>OpenAI Seals Pentagon Deal</h2>
+                        <h2>{service_name}</h2>
                         <img className="flip_icon" src={turn} alt="flip the card" />
                     </div>
                     <div className="card__body">
-                        OpenAI has officially secured a massive contract to integrate its AI models into the U.S. Department of Defense's classified networks, stepping in just as the Trump administration blacklisted rival Anthropic over safety disputes.
-                        While Anthropic was designated a "supply chain risk" for refusing to drop safeguards against fully autonomous weaponry and mass surveillance, OpenAI successfully negotiated terms by technically embedding these "red lines" into its cloud architecture rather than just the legal contract.
+                        {articles && articles.incidents[0].description}
+
                     </div>
                     <div className="card__footer">
                         <div className="card_button"
-                             onClick={(e)=>{e.stopPropagation();navigate(risk_page)}}>
+                             onClick={(e)=>{e.stopPropagation();
+                                 if(articles){
+                                 goToExternalUrl(articles.incidents[0].link);}
+                             }
+                        }>
                             <img className="min_icon" src={original} alt="original icon"/>
                             &nbsp;See Original
                         </div>
@@ -143,7 +177,9 @@ function MainPage() {
               {Object.entries(Risks).map(([key,val])=> {
                   if (key.toLowerCase().includes(searchTerm.toLowerCase())) {
                       return (
-                          <Card service_name={key.replaceAll("_", " ")} risk_page="/risk" icon={ChatGPT} record={val}/>
+                          <Card service_name={
+                              key.replaceAll("_", " ")
+                          } risk_page="/risk" record={val} articles={Incidents[key]}/>
                       )
                 }
               })}

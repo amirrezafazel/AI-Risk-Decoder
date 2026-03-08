@@ -1,5 +1,5 @@
 {
-  "Apple": {
+  "Apple_Intelligence": {
     "id": 1,
     "incidents": [
       {
@@ -455,7 +455,6 @@
       }
     ]
   },
-  {
   "Iris": {
     "id": 13,
     "incidents": [
