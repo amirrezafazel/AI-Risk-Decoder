@@ -3,7 +3,6 @@
   transform: rotateY(var(--rotate-y, 0));
   transition: transform 0.7s;
   position: relative;
-  margin: 0.5rem;
   width: 100%;
   box-sizing: border-box;
   height: 100vh;
@@ -22,16 +21,49 @@
   overflow: hidden;
   box-sizing: border-box;
   border: 2px solid var(--accent, #ffffff);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /*Needed for the corner*/
+  clip-path: polygon(
+          0 0,
+          calc(100% - 9.5vh) 0,
+          100% 9.5vh,
+          100% 100%,
+          0 100%
+  );
 }
 
-.card:hover {
-  opacity: 0.95;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+/*Folded corner*/
+.card::before {
+  content: "";
+  position: absolute;
+  top: calc(-100% + 8.8vh);
+  right: calc(-100% + 8.8vh);
+  width: 100%;
+  height: 100%;
+  border-radius: var(--card-radius);
+  background-color: var(--card-bg);
+
+  border-left: 2px solid var(--accent, #fff);
+  border-bottom: 2px solid var(--accent, #fff);
+
+}
+
+/*The arrow for flipping*/
+.flip_icon{
+  position: absolute;
+  top: 4vh;
+  right: 4vh;
+  width: 3vh;
+  height: 3vh;
+  display: flex;
+  transform:rotate(180deg);
+}
+
+.card_shadow:hover{
+  filter: drop-shadow(0 8px 10px rgba(0,0,0,0.5));
 }
 
 .front { transform: rotateY(0deg); }
-.back { transform: rotateY(180deg); color: red; }
+.back { transform: rotateY(180deg); }
 
 .flipped { --rotate-y: 180deg; }
 
@@ -56,7 +88,7 @@
 
 .card__footer{
     display: flex;
-    gap: 0vw;
+    gap: 0;
     padding: 0.5rem 1.25rem;
 }
 
@@ -96,3 +128,4 @@
   .risk_item { padding: 0.85rem; font-size: 1.05rem; }
   .risk_item .label { white-space: normal; }
 }
+
