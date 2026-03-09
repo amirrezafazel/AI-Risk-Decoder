@@ -44,7 +44,22 @@ const icon_conversions ={
     "Cursor":"Cursor",
     "DALLE":"OpenAI",
     "DeepSeek":"Deepseek",
-
+    "ElevenLabs":"Elevenlabs",
+    "Fyxer":"Fyxer",
+    "Gemini":"Gemini",
+    "Github Copilot":"Githubcopilot",
+    "Iris":"Iris",
+    "Loveable":"Loveable",
+    "Manus":"Manus",
+    "Midjourney":"Midjourney",
+    "Nano Banana":"Nanobanana",
+    "NotebookLM":"Notebooklm",
+    "Perplexity":"Perplexity",
+    "Sora":"Sora",
+    "Teal":"Teal",
+    "VEO Google Deepmind":"Deepmind",
+    "clockwise":"Clockwise",
+    "n8n":"N8n"
 }
 
 const RiskRecord = ({icon_name,risk}) =>{
