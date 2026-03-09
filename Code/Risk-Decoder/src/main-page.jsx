@@ -100,7 +100,7 @@ const Card = ({service_name,risk_page,record,articles}) => {
                     </div>
                     <div className="card__footer">
                         <button className="card_button"
-                                onClick={(e)=>{e.stopPropagation();navigate(risk_page)}}>
+                                onClick={(e)=>{e.stopPropagation(); window.scrollTo(0, 0); navigate(risk_page)}}>
                             <img className="min_icon" src={details} alt="details icon" />
                             &nbsp;View Details
                         </button>

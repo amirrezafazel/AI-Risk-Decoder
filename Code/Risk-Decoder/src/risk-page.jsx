@@ -87,7 +87,7 @@ function RiskPage() {
       </div>
 
       <div style={{ textAlign: 'center', margin: '3vh 0' }}>
-        <button className="submit-btn" onClick={() => navigate('/main')}>
+        <button className="submit-btn" onClick={() => {navigate('/main'); window.scrollTo(0, 0);}}>
           Back to main
         </button>
       </div>
