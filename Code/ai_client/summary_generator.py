@@ -19,8 +19,8 @@ if __name__ == "__main__":
 
     for company in data:
         documents = data[company]["documents"]
-        # "risks" not in data[company] and
-        if data[company]["id"] < 10:
+
+        if "risks" not in data[company]:
             print(f"Generating risk summary for {company}")
             risks = generate_risk_summary(documents)
             data[company]["risks"] = risks["risks"]

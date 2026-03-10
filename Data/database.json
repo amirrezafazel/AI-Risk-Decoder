@@ -681,7 +681,69 @@
                 "source": "https://app.fyxer.com/terms-of-use"
             }
         },
-        "id": 10
+        "id": 10,
+        "risks": [
+            {
+                "description": "Terms permit Fyxer to transfer Personal Data outside the EEA and to engage Sub\u2011Processors (with only a short objection window). This increases risk of weaker protections, jurisdictional exposure, and loss of user control over where/how data is accessed.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Cross-border data transfers and use of sub-processors"
+            },
+            {
+                "description": "Fyxer may use Usage Data to improve the Service and to train machine learning algorithms on an aggregated/anonymised basis. Aggregation/anonymisation may be reversible or insufficient, risking re-identification and unintended reuse of sensitive information.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Usage Data and anonymised aggregation for model development"
+            },
+            {
+                "description": "Fyxer disclaims virtually all warranties and caps aggregate liability to the greater of \u00a31,000 or six months' fees. This exposes Users to potentially catastrophic financial losses from service failures, incorrect outputs, or data incidents with little recourse.",
+                "severity": "critical",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Very limited liability cap and warranty disclaimers"
+            },
+            {
+                "description": "The Terms explicitly note the probabilistic nature of ML and that outputs may be incorrect. There is no guaranteed accuracy or quality, creating risks of misinformation, bad decisions, regulatory breaches, or harm to third parties when outputs are relied upon.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Risk of inaccurate or hallucinated outputs"
+            },
+            {
+                "description": "Users are solely responsible for obtaining any required consent for recordings and for compliance with recording laws. Failure to obtain consent can create legal exposure, privacy violations, and reputational harm for the User.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "User bears legal responsibility for recording consent"
+            },
+            {
+                "description": "On termination Fyxer may destroy User Data unless the User requests delivery within 10 days; backups will only be returned if the User pays outstanding fees and Fyxer has a 30\u2011day delivery window. This creates risk of permanent data loss and business disruption.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Potential loss of User Data on termination and narrow retrieval window"
+            },
+            {
+                "description": "Users assign any suggestions, ideas, feedback or recommendations provided to Fyxer, which may result in loss of commercial rights to innovations or improvements contributed while using the Service.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Assignment of suggestions/feedback IP to Fyxer"
+            },
+            {
+                "description": "The User must indemnify Fyxer for claims arising from the User's use of the Service and User Content. This shifts significant legal and financial risk to Users for third\u2011party claims related to content they supply or actions taken based on outputs.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "User indemnity obligations for content and use"
+            },
+            {
+                "description": "The agreement may terminate immediately if Fyxer\u2019s access to the Language Model Provider ceases, risking abrupt service disruption and loss of functionality for Users dependent on AI features.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Reliance on third\u2011party Language Model Provider (single point of failure)"
+            },
+            {
+                "description": "Fyxer disclaims that the Service will be free from Vulnerabilities or Viruses, even though it lists security measures (encryption, MFA, audits). Residual vulnerabilities, supply\u2011chain issues, or implementation gaps could enable breaches, data leaks, or misuse.",
+                "severity": "medium",
+                "tag": "malicious use",
+                "title": "Security and vulnerability limitations despite stated safeguards"
+            }
+        ]
     },
     "Gemini": {
         "documents": {
@@ -690,7 +752,69 @@
                 "source": "https://ai.google.dev/gemini-api/terms"
             }
         },
-        "id": 11
+        "id": 11,
+        "risks": [
+            {
+                "description": "The Additional Terms state that content submitted to Unpaid Services (including prompts, files, and generated responses) may be used to improve Google products and that human reviewers may read and annotate this data. This creates a risk that sensitive, confidential, or personally identifiable information (PII) submitted to Unpaid Services could be exposed, reviewed, or retained in ways that violate privacy or contractual confidentiality obligations.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Exposure of sensitive or confidential data via Unpaid Services"
+            },
+            {
+                "description": "For Paid Services Google logs prompts and responses for a limited time (e.g., to detect policy violations) and notes that such data may be stored transiently or cached in any country where Google or its agents maintain facilities. This creates privacy, regulatory compliance (data residency), and security risks for organizations handling regulated or sensitive data.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Cross-border logging and transient storage of prompts/responses (Paid Services)"
+            },
+            {
+                "description": "The Terms disclaim that the Services are experimental and may provide inaccurate or offensive content. Reliance on generated content (including code or grounded results) can lead to misinformation or erroneous decisions if outputs are treated as authoritative without human validation.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Incorrect, unsafe, or misleading outputs (model inaccuracy)"
+            },
+            {
+                "description": "The contract explicitly prohibits using the Services in clinical practice or to provide medical advice. If users ignore this restriction and deploy the model for healthcare, legal, or other professional advice, there is a significant risk of physical harm, legal exposure, and regulatory violations because outputs are not intended as professional guidance.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Prohibited use in clinical practice and risk of harmful medical/ professional advice"
+            },
+            {
+                "description": "Robotics Models are not tested on all hardware and may behave unpredictably. The Terms warn against safety-critical uses (e.g., healthcare, transportation). Integration with robots or actuators could lead to property damage, personal injury, or worse if the model issues unsafe commands or behaves unexpectedly.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Physical safety risks with Robotics Models"
+            },
+            {
+                "description": "Agentic features (e.g., Computer Use API) can perform actions on systems and data. The Terms place responsibility on the integrator for authorization, supervision, and not bypassing human confirmation. If misconfigured or abused, agentic services may take harmful or unauthorized actions, causing operational damage or enabling misuse.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Autonomous (agentic) service actions and unintended operations"
+            },
+            {
+                "description": "Unpaid Services permit Google to use submitted content to improve products. Even with Paid Services and tuning, the Terms describe retention for re-tuning and operational purposes. This can expose proprietary prompts, business secrets, or training data to broader use, undermining confidentiality and competitive advantage.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Business/IP leakage from use of data for product improvement (Unpaid) or tuning lifecycle"
+            },
+            {
+                "description": "Google reserves the right to generate the same or similar content for other customers and disclaims ownership over generated content. This lack of exclusivity can reduce the commercial value of outputs and create disputes over ownership, licensing, or derivative use in commercial products.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "No exclusivity in generated content and risk to commercial uniqueness"
+            },
+            {
+                "description": "Grounding with Google Search/Maps imposes strict limits (no scraping, caching, training on results, limited retention windows, and display rules). These constraints complicate product design, restrict reuse of grounding output, and create legal risk if developers accidentally violate caching or display requirements.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Operational and legal constraints from Grounding with Google Search/Maps"
+            },
+            {
+                "description": "The service includes safety features and requires developers to choose appropriate safety settings; less restrictive settings may require Google review. Developers who misconfigure settings, attempt to bypass protections, or fail to supervise content generation risk producing toxic, biased, or otherwise harmful outputs that can damage users or reputations.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "Toxic or harmful content if safety settings are misconfigured or bypassed"
+            }
+        ]
     },
     "Github_Copilot": {
         "documents": {
@@ -699,7 +823,69 @@
                 "source": "https://github.com/customer-terms/github-copilot-product-specific-terms"
             }
         },
-        "id": 12
+        "id": 12,
+        "risks": [
+            {
+                "description": "Prompts sent to Copilot can include code and contextual information. If users include secrets (API keys, passwords, proprietary code, or personal data) in prompts, those secrets may be transmitted to GitHub and retained in some circumstances, exposing sensitive information to the service and increasing risk of leakage.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Accidental disclosure of sensitive data in Prompts"
+            },
+            {
+                "description": "Although Prompts are generally deleted after generating Suggestions, the terms explicitly retain Prompts for CLI tools, customized private language models (for fine\u2011tuning), and alternative data\u2011handling configurations. Users may not realize their data will be stored or used to train/fine\u2011tune models, causing privacy, confidentiality, or compliance violations.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Unexpected prompt retention and reuse (private models / CLI / custom settings)"
+            },
+            {
+                "description": "Copilot can return Suggestions that reproduce or closely resemble third\u2011party copyrighted code. The TOS places responsibility on the user to prevent infringement and references Required Mitigations, creating a material risk of copyright claims, takedowns, or licensing violations for users who incorporate Suggestions without adequate review.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Generation of copyrighted or licensed third\u2011party code (IP risk)"
+            },
+            {
+                "description": "Defense of third\u2011party claims only applies if the customer's broader Agreement provides for it. Customers whose contracts do not include such defenses may bear direct legal and financial liability for problematic Suggestions (e.g., infringing or illicit code).",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited contractual indemnity and legal exposure"
+            },
+            {
+                "description": "Copilot Suggestions may include insecure patterns (unsafe defaults, injection vulnerabilities, weak cryptography) or subtle logic errors. The terms make clear users retain responsibility for their code, so undiscovered vulnerabilities introduced by Suggestions can lead to security incidents and downstream harm.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Suggestions that introduce security vulnerabilities"
+            },
+            {
+                "description": "Users can prompt Copilot to produce scripts, tooling, or code that can be used for harmful purposes (malware, exploits, automated attacks). While Acceptable Use Policies apply, the model may still generate actionable malicious content, enabling misuse by bad actors.",
+                "severity": "critical",
+                "tag": "malicious use",
+                "title": "Generation and facilitation of malicious code or exploits"
+            },
+            {
+                "description": "Copilot can return incorrect, incomplete, or misleading code and explanations. Relying on such hallucinated output without verification can produce faulty software, system failures, or incorrect security or compliance behavior.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Inaccurate or misleading Suggestions (hallucinations)"
+            },
+            {
+                "description": "Pre\u2011release or experimental Copilot functionality is governed by different pre\u2011release license terms. These preview features may behave differently, have different data handling, or carry additional undisclosed risks that users may not be covered for under the standard Product Specific Terms.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Risk from opt\u2011in pre\u2011release / experimental features"
+            },
+            {
+                "description": "The terms state Prompts are deleted after generating Suggestions except in listed cases. This conditional language can create misunderstandings about retention and control of data (especially for users unaware of CLI/custom settings), increasing compliance and trust risks.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Ambiguity around deletion and user expectations"
+            },
+            {
+                "description": "The Product places responsibility for code on users while encouraging Copilot use. Long\u2011term dependence on generated Suggestions can erode developers' skills, concentrate operational knowledge on a third\u2011party service, and create organizational risk if service availability or licensing changes.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Overreliance, skill erosion, and operational dependency"
+            }
+        ]
     },
     "Iris": {
         "documents": {
@@ -712,7 +898,69 @@
                 "source": "https://www.irisdating.com/terms-of-use"
             }
         },
-        "id": 13
+        "id": 13,
+        "risks": [
+            {
+                "description": "IRIS collects real-time selfie verification and retains facial data for the duration of the account plus up to one year after deletion (unless earlier deletion is verified). This creates a high-impact risk if data is misused, re-purposed, exposed in a breach, or used for government/third\u2011party identification and surveillance.",
+                "severity": "critical",
+                "tag": "human autonomy and integrity harms",
+                "title": "Collection and long retention of facial biometric data"
+            },
+            {
+                "description": "The policy requires EU/EEA users to consent to transfers to the U.S. and other jurisdictions while stating IRIS is intended for US residents and that it may only \"use reasonable efforts\" to provide GDPR rights. This can undermine EU data protection rights and expose EU users to access by foreign authorities.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Insecure cross\u2011border transfers and weak GDPR assurances"
+            },
+            {
+                "description": "The Privacy Policy and Terms disclaim guaranteed security and liability for breaches, malware, or DDoS. Combined with biometric, location, and payment data collection, this raises a substantial risk of identity theft, stalking, fraud, and emotional/physical harm if data is breached.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "No guaranteed security; explicit disclaimer of absolute protection"
+            },
+            {
+                "description": "IRIS collects real\u2011time location information via device identifiers. If exposed or accessed by malicious actors, this information can be used to stalk, harass, or physically locate users.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Real\u2011time location data collection enabling stalking and physical risk"
+            },
+            {
+                "description": "The App is not intended for users under 18 and states collected data from minors will be deleted if discovered; however, enforcement mechanisms are unclear. This creates risk that minors could gain access or that their data is improperly retained or handled.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Ambiguous protections for minors and enforcement of age limits"
+            },
+            {
+                "description": "IRIS mandates selfie verification and states it doesn't vet or verify users' backgrounds, yet retains the right to run background/sex\u2011offender checks at its option. Users may be falsely reassured about safety, increasing risk of encountering offenders, fraudsters, or violent actors.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "User safety over\u2011promised while vetting is limited and discretionary"
+            },
+            {
+                "description": "The policy permits disclosure of personal information to contractors, service providers, affiliates, and in mergers/acquisitions. Even if anonymized claims are made, secondary uses, re\u2011identification, or downstream sharing can occur, increasing privacy and misuse risks.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Broad sharing with contractors, service providers, affiliates, and business transfers"
+            },
+            {
+                "description": "The Terms require arbitration at the company's discretion, waive class actions, and impose a one\u2011year limitation on bringing claims. This significantly limits users' practical ability to seek redress for harms, reducing accountability and increasing consumer risk.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited user remedies: mandatory arbitration and short claim window"
+            },
+            {
+                "description": "Subscriptions auto\u2011renew, are non\u2011refundable, and cancellation through third\u2011party stores can be cumbersome. Users may incur unexpected charges or be unable to stop billing promptly, causing economic harm.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Financial harms from non\u2011refundable charges and complex cancellation"
+            },
+            {
+                "description": "IRIS disclaims responsibility for user conduct and admits it cannot review all content before posting. Combined with allowances to remove content at will and limited vetting, this raises risks of catfishing, harassment, romance fraud, and exposure to abusive or illegal content.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "Risk of deception, harassment, fraud and harmful content due to limited moderation guarantees"
+            }
+        ]
     },
     "Loveable": {
         "documents": {
@@ -729,7 +977,69 @@
                 "source": "https://lovable.dev/terms"
             }
         },
-        "id": 14
+        "id": 14,
+        "risks": [
+            {
+                "description": "The AI Gateway transmits user inputs (prompts) and related Customer Data to third\u2011party AI providers (OpenAI, Google, OpenRouter). Lovable disclaims control over those providers' practices and does not store raw prompts unless saved by the customer, creating a risk that sensitive or proprietary data may be accessed, retained, or disclosed by third parties or in response to legal process.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Unauthorized disclosure of prompts and customer data via AI Gateway and third\u2011party AI providers"
+            },
+            {
+                "description": "Terms permit retained backups and indefinite retention of anonymized/aggregated data; deletion requests may be delayed or incur fees for manual exports. Backups can persist up to 90 days and Lovable may retain data for fraud prevention or legal defense, impeding full erasure and creating compliance/exposure risk.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Persistent retention and incomplete deletion (backups and legal holds)"
+            },
+            {
+                "description": "Lovable asserts rights to use Service Data and (except for raw PII) Customer Data for improving services and training models, and retains Usage Data/aggregates indefinitely. Even when claimed anonymized, residual re\u2011identification or commercial use of customer code and IP can occur, risking intellectual\u2011property loss and competitive harm.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Use of Service Data and Customer Data for product development and model training (IP / re\u2011identification risk)"
+            },
+            {
+                "description": "The Terms disclaim warranties for AI Output, limit Lovable's liability, and require customers to indemnify Lovable for many data\u2011related harms and misuse. Customers therefore bear significant legal, financial, and operational risk for errors, security misconfigurations, and third\u2011party provider failures.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Shifting of legal and operational liability to customers (limited warranties & indemnities)"
+            },
+            {
+                "description": "Lovable disclaims accuracy and suitability of AI Output and requires customers to validate outputs before use, but provides AI\u2011generated code and configuration that may be incorrect or unsafe. This creates risk of misinformation, defective products, or safety incidents if outputs are used unvetted in production or high\u2011risk contexts.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Inaccurate, misleading, or unsafe AI Output (no reliance / no warranty)"
+            },
+            {
+                "description": "Although prohibited by policy, the platform can generate executable code, configurations, and text. Limited preventive guarantees and reliance on user review mean bad actors could use the service to create malware, automated fraud, or social\u2011engineering content with limited provider liability.",
+                "severity": "critical",
+                "tag": "malicious use",
+                "title": "Facilitation of malicious uses (generation of harmful code or phishing content)"
+            },
+            {
+                "description": "Lovable relies on sub\u2011processors and cross\u2011border transfer mechanisms (SCCs, DPF, UK/Swiss addenda). While contractual protections exist, transfers to jurisdictions with different legal regimes and the possibility of government or law\u2011enforcement requests can expose Customer Personal Data to access beyond customer control.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Sub\u2011processor and international transfer risks, including potential government access"
+            },
+            {
+                "description": "Lovable depends on infrastructure and AI providers (e.g., Supabase, Stripe, OpenAI). The Terms disclaim responsibility for third\u2011party failures and outages, which can cause downtime, data accessibility problems, or degraded AI behavior \u2014 impacting availability and business continuity.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Service outages and third\u2011party dependency (operational continuity risk)"
+            },
+            {
+                "description": "Lovable reserves unilateral rights to reclaim or reassign subdomains, usernames, and content with limited notice (7 days, or immediate for urgent issues). This can disrupt customer operations, branding, or traffic, and customers have no proprietary claim or guaranteed compensation.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Account, subdomain, and identifier control risks (reclamation and sudden loss of access)"
+            },
+            {
+                "description": "The service provides AI\u2011generated content and code but disclaims automated decision\u2011making liability and does not guarantee freedom from bias or toxic outputs. Customers remain responsible for content review and mitigation, exposing users and downstream audiences to representational harms and reputational risk if harmful outputs are published.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "Biased, toxic, or harmful model outputs and insufficient mitigation guarantees"
+            }
+        ]
     },
     "Manus": {
         "documents": {
@@ -738,7 +1048,69 @@
                 "source": "https://manus.im/terms"
             }
         },
-        "id": 15
+        "id": 15,
+        "risks": [
+            {
+                "description": "TOS disclaims accuracy and reliability of AI Output and places responsibility on the user to review results (Sections 1.1, 5.1, 9.1). Inaccurate outputs could cause financial, legal, medical, or reputational harm if relied upon.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Inaccurate or misleading AI outputs"
+            },
+            {
+                "description": "Users grant a worldwide, royalty-free, transferable, sublicensable license to use their Input/Output and aggregated data, including an irrevocable perpetual license to improve Services (Section 5.3 and 6.3). This can enable broad reuse or commercialization of user-provided content and ideas.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Perpetual, sublicensable license over user content"
+            },
+            {
+                "description": "TOS allows Company to share user Content with third\u2011party AI Services that may not be required to maintain confidentiality and may retain rights to use content (Section 5.4). Sensitive data could be exposed or reused by external providers.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Sharing Inputs with third-party AI services (possible loss of confidentiality)"
+            },
+            {
+                "description": "Company disclaims warranties, caps liability to recent payments, and requires users to indemnify Company for a wide range of claims including user Content and Space activities (Sections 9.1, 10, 11). Users bear most legal and financial risk from harms caused by outputs or Spaces.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited liability and strong user indemnification"
+            },
+            {
+                "description": "Credits are final, non\u2011refundable, expire, and the company can change credit costs, consumption rules, and value at its discretion (Section 4.3\u20134.4). Users may face unexpected costs or lose purchased value.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Credit system unpredictability and non\u2011refunds"
+            },
+            {
+                "description": "Enabling Local Access Features grants the Company permission to operate in the local environment using existing sessions, tokens, cookies and may attribute automated actions to the user; Company disclaims liability for third\u2011party consequences (Section 2.11). This increases risk of account compromise, unintended automation, or policy violations by third parties.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Local environment access may expose credentials and enable automated actions"
+            },
+            {
+                "description": "Company has no obligation to store user Content and may delete content on termination; it disclaims responsibility for deletion, accuracy, or transmission failures (Section 5.6, 7). Users risk permanent loss of important data.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "No guaranteed content storage or recovery"
+            },
+            {
+                "description": "Company may modify, suspend or terminate Services, remove Space Content at its discretion, and terminate accounts for cause without liability (Sections 2.1, 2.10, 7). This can disrupt businesses, remove published materials, or arbitrarily block access.",
+                "severity": "medium",
+                "tag": "representation and toxicity",
+                "title": "Arbitrary account/Space suspension and content removal"
+            },
+            {
+                "description": "TOS permits linking and integration with Third\u2011Party Services (e.g., Stripe, Google) and disclaims responsibility for their practices, availability, security, or data use (Section 5.7). Users bear risk of breaches, data sharing, or malpractice by those third parties.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Third\u2011party integrations and links expose users to external risks"
+            },
+            {
+                "description": "U.S. users are required to arbitrate disputes, waive jury trials, and waive class actions unless they opt out within 30 days (Section 12.2.4). This limits collective legal remedies and may disadvantage users seeking redress.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Arbitration clause and waiver of class/representative actions"
+            }
+        ]
     },
     "Midjourney": {
         "documents": {
@@ -755,7 +1127,69 @@
                 "source": "https://docs.midjourney.com/hc/en-us/articles/32083055291277-Terms-of-Service"
             }
         },
-        "id": 16
+        "id": 16,
+        "risks": [
+            {
+                "description": "The Terms grant Midjourney a perpetual, worldwide, sublicensable, royalty\u2011free license to reproduce, create derivatives of, display, perform, sublicense, and distribute both content you input and Assets you generate. This can reduce creators\u2019 control over their work, limit monetization options, and enable company reuse or sublicensing without additional compensation or consent.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Perpetual, royalty\u2011free license over user inputs and assets"
+            },
+            {
+                "description": "Midjourney is an open community and content posted in public/shared spaces is viewable and remixable by others; Stealth mode has limits and does not protect content posted in shared channels. This raises the risk of unwanted reuse, doxxing, harassment, or loss of confidential material.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Content is public and remixable by default (limited privacy controls)"
+            },
+            {
+                "description": "The Privacy Policy collects prompts, uploaded images, IP addresses, usage data and more, shares data with service providers, analytics/ads partners, and may transfer data across jurisdictions. Combined with limited security guarantees and retention for business purposes, this creates significant privacy, profiling, and regulatory\u2011compliance risks.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Extensive collection, sharing, and cross\u2011border transfer of personal data"
+            },
+            {
+                "description": "Companies with >$1M revenue must subscribe to higher tiers to own Assets, and upscales of others\u2019 images remain owned by original creators. These rules create legal uncertainty for commercial users, risk of lost commercial rights, and potential disputes over exploitation of derived works.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Ownership limits for businesses and unclear rights on upscaled/derived works"
+            },
+            {
+                "description": "The service is provided 'AS IS' with disclaimers of warranties, aggregate liability capped to recent payments, mandatory binding arbitration in California, and a one\u2011year deadline to bring claims. Users face limited remedies and high costs if harmed, with reduced legal recourse.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Strong liability limits, indemnity obligations, mandatory arbitration, and short claim window"
+            },
+            {
+                "description": "Midjourney reserves the right to suspend or ban users for any reason, may automatically block inputs, and enforces community rules with a small moderation team. This can lead to inconsistent or arbitrary takedowns, loss of access and assets, and limited appeals or transparency.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Opaque moderation and unilateral ban/suspension powers"
+            },
+            {
+                "description": "The Privacy Policy covers data collected 'through the process of training Midjourney machine learning algorithms.' Without clear opt\u2011outs or transparency about which data is used, creators risk having their uploads and prompts incorporated into future models, reducing control over derivative training use.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "User content may be used to train models without explicit, granular consent"
+            },
+            {
+                "description": "Although the Community Guidelines prohibit generating images for political campaigns, deception, or child sexualization, enforcement is imperfect. The platform can be misused to create realistic fake images or misleading content that spreads misinformation, harms reputations, or influences public opinion.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Risk of image misuse: deepfakes, deception, and disallowed political influence"
+            },
+            {
+                "description": "Midjourney prohibits unauthorized automation, APIs, and multiple accounts, and may rate\u2011limit 'unlimited' plans. This restricts legitimate business workflows, third\u2011party integrations, and reproducible automation, creating operational and innovation barriers for developers and organizations.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Restrictions on automation and single\u2011account policy hamper legitimate integrations"
+            },
+            {
+                "description": "The service uses cookies and third\u2011party analytics/ads partners (with sharing described under CCPA/Privacy Policy), which can enable profiling, targeted advertising, and cross\u2011site tracking unless fully opted out. This increases user privacy and tracking risks.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Third\u2011party advertising, analytics sharing, and profiling risks"
+            }
+        ]
     },
     "Nano_Banana": {
         "documents": {
@@ -764,7 +1198,69 @@
                 "source": "https://developers.google.com/terms"
             }
         },
-        "id": 17
+        "id": 17,
+        "risks": [
+            {
+                "description": "Google may use information submitted to or accessed through the APIs in accordance with its privacy policies and the Google API Services User Data Policy. This can expose developer and end-user personal data to Google's processing and to parties Google sublicenses or shares with, potentially creating compliance and privacy risks (e.g., GDPR, CCPA).",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Data use and privacy exposure"
+            },
+            {
+                "description": "By submitting content via the APIs you grant Google a perpetual, irrevocable, worldwide, sublicensable, royalty-free license to use, host, modify, publish, and otherwise exploit that content. This can lead to loss of control over proprietary or sensitive content and potential commercial or reputational harm.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Perpetual, worldwide, sublicensable license on submitted content"
+            },
+            {
+                "description": "Google explicitly reserves the right to monitor and access your API Client (including accessing its content) to ensure quality and verify compliance, and may use technical measures to overcome interference. This raises confidentiality, security, and intellectual property exposure risks for the API Client and its data.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Google monitoring and access to API clients"
+            },
+            {
+                "description": "Google disclaims most warranties and limits liability (often to amounts paid in the preceding six months), and excludes consequential and unforeseeable damages. Users and businesses relying on the APIs may have little recourse for outages, data loss, or incorrect outputs\u2014creating significant financial and operational risk.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited warranties, liability caps, and 'as-is' service"
+            },
+            {
+                "description": "Businesses (where not prohibited by law) must indemnify Google for claims arising from their or their end users' misuse of the APIs, violations of the Terms, or content routed into the APIs. This can result in substantial legal and financial exposure for developers and integrators.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Indemnification obligations for developer misuse"
+            },
+            {
+                "description": "Google may suspend or terminate access to APIs, features, or the Terms for any reason and without liability; post-termination you must delete cached/stored content as required. Service disruption risk can critically impact products that depend on the APIs, and recovery options may be limited.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Termination and suspension with limited notice and remedies"
+            },
+            {
+                "description": "Google sets and enforces usage limits (rate limits, user limits) at its discretion and can deny requests to exceed them. Dependence on the APIs without contingency plans risks degraded functionality or denial of service for end users if limits change or are enforced.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "API limits, throttling, and enforcement"
+            },
+            {
+                "description": "The Terms prohibit using the APIs for activities where failure could cause death, injury, or environmental damage and state Google does not intend APIs to create HIPAA obligations. Relying on the APIs for life\u2011critical, medical, or regulated workflows may violate the Terms and create legal and safety liability.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Prohibitions on high-risk and regulated uses (safety and HIPAA)"
+            },
+            {
+                "description": "The APIs must not be used to process or store data subject to export control regimes (such as ITAR). Mishandling regulated data can trigger severe legal penalties and compliance failures for organizations that inadvertently route restricted data through the APIs.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Export controls and restricted data types (e.g., ITAR)"
+            },
+            {
+                "description": "The Terms forbid scraping, building permanent copies, misrepresenting source/ownership, or removing attribution for content returned by the APIs. Violations can produce IP infringement claims, takedowns, or account termination; conversely, the limits can restrict legitimate data portability or caching strategies.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Intellectual property and content usage restrictions"
+            }
+        ]
     },
     "NotebookLM": {
         "documents": {
@@ -789,7 +1285,69 @@
                 "source": "https://support.google.com/notebooklm/answer/16164461"
             }
         },
-        "id": 18
+        "id": 18,
+        "risks": [
+            {
+                "description": "The Privacy Policy and service notices state Google may use interactions and publicly available information to develop, train, fine\u2011tune and improve AI models. Although some product pages (e.g., NotebookLM) say uploads/queries won\u2019t be used to train models for certain Workspace users unless feedback is given, elsewhere Google describes using interactions to train foundational models. This creates a risk that sensitive Customer Data, prompts, or uploaded content could be incorporated into model training or derivative datasets, with potential confidentiality and competitive harms.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Customer data may be used to train or improve AI models"
+            },
+            {
+                "description": "GCP Generative AI terms and other URL Terms permit Google to log customer prompts and generated outputs for automated safety tools or abuse investigations. Logging and review (including by humans when feedback is provided) can expose confidential prompts, PII, or proprietary source material used with the AI service.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Automatic logging and review of prompts/outputs for safety and abuse detection"
+            },
+            {
+                "description": "The Terms give Google broad rights to Suspend or terminate access (immediately in many cases) for AUP violations, suspected unauthorized access, legal compliance, or other reasons. Upon termination, access to Customer Data can cease and Google generally will not refund fees. This risks service disruption, loss of access to critical data, and unrecoverable business impacts.",
+                "severity": "critical",
+                "tag": "human autonomy and integrity harms",
+                "title": "Immediate Suspension/termination can cut off access and cause data loss with no refund"
+            },
+            {
+                "description": "The Agreement limits Google's aggregate liability (typically to fees paid in prior 12 months or other small fixed amounts) and disclaims many warranties. Customers therefore face a financial risk that damages from data breaches, service failures, or model harms exceed recoverable amounts under the contract.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited remedies and low liability caps constrain recovery"
+            },
+            {
+                "description": "Google can update the Agreement, URL Terms, or Prices (often with 30 days\u2019 notice or effective immediately for legal/functional changes), and continued use constitutes acceptance. This permits price increases, feature removals, or policy changes that can materially affect cost, functionality, compliance obligations, or product roadmaps.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Unilateral term, price, and feature changes with short notice"
+            },
+            {
+                "description": "The Terms permit Google to subcontract and use contractors and permit resellers/administrators to access accounts. Resold-customer provisions and Admin Console roles give third parties visibility and (in some cases) control over Customer Data. This increases exposure risk and complicates data governance and compliance.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Subprocessors, resellers, admins and contractors may access Customer Data"
+            },
+            {
+                "description": "Customers must indemnify Google for claims arising from Customer Applications, Customer Data, or End Users' use of Services in breach of the AUP. This shifts substantial legal and financial risk to customers when their users generate infringing, abusive, or illegal content (including malicious uses of AI outputs).",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Customer indemnity obligations for user misuse and third\u2011party content"
+            },
+            {
+                "description": "Service pages (NotebookLM) explicitly warn the model can make mistakes and its answers don\u2019t reflect Google\u2019s views; Terms disclaim warranties and advise not to rely on services for professional advice. Customers using outputs for decisions face misinformation and safety risks if outputs are treated as authoritative.",
+                "severity": "medium",
+                "tag": "misinformation",
+                "title": "Risk of inaccurate, misleading, or harmful AI outputs (hallucinations)"
+            },
+            {
+                "description": "Google operates globally with servers and processing across jurisdictions; governing law and data controller designations differ by region. This creates compliance risk with local data protection, export control, or sectoral laws (e.g., HIPAA/FERPA/COPPA) and can complicate legal remedies, regulatory reporting, and data residency requirements.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Cross\u2011border data transfers and regional legal complexity"
+            },
+            {
+                "description": "Terms grant Google a wide license to host, reproduce, modify and sublicense user content for operating and improving services, while restricting customers from integrating certain Workspace services into customer apps and from using AI outputs to develop competing models. These provisions can limit customers\u2019 ability to reuse data, commercialize derivative products, or protect proprietary training data.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Broad license and usage restrictions affecting IP and product integration"
+            }
+        ]
     },
     "Perplexity": {
         "documents": {
@@ -806,7 +1364,69 @@
                 "source": "https://www.perplexity.ai/hub/legal/terms-of-service"
             }
         },
-        "id": 19
+        "id": 19,
+        "risks": [
+            {
+                "description": "Terms grant Perplexity a worldwide, royalty-free, transferable, sublicensable, irrevocable license to access, use, host, store, reproduce, modify, publish, distribute and otherwise exploit Users' Input/Your Content for operating, improving, promoting and providing the Services. This may enable third-party exposure and commercial reuse of user-submitted proprietary or sensitive material and can conflict with users\u2019 IP or confidentiality obligations.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Broad, sublicensable license over user content (Input/Your Content)"
+            },
+            {
+                "description": "Privacy Policy allows Perplexity to deidentify/anonymize user data and use Deidentified Information for any purpose (including model improvement). Deidentification is not foolproof; sensitive details could be reidentified or combined with other datasets, leading to privacy harms or unexpected uses of user content.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Deidentified data reuse and risk of reidentification"
+            },
+            {
+                "description": "If users sync third\u2011party email or calendar accounts, Perplexity gains access to email contents and contacts. Although the policy states Email Service Information will not be used to train models, it is still processed and disclosed as required to provide services, creating a high-risk vector for sensitive data exposure or misuse.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Access to email/calendar content when users opt-in"
+            },
+            {
+                "description": "Terms explicitly disclaim warranties and state outputs may be incorrect, biased or incomplete and should not be relied on for professional advice. Users relying on outputs for medical, legal, financial, employment, or safety-critical decisions face material risk of harm, and Perplexity disclaims liability for such harms.",
+                "severity": "critical",
+                "tag": "misinformation",
+                "title": "Inaccurate, biased or incomplete AI outputs with no warranty"
+            },
+            {
+                "description": "Privacy Policy permits disclosure to service providers, partners, advertisers and other third parties and describes international transfers (with servers in the U.S.). Cross\u2011border transfers and onward sharing increase risk of access by foreign governments, weaker legal protections, and broader distribution of personal data.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Extensive third\u2011party disclosures and cross\u2011border transfers"
+            },
+            {
+                "description": "Terms cap company liability (max $100 or amount paid in last 6 months) and require binding individual arbitration with a class-action waiver (opt\u2011out required within 30 days). These provisions materially restrict users\u2019 legal remedies and collective redress in case of large-scale privacy breaches, safety incidents, or IP infringements.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited liability, low damage cap and binding arbitration / class\u2011action waiver"
+            },
+            {
+                "description": "Users must indemnify Perplexity for claims arising from their use, content, or breach of the Terms. This shifts legal and financial risk onto users (including for alleged IP infringement or misuse), which can be burdensome for individuals or small organizations.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "User indemnification obligations"
+            },
+            {
+                "description": "Terms prohibit reverse engineering, decompiling, prompt\u2011injection attempts, probing, scanning, scraping, and other adversarial testing. These broad prohibitions can deter independent security research, transparency, and accountability, limiting external discovery of vulnerabilities or biases.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Restrictions on security research, reverse-engineering and data scraping"
+            },
+            {
+                "description": "Perplexity reserves absolute discretion to remove, edit or publish user content and to display outputs (including possibly making outputs public). Users may lose control over their contributions, suffer reputational harms, or have proprietary content published without adequate notice or remediation.",
+                "severity": "medium",
+                "tag": "representation and toxicity",
+                "title": "Company control over content removal and public display of outputs"
+            },
+            {
+                "description": "The Acceptable Use Policy prohibits many harmful uses but relies on user compliance and company enforcement. The service (and third\u2011party models it uses) can still be abused to generate disinformation, facilitate fraud, provide how\u2011to guidance for wrongdoing, or produce toxic content \u2014 creating real-world safety and trust harms.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Residual risk of malicious use despite Acceptable Use Policy"
+            }
+        ]
     },
     "Sora": {
         "documents": {
@@ -815,7 +1435,69 @@
                 "source": "https://openai.com/en-GB/policies/creating-sora-videos-in-line-with-our-policies/"
             }
         },
-        "id": 20
+        "id": 20,
+        "risks": [
+            {
+                "description": "Users or the model may produce content that attacks or degrades groups or individuals (slurs, demeaning stereotypes, targeted harassment) despite distribution guidelines, causing reputational harm, psychological harm to targets, and platform liability.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "Hateful or harassing content generation"
+            },
+            {
+                "description": "The service might generate or circulate graphic sexual or violent material that violates platform rules and can traumatize viewers, attract regulatory attention, and harm vulnerable users.",
+                "severity": "high",
+                "tag": "representation and toxicity",
+                "title": "Graphic sexual or violent content distribution"
+            },
+            {
+                "description": "The platform could be used to create or amplify extremist messaging or recruitment content, which poses serious public-safety risks and legal exposure if not reliably detected and removed.",
+                "severity": "critical",
+                "tag": "representation and toxicity",
+                "title": "Extremist propaganda or recruitment content"
+            },
+            {
+                "description": "Generation or allowance of content that encourages self-harm, unhealthy dieting/exercise behaviors, or romanticizes depression can directly endanger user safety, particularly minors and vulnerable individuals.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Content promoting self-harm, disordered eating, or glorifying depression"
+            },
+            {
+                "description": "The system might be used to create tailored political messaging or persuasion campaigns (microtargeting) in violation of guidelines, undermining democratic processes and trust in the platform.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Targeted political persuasion and covert influence"
+            },
+            {
+                "description": "The service may produce misleading or false information, sensational content, or engagement-first material of low informational value that misleads users and degrades discourse.",
+                "severity": "medium",
+                "tag": "misinformation",
+                "title": "Misinformation and low-quality engagement bait"
+            },
+            {
+                "description": "Content that advocates dangerous stunts, promotes illegal drugs, or encourages age-restricted activities could be imitated by minors or lead to real-world harm if not blocked or labeled appropriately.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Encouraging dangerous challenges or promoting age-restricted/illegal activities"
+            },
+            {
+                "description": "Recreating the likeness of living public figures without consent, or producing content that infringes third-party IP, can expose users and the platform to legal claims and reputational damage.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Intellectual property and likeness misuse"
+            },
+            {
+                "description": "Content that humiliates or targets individuals (appearance-based critiques, bullying) can reduce user wellbeing, foster toxic communities, and lead to account sanctions or harm to minors.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Bullying, appearance-based critiques, and targeted harassment"
+            },
+            {
+                "description": "Insufficient moderation, inconsistent enforcement, or misuse of reporting can result in wrongful removals, failure to remove harmful content, erosion of user trust, and harms to freedom of expression or safety.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Moderation failures and reporting misuse (false positives/negatives)"
+            }
+        ]
     },
     "Teal": {
         "documents": {
@@ -828,7 +1510,69 @@
                 "source": "https://www.tealhq.com/terms"
             }
         },
-        "id": 21
+        "id": 21,
+        "risks": [
+            {
+                "description": "Teal may send your resume text, cover letters, and other career content to third\u2011party AI service providers (e.g., OpenAI) for processing. Those providers' handling, retention, or reuse policies may differ from Teal's, increasing risk of unauthorized access, unintended reuse, or downstream sharing of sensitive personal data.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Exposure of sensitive career data to third\u2011party AI providers"
+            },
+            {
+                "description": "While Teal states account deletion results in permanent deletion or anonymization within 30 days, the Terms warn some information may be retained for legal or business reasons and require users to export data before deletion. This creates risk that personal or career data remains retained or becomes unrecoverable if not exported beforehand.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Insufficient guarantees around data deletion and potential retention"
+            },
+            {
+                "description": "The Terms explicitly state AI-generated suggestions can contain errors, inaccuracies, and bias and should not be relied upon without user review. Relying on flawed outputs for resumes, cover letters, or applications can lead to reputational harm, missed opportunities, or discriminatory outcomes.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "AI outputs may be inaccurate, biased, or unsuitable for applications"
+            },
+            {
+                "description": "Teal may use aggregated or de\u2011identified usage patterns to improve AI features. De\u2011identification is not foolproof; combining datasets or powerful models can allow re\u2011identification of individuals or recovery of sensitive details.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Use of aggregated or 'de\u2011identified' data to improve models creates re\u2011identification risk"
+            },
+            {
+                "description": "Teal implements security controls (encryption, access limits) but disclaims no method is completely secure. This admission leaves users exposed to potential breaches, data leaks, or unauthorized access to stored career and personal data.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "No absolute security guarantee and possible breach exposure"
+            },
+            {
+                "description": "By uploading materials or giving feedback you grant Teal a worldwide, royalty\u2011free license to use, reproduce, and process those materials and you assign feedback rights to Teal. This can result in loss of exclusive control or commercialization of your ideas or application materials.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Broad license to use submitted content and assignment of feedback"
+            },
+            {
+                "description": "Teal disclaims all warranties and caps liability at the greater of fees paid in the prior six months or $100. This severely limits monetary remedies for users harmed by incorrect AI outputs, data breaches, or other failures of the Service.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited liability, warranty disclaimers, and low damages cap"
+            },
+            {
+                "description": "The Terms require binding arbitration for most disputes and bar class or representative actions unless you timely opt out. This limits collective legal claims and may make enforcement of rights more difficult or costly for individual users.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Arbitration requirement and class\u2011action waiver restrict legal recourse"
+            },
+            {
+                "description": "Paid Teal+ plans auto-renew unless cancelled before renewal; refunds are only available within short, plan\u2011dependent windows and are discretionary. Users risk unexpected charges and limited recourse for unwanted renewals or unsatisfactory service.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Automatic subscription renewals and narrow refund windows"
+            },
+            {
+                "description": "Teal integrates with/receives data from LinkedIn, job boards, Stripe, Google Analytics, Impact.com (affiliate tracking), and other vendors. Each third party has its own practices and potential vulnerabilities, increasing the surface for profiling, tracking, or data sharing beyond Teal's control.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Multiple third\u2011party integrations and tracking increase cross\u2011platform privacy risk"
+            }
+        ]
     },
     "VEO_Google_Deepmind": {
         "documents": {
@@ -845,7 +1589,69 @@
                 "source": "https://www.gstatic.com/policies/terms/pdf/20250317/pc73tnc3/google_terms_of_service_en_gb.pdf"
             }
         },
-        "id": 22
+        "id": 22,
+        "risks": [
+            {
+                "description": "Generative AI output could be used to create or provide content that facilitates child sexual abuse/exploitation, violent extremism/terrorism, self-harm, or instructions for illegal/regulated activities\u2014despite these being prohibited, the model may be prompted or manipulated to bypass controls.",
+                "severity": "critical",
+                "tag": "malicious use",
+                "title": "Facilitation of illegal or violent activities"
+            },
+            {
+                "description": "Google\u2019s Privacy Policy documents broad collection (content you create, audio, location, device identifiers, browsing and activity on third-party sites, etc.) and cross-service linking for personalization and ads, creating a high risk of privacy invasion, re-identification, and pervasive profiling.",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Extensive personal data collection, profiling, and tracking"
+            },
+            {
+                "description": "Privacy Policy and Terms permit using interactions, publicly available information, and user content to develop, train, and fine-tune models (Gemini, Gemini Apps). Users may lose control over how their content is reused, including model behavior and downstream outputs.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Use of user content and interactions to train and improve AI models"
+            },
+            {
+                "description": "TOS and Privacy Policy warn services are informational only and not a substitute for professional advice. Models can produce incorrect or misleading outputs (hallucinations), which is especially dangerous in health, legal, financial, and civic contexts.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Misinformation and harmful hallucinations"
+            },
+            {
+                "description": "The Generative AI Prohibited Use Policy disallows making automated decisions that materially harm individual rights in high-risk domains without human supervision; however, deployment risk remains where automated outputs could be used to make such decisions.",
+                "severity": "critical",
+                "tag": "human autonomy and integrity harms",
+                "title": "Automated decisions with material detrimental impacts"
+            },
+            {
+                "description": "Terms and Prohibited Use Policy explicitly forbid producing content that facilitates spam, phishing, malware, or attacks on infrastructure, but models can be abused to craft convincing scams or code for exploits if controls fail.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Enabling fraud, phishing, malware, and infrastructure abuse"
+            },
+            {
+                "description": "Privacy Policy states Google responds to legal processes and government requests and may process data on servers worldwide; this raises risks of compelled disclosures, inconsistent protections across jurisdictions, and surveillance.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Government and legal disclosure, cross-border data transfers"
+            },
+            {
+                "description": "TOS grant Google wide authority to remove content, suspend or terminate accounts for policy or legal reasons, and limit liability. Dependence on the service risks sudden loss of access or content with limited remedies.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Account suspension, content takedown, and limited recourse"
+            },
+            {
+                "description": "Under the Terms, users grant Google a worldwide, royalty-free, sublicensable license to host, reproduce, modify, and use IP-protected content to operate and improve services (including training). This can harm creators\u2019 control, monetization, and competitive position.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Intellectual property exposure and broad license to use user content"
+            },
+            {
+                "description": "Policies prohibit impersonation and misrepresentation, but AI outputs can be used to convincingly impersonate people or produce deceptive content (deepfakes, fake communications), causing fraud, reputational damage, and erosion of trust.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Impersonation, deceptive content, and reputational harm"
+            }
+        ]
     },
     "clockwise": {
         "documents": {
@@ -862,7 +1668,69 @@
                 "source": "https://www.getclockwise.com/terms"
             }
         },
-        "id": 23
+        "id": 23,
+        "risks": [
+            {
+                "description": "Clockwise authenticates via users' calendar provider accounts and does not store calendar passwords; compromise of a calendar provider account or reuse of credentials can grant attackers access to calendar contents and Clockwise features (scheduling, messages, integrations).",
+                "severity": "critical",
+                "tag": "information and safety",
+                "title": "Unauthorized access via calendar provider account"
+            },
+            {
+                "description": "Personal Data (profile/contact, calendar contents, device/IP, payment, analytics) is routinely disclosed to service providers, analytics partners, advertising partners and other third parties to provide the Services; this increases exposure and risk of misuse, accidental leakage, or downstream processing not fully controlled by Clockwise.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Broad third-party sharing for service functionality"
+            },
+            {
+                "description": "Personal Data is hosted and processed in the U.S. and may be transferred worldwide, and may be transferred to third parties in mergers/acquisitions; this can reduce legal protections for users in some jurisdictions and complicate remedies or regulatory oversight.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Data transfers and business transfers (jurisdictional/regulatory risk)"
+            },
+            {
+                "description": "Clockwise states it may be impossible to completely delete User Submissions from its records and that certain data may be retained for business, legal, or technical reasons, limiting users' control over their Personal Data and undermining deletion/erasure requests.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Limited deletion / potentially persistent records"
+            },
+            {
+                "description": "Clockwise may use and share aggregated or de-identified data for business purposes; such datasets can sometimes be re-identified or combined with other datasets, exposing personal information despite claims of anonymization.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Re-identification risk from de-identified or aggregated data"
+            },
+            {
+                "description": "Users grant Clockwise a royalty-free, perpetual, sublicensable, irrevocable, worldwide license to reproduce, modify, display and distribute User Submissions to operate the Services; this can enable broad downstream uses of user-provided content even after account deletion.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Perpetual, sublicensable license over User Submissions"
+            },
+            {
+                "description": "Terms limit Clockwise's aggregate liability to $100 or the prior-year fees and require arbitration in San Francisco with a class-action waiver (opt-out limited), which materially restricts users' ability to obtain meaningful remedies for breaches, data loss, or misuse.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited remedies and constrained legal recourse (liability cap, arbitration, class action waiver)"
+            },
+            {
+                "description": "Clockwise uses third-party cookies and may share Device/IP and Web Analytics data with advertising partners for cross-contextual behavioral advertising, which enables profiling and targeted ads and can reduce user privacy and autonomy.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Targeted advertising and tracking via third-party cookies"
+            },
+            {
+                "description": "Services and content are provided 'as-is' without warranties; Clockwise disclaims accuracy and makes no guarantees about output reliability \u2014 increasing the risk that AI-generated scheduling suggestions or communications are incorrect, harmful, or misleading.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "No warranties on accuracy; risk of misleading or harmful AI outputs"
+            },
+            {
+                "description": "Clockwise may suspend, terminate, or change Services at any time and can remove Content in its sole discretion; account termination may lead to destruction of associated Content and loss of functionality without meaningful recourse or compensation.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Account termination, service changes, and potential loss of access/content"
+            }
+        ]
     },
     "n8n": {
         "documents": {
@@ -883,6 +1751,68 @@
                 "source": "https://n8n.io/legal/self-serve-terms/"
             }
         },
-        "id": 24
+        "id": 24,
+        "risks": [
+            {
+                "description": "The Agreements cap n8n's total liability to the subscription fees paid in the prior 12 months and exclude indirect, special or consequential losses (clauses 10.1\u201310.2). This can leave customers fully exposed to large business, regulatory or remediation costs resulting from outages, data breaches, or integration failures.",
+                "severity": "critical",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Severe limitation of supplier liability and exclusion of consequential damages"
+            },
+            {
+                "description": "Services are provided \u201cas is\u201d with no warranty of uninterrupted or error\u2011free operation, a 99.5% target subject to many carve-outs (maintenance window, third\u2011party failures, customer actions, atypical use, etc.) and limited support hours (clauses 3.2, 3.3, 9.2, 9.6). Customers running critical automations may face operational disruption without guaranteed remedies.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Weak uptime and warranty protections (as\u2011is service and broad uptime exceptions)"
+            },
+            {
+                "description": "n8n may suspend or terminate access for unpaid fees or alleged breaches and offers limited refunds only when it acts without cause; no refunds for termination for cause (clauses 6.4, 5.4). This risks sudden loss of access to automations and data, impacting business continuity.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Supplier can suspend or terminate access with limited refund remedies"
+            },
+            {
+                "description": "Privacy policy and agreements disclose use of PostHog, Google Analytics and a Merchant of Record (Paddle) and state data is stored in the EU but may be transferred outside with unspecified additional protections. Subprocessor and transfer practices are not described in detail (Privacy Policy, Cloud/Self\u2011hosted clauses 12/11). This creates privacy, compliance and data residency risks.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Use of analytics, third\u2011party processors and cross\u2011border transfers with limited detail"
+            },
+            {
+                "description": "n8n may anonymise customer/personal data and use it indefinitely for analytics and product improvements (Privacy Policy section 3). Improper anonymisation or re\u2011identification risk could expose personal data despite the claim of anonymisation.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Retention and indefinite use of anonymised usage data"
+            },
+            {
+                "description": "Confidentiality obligations generally expire two years after termination (clauses 7.1/6.1). For many customers this is a short window for sensitive trade secrets or project details, increasing risk of post\u2011termination disclosure or use.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Short confidentiality survival period for disclosed sensitive information"
+            },
+            {
+                "description": "The service enables access to many third\u2011party sites and integrations and disclaims liability for third\u2011party content, transactions, or outages (Cloud Terms clause 4; Self\u2011Serve policy). Connectors or marketplace content may introduce vulnerabilities or malicious inputs that n8n disclaims responsibility for.",
+                "severity": "medium",
+                "tag": "malicious use",
+                "title": "Third\u2011party integrations and content disclaimers expose customers to supply\u2011chain and security risk"
+            },
+            {
+                "description": "n8n retains all IP in Software/New Releases; licences are non\u2011transferable, revocable and restrict reverse engineering except in narrowly defined circumstances (Self\u2011Hosted clauses 3 & 10 / Cloud clause 11). Customers needing to adapt, fix, or integrate deeply may be dependent on supplier support and approvals.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Restrictive IP and licensing terms limit customer control and modification"
+            },
+            {
+                "description": "Fees are payable annually in advance (or monthly as applicable), annual plans are non\u2011refundable, and failure to pay can lead to suspension with interest and limited cure periods (Fees clauses across agreements and Self\u2011Serve payment terms). Automatic renewals at then\u2011current list prices can create unexpected costs.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Billing, auto\u2011renewal and strict payment remedies create financial/business risk"
+            },
+            {
+                "description": "n8n may use a Customer\u2019s name and logo for marketing and obtains broad, royalty\u2011free rights to User Content customers choose to share publicly (clauses 7.5 Cloud / 6.5 Self\u2011Hosted / Self\u2011Serve 4). This can create reputational or IP exposure if content is republished or associated with the supplier.",
+                "severity": "low",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Broad rights for n8n to use customer branding and shared user content"
+            }
+        ]
     }
 }
