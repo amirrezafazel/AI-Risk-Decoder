@@ -22,16 +22,28 @@ export const UserPreferencesContext = createContext(null)
 
 export function UserPreferencesProvider({ children }) {
 
-  // Shared state for user preferences
-  const [selectedCategories, setSelectedCategories] = useState(
-    new Map(CATEGORIES.map(({ id }) => [id, false]))
-  )
-  const [additionalPrefs, setAdditionalPrefs] = useState('')
+  // Shared state for user preferences, lazily initialized from localStorage
+  const [selectedCategories, setSelectedCategories] = useState(() => {
 
-  // Setter method for preferences
+      const stored = localStorage.getItem('userSelectedCategories')
+      
+      if (stored) {
+        return new Map(JSON.parse(stored))
+      } else {
+        return new Map(CATEGORIES.map(({ id }) => [id, false]))
+      }
+  })
+
+  const [additionalPrefs, setAdditionalPrefs] = useState(
+    () => localStorage.getItem('userAdditionalPrefs') ?? ''
+  )
+
+  // Setter method for preferences that also persists to localStorage
   const updatePreferences = (categories, additional) => {
     setSelectedCategories(categories)
     setAdditionalPrefs(additional)
+    localStorage.setItem('userSelectedCategories', JSON.stringify(Array.from(categories.entries())))
+    localStorage.setItem('userAdditionalPrefs', additional)
   }
 
   // Getter methods for selected categories and additional preferences
