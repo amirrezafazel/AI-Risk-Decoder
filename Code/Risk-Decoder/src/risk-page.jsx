@@ -63,15 +63,7 @@ function RiskPage() {
             gap: '1.5vh'
           }}>
             {RISKS.map(([r, c, icon], i) => (
-              <li key={i} className="risk_box" style={{
-                background: c,
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                padding: '1rem 1.25rem',
-                borderRadius: '12px',
-                boxSizing: 'border-box'
-              }}>
+              <li key={i} className="risk_box" style={{ background: c }}>
                 <img
                   className="icon"
                   src={icon}
