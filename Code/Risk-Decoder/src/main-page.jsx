@@ -28,12 +28,12 @@ import {useNavigate} from "react-router-dom";
 import { UserPreferencesContext } from './contexts/UserPreferencesContext';
 
 const symbol_conversions ={
-    "privacy":safety,
-    "security":malicious,
-    "technical":autonomy,
-    "legal":misinformation,
-    "compliance":toxicty,
-    "operational":enviroment
+    "information and safety":safety,
+    "malicious use":malicious,
+    "human autonomy and integrity harms":autonomy,
+    "misinformation":misinformation,
+    "representation and toxicity":toxicty,
+    "socioeconomic and environmental harms":enviroment
 }
 const icon_conversions ={
     "Apple Intelligence":"Apple",
@@ -109,7 +109,7 @@ const Card = ({service_name,risk_page,record,articles}) => {
                          onTouchStart={(e) => e.stopPropagation()}>
                         <ul className="card__risks">
                             {record.risks && record.risks.map(record => {return (
-                                <RiskRecord  icon_name={symbol_conversions[record.tags[0]]} risk={record.description}/>
+                                <RiskRecord  icon_name={symbol_conversions[record.tags[0]]} risk={record.title}/>
                             )})}
                         </ul>
                     </div>
