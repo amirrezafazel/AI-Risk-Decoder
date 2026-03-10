@@ -35,6 +35,15 @@ const symbol_conversions ={
     "representation and toxicity":toxicty,
     "socioeconomic and environmental harms":enviroment
 }
+const databse_to_front  = {
+    "information and safety":"information-safety",
+    "malicious use":"malicious-use",
+    "human autonomy and integrity harms":"human-autonomy",
+    "misinformation":"misinformation",
+    "representation and toxicity": "representation-toxicity",
+    "socioeconomic and environmental harms":"socioeconomic-environmental"
+
+}
 const icon_conversions ={
     "Apple Intelligence":"Apple",
     "ChatGPT":"OpenAI",
@@ -181,8 +190,36 @@ function MainPage() {
     getAdditionalPrefs() is a getter method that gives you the additional preferences of the user
     as a string.
   */
-  const { _, getSelectedCategoryIds, getAdditionalPrefs } = useContext(UserPreferencesContext)
+    const { _, getSelectedCategoryIds, getAdditionalPrefs } = useContext(UserPreferencesContext)
     const [searchTerm, setSearchTerm] = useState("")
+    const fears =getSelectedCategoryIds()
+    const get_value=(risks)=>{
+        var ret=0;
+        for(const risk of risks){
+            for(let i=0; i<fears.length; i++){
+                if(databse_to_front[risk.tags[0]]===fears[i]) {
+                    ret += 1
+                }
+            }
+        }
+        return ret
+    }
+
+    const company_cards =Object.entries(Risks).sort(([k1,v1], [k2,v2]) => {
+        if(v1.risks && v2.risks){
+
+            return get_value(v2.risks)-get_value(v1.risks)
+        }
+        else if(v1.risks){
+            return -1
+        }
+        else if(v2.risks){
+            return 1
+        }
+        return 0
+
+    })
+
   return (
       <div id='main_page'>
           <div className="header">
@@ -190,7 +227,7 @@ function MainPage() {
               <SearchBar setSearchTerm={setSearchTerm}/>
           </div>
           <div className="risk_grid">
-              {Object.entries(Risks).map(([key,val])=> {
+              {company_cards.map(([key,val])=> {
                   if (key.toLowerCase().includes(searchTerm.toLowerCase())) {
                       return (
                           <Card service_name={
