@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import {useLocation, useNavigate} from 'react-router-dom'
 import './App.css'
 import './styles/components/preferences.css';
 import './styles/components/category-card.css'; 
@@ -18,6 +18,10 @@ function RiskPage() {
   const navigate = useNavigate()
   const [count, setCount] = useState(0)
 
+  /*Here are the service name, risk json and articles*/
+  const location = useLocation();
+  const {service_name,record,articles} = location.state || {};
+
   const RISKS = [
     ['Advanced models are now capable of discovering zero-day vulnerabilities and assisting in complex industrial intrusions','#d9a3a3', malicious],
     ['OpenAI\'s 2026 contract with the Pentagon risks integrating unpredictable generative models into classified defense networks','#d9a3a3', autonomy],
@@ -29,7 +33,7 @@ function RiskPage() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', width: '100%' }}>
-      <h1 style={{ textAlign: 'center', margin: '2vh 0' }}>OpenAI Risks</h1>
+      <h1 style={{ textAlign: 'center', margin: '2vh 0' }}>{service_name} Risks</h1>
 
       <div className="risk_page" style={{
         display: 'grid',
