@@ -11,7 +11,7 @@ def best_match(service_name, record, user_embedding = 0, n = 1):
     if not user_embedding:
         return []
     risks_text = [r["description"] for r in record["risks"]]
-    risks_embeddings = [r["embedding"] for r in record["risks"]]
+    risks_embeddings = [np.array(r["embedding"]) for r in record["risks"]]
     model = SentenceTransformer('./embeddingsModel')
     input_embedding = np.load('my_embedding.npy')
     hits = util.semantic_search(input_embedding, risks_embeddings, top_k=n)
