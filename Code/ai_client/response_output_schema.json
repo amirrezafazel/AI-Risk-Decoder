@@ -17,22 +17,19 @@
                 "type": "string",
                 "enum": ["low", "medium", "high", "critical"]
               },
-              "tags": {
-                "type": "array",
-                "items": {
-                  "type": "string",
-                  "enum": [
-                    "representation and toxicity",
-                    "misinformation",
-                    "information and safety",
-                    "malicious use",
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                  ]
-                }
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "representation and toxicity",
+                  "misinformation",
+                  "information and safety",
+                  "malicious use",
+                  "human autonomy and integrity harms",
+                  "socioeconomic and environmental harms"
+                ]
               }
             },
-            "required": ["title", "description", "severity", "tags"],
+            "required": ["title", "description", "severity", "tag"],
             "additionalProperties": false
           }
         }

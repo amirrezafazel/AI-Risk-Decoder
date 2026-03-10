@@ -9,94 +9,64 @@
         "id": 1,
         "risks": [
             {
-                "description": "When device compute is insufficient, Apple sends only the data needed for the task to Private Cloud Compute. Although Apple states the data is not stored and is not accessible to Apple, transmission to remote servers creates risk of interception, server-side compromise, or unauthorized access to sensitive content (emails, messages, photos) while in transit or during processing.",
+                "description": "Although Apple states data sent to Private Cloud Compute is not stored or accessible to Apple, requests and responses are transmitted off-device to servers. Network interception, server breaches, misconfigurations, or incomplete isolation could expose sensitive content processed remotely.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Sensitive data transmitted to server-based models (Private Cloud Compute)"
+                "tag": "information and safety",
+                "title": "Data exposure during server-side processing (Private Cloud Compute)"
             },
             {
-                "description": "If users enable the ChatGPT extension, requests may be routed to ChatGPT when used with features like Siri, Writing Tools, or Visual Intelligence. This introduces third-party data handling and associated privacy/security risks that differ from Apple's stated protections and increases the attack surface and potential for data leakage.",
+                "description": "Using the ChatGPT extension routes some Apple Intelligence requests to a third party. That data is subject to the third party\u2019s policies and controls, increasing the risk of content disclosure or different handling than Apple promises.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Third-party extension (ChatGPT) sends requests outside Apple infrastructure"
+                "tag": "information and safety",
+                "title": "Third\u2011party extension data sharing (ChatGPT extension)"
             },
             {
-                "description": "Apple may use privacy-preserving techniques on shared Device Analytics to improve features. Aggregation and privacy techniques can be imperfect; there remains a risk that sensitive patterns or content-derived signals could be inferred or re-identified from aggregated telemetry.",
+                "description": "Summaries, edits, or generated content (text or images) may be incorrect, incomplete, or misleading. Relying on such outputs for decisions or communications can spread misinformation or cause harms to users and recipients.",
+                "severity": "high",
+                "tag": "misinformation",
+                "title": "Inaccurate or misleading outputs (hallucinations)"
+            },
+            {
+                "description": "The on\u2011device model automatically decides whether to process a task locally or send it to Private Cloud Compute. Errors in that decision process could cause sensitive or private data to be sent off device unexpectedly.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Unintended sending of sensitive content due to on\u2011device decisioning"
+            },
+            {
+                "description": "Apple may collect aggregated or privacy\u2011preserved Device Analytics to improve models. De\u2011identification techniques can fail or be combined with other datasets, enabling re\u2011identification of individuals or exposure of private content trends.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Aggregate Device Analytics may still enable re-identification or unintended content exposure"
+                "tag": "information and safety",
+                "title": "Re\u2011identification risk from aggregated analytics"
             },
             {
-                "description": "The system automatically decides whether processing occurs on-device or on Private Cloud Compute. Users may not be fully aware when their content is sent off-device, limiting informed consent and control over where sensitive data is processed.",
+                "description": "The Apple Intelligence Report and exported logs showing requests processed off device may themselves contain metadata or contextual clues that reveal private activities if accessed by others or improperly stored.",
                 "severity": "medium",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "information and safety"
-                ],
-                "title": "Opacity of on-device vs server processing decisions"
+                "tag": "human autonomy and integrity harms",
+                "title": "Sensitive information leakage via transparency logs/exports"
             },
             {
-                "description": "Transparency logging allows exporting reports of requests sent to Private Cloud Compute (including content origin). Exported logs could include metadata or records that reveal user activity or content origins, creating a new vector for exposure if the export file is accessed by others.",
+                "description": "Generated text and images can reflect model biases or produce toxic, offensive, or otherwise harmful representations, damaging individuals or groups and undermining trust in the service.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Transparency log exports contain potentially sensitive request metadata"
+                "tag": "representation and toxicity",
+                "title": "Generation of biased, offensive, or harmful content"
             },
             {
-                "description": "Generative features (summaries, rewrites, image generation) can produce incorrect or fabricated information. Users relying on Apple Intelligence for factual tasks (emails, summaries, instructions) may be misled, causing reputational, legal, or safety harms.",
+                "description": "Capabilities like proofreading, rewriting, or content generation can be abused to craft phishing, social\u2011engineering, fraudulent messages, or other harmful content, lowering the barrier for malicious actors.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Model hallucinations and generation of false or misleading content"
+                "tag": "malicious use",
+                "title": "Enabling malicious activities through content assistance"
             },
             {
-                "description": "On-device and server models may produce biased, discriminatory, or toxic language or images. This can perpetuate harmful stereotypes or generate offensive outputs when rewriting, summarizing, or creating content for users.",
+                "description": "Regularly delegating communication, editing, and decision\u2011support tasks to the AI can reduce users\u2019 critical oversight, skill retention, and control over messaging tone and intent, leading to mistakes or unwanted outcomes.",
                 "severity": "medium",
-                "tags": [
-                    "representation and toxicity",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Biases and toxic content in generated outputs"
+                "tag": "human autonomy and integrity harms",
+                "title": "Erosion of user autonomy and over\u2011reliance on AI assistance"
             },
             {
-                "description": "Capabilities like proofreading, rewriting, or generating content can be misused to create more persuasive phishing messages, social-engineering texts, or other harmful communications, lowering the barrier for conducting fraud or other malicious acts.",
-                "severity": "high",
-                "tags": [
-                    "malicious use",
-                    "information and safety"
-                ],
-                "title": "Assistance features can be abused to facilitate malicious activities"
-            },
-            {
-                "description": "Apple\u2019s claim that Private Cloud Compute does not retain content reduces persistence risk but does not eliminate vulnerability to transient data exposure during processing or to logs/backups/configuration errors. A server compromise or misconfiguration could expose processed content even if not intended to be stored.",
-                "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Reliance on ephemeral processing does not remove vulnerability from server compromise"
-            },
-            {
-                "description": "Heavy reliance on Apple\u2019s on-device and server-side models and Private Cloud Compute can contribute to vendor lock-in, reduce competition, and concentrate technical control. Server-based processing also carries energy and infrastructure costs with environmental and broader socioeconomic effects.",
-                "severity": "low",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Centralization and platform dependency with potential socioeconomic/environmental impacts"
+                "description": "Widespread adoption of AI features that automate writing, summarization, and creative tasks may shift labor demand, concentrate advantages for certain users or organizations, and contribute to job disruption or inequality.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Socioeconomic impacts from automation of everyday tasks"
             }
         ]
     },
@@ -118,93 +88,64 @@
         "id": 2,
         "risks": [
             {
-                "description": "Privacy Policy states Canva may analyze user activity, content and uploads to train models and improve AI products (machine learning / data labelling), and that Technology Partners (e.g., OpenAI) may receive Inputs. Although settings allow opting out, default behavior and third\u2011party sharing mean user content can be used for model training unless users actively change settings.",
+                "description": "Canva shares Inputs and Outputs with Technology Partners (explicitly naming providers like OpenAI and many ad/analytics vendors). That increases exposure risk of sensitive or private data to multiple external parties and jurisdictions.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "User content used to train AI without clear ongoing consent"
+                "tag": "information and safety",
+                "title": "Broad third\u2011party access to Inputs and Outputs"
             },
             {
-                "description": "Administered Accounts and Team/Admin controls permit employers or admins to access, reassign ownership of, edit, or delete user content. Third\u2011party integrations and service providers may also be granted access. This creates a high risk that confidential, proprietary or personal data uploaded to designs will be viewed, moved or retained beyond the user's intent.",
+                "description": "Canva may analyze user content, uploads and activity to train models and improve AI products (with opt\u2011out controls). This can lead to unintentional incorporation of sensitive or proprietary material into models and downstream leakage or reuse.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Exposure of confidential or sensitive data via Teams, Administered Accounts, or integrations"
+                "tag": "information and safety",
+                "title": "User data used for AI training and model improvement"
             },
             {
-                "description": "Canva disclaims verification and accuracy of AI Outputs and warns users to validate results. Nonetheless, users may rely on generated legal, medical or financial content or publish AI outputs, creating risks of misinformation, harmful advice, reputational or physical harm.",
+                "description": "Canva disclaims accuracy, completeness and liability for AI Outputs and warns users to verify outputs. Users relying on generated legal, medical, financial or safety\u2011critical advice risk harm from misinformation or hallucinations.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Inaccurate, misleading or harmful AI outputs (misinformation and safety harms)"
+                "tag": "misinformation",
+                "title": "Inaccurate or unverified AI Outputs and no liability"
             },
             {
-                "description": "Acceptable Use Policy forbids generating malware, ransomware, spam and fully automated legally binding decision making, but enforcement is by Canva and subject to technological limits. The platform could be abused to generate or coordinate harmful content or tools.",
-                "severity": "critical",
-                "tags": [
-                    "malicious use",
-                    "representation and toxicity",
-                    "information and safety"
-                ],
-                "title": "Malicious use despite prohibitions (spam, malware, automated harmful systems)"
-            },
-            {
-                "description": "Terms prohibit removing provenance/metadata tags (e.g., C2PA), and prohibit representing AI content as human-generated, but users may still remove metadata or misrepresent outputs. This enables deceptive uses, undermines trust and makes detection and remediation harder.",
-                "severity": "medium",
-                "tags": [
-                    "misinformation",
-                    "representation and toxicity"
-                ],
-                "title": "Loss of provenance, misattribution, and deceptive representation"
-            },
-            {
-                "description": "Canva warns outputs may not be unique and other users may receive similar Outputs. Combined with ownership disclaimers and third\u2011party training, this creates IP risk, potential copyright conflicts, and commercial exposure for businesses relying on \u2018unique\u2019 generated assets.",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Non-unique outputs and intellectual property / commercial risk"
-            },
-            {
-                "description": "Privacy Policy and Advertising section explain sharing of emails, location, cookies and usage data with ad partners and use of match/targeting services (LiveRamp, Facebook, Google). Even with opt-outs, profiling, cross\u2011context behavioral advertising and linkage across services create privacy and targeting risks.",
-                "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Extensive data sharing with advertising & analytics partners leading to profiling"
-            },
-            {
-                "description": "Data may be stored and processed across many jurisdictions (US, AU, EU, SG, PH, NZ etc.). This exposes users to inconsistent legal protections, potential access by foreign authorities, and complex compliance/security gaps despite commitments to safeguards.",
-                "severity": "medium",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Cross-border transfers and varying legal protections"
-            },
-            {
-                "description": "Canva reserves sole discretion to determine Acceptable Use Policy violations and may suspend or terminate access. Admin re-assignment of content in Team settings can also result in loss of user control. This creates availability and governance risks for individuals and organizations that rely on Canva for critical assets.",
-                "severity": "medium",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Account suspension, unilateral moderation and loss of access to content"
-            },
-            {
-                "description": "While Canva Education limits advertising and states student User Content will not be used for AI training, the Education provider list includes third parties (including OpenAI) that process student data for service delivery. Complexity of cross\u2011provider processing, retention rules and admin controls increase the risk of inadvertent disclosure or misuse of student data.",
+                "description": "Accounts created with employer/organization emails can become Administered Accounts; employers may gain control, access, reassign ownership, or delete content\u2014risking loss of personal control, IP and privacy.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Risks to children and education accounts via third\u2011party processors"
+                "tag": "human autonomy and integrity harms",
+                "title": "Administered accounts and employer re\u2011assignment of content"
+            },
+            {
+                "description": "Default sharing options, 'anyone with the link' and optional anonymous collaboration can cause confidential designs or personal data to be exposed or indexed by third parties, with limited recourse after distribution.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Link sharing, anonymous collaboration and accidental public exposure"
+            },
+            {
+                "description": "Data may be stored and processed across many countries (US, AU, EU, SG, PH, NZ, etc.). Transfers to jurisdictions with weaker protections or lawful access regimes increase risks of government access or reduced privacy protections.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Cross\u2011border transfers and varying legal protections"
+            },
+            {
+                "description": "Canva integrates many third\u2011party apps, ad networks and analytics providers. Those parties operate under their own policies and may introduce profiling, tracking, vulnerabilities, or misuse of exported/imported User Content.",
+                "severity": "medium",
+                "tag": "malicious use",
+                "title": "Extensive third\u2011party integrations and ad/analytics ecosystem"
+            },
+            {
+                "description": "Canva shares identifiers, email hashes and behavioral data with ad partners for targeting and measurement. This creates profiling, potential cross\u2011context tracking, and complexity in exercising 'sale/share' opt\u2011outs.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Targeted advertising and profiling (sharing/matching with ad partners)"
+            },
+            {
+                "description": "While users retain ownership of Inputs and Outputs 'to the maximum extent permitted by law,' Outputs are not guaranteed unique and may be replicable by others, creating attribution, copyright and commercial risk.",
+                "severity": "medium",
+                "tag": "human autonomy and integrity harms",
+                "title": "Ambiguity and limits around ownership, uniqueness and IP risk"
+            },
+            {
+                "description": "Canva reserves sole discretion to determine policy violations and to suspend or terminate accounts. Subjective enforcement can disrupt legitimate users, remove content, or produce inconsistent moderation outcomes.",
+                "severity": "medium",
+                "tag": "representation and toxicity",
+                "title": "Policy enforcement, content moderation and account termination risk"
             }
         ]
     },
@@ -226,94 +167,64 @@
         "id": 3,
         "risks": [
             {
-                "description": "Terms and Privacy Policy acknowledge that model outputs may be incorrect, incomplete, or misleading and caution against relying on Output as a sole source of truth or for professional/legal/medical decisions. This can cause reputational, financial, or safety harms if users act on incorrect information.",
+                "description": "The Services can produce incorrect, incomplete, or misleading Output (the Terms and Privacy Policy note probabilistic model behavior). Relying on such Output for factual claims can cause reputational, legal, medical, or financial harm.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Inaccurate or misleading Output (hallucinations)"
+                "tag": "misinformation",
+                "title": "Model hallucinations and factual inaccuracies"
             },
             {
-                "description": "Usage Policies prohibit using Services for weapons development, terrorism, illicit goods, cyberattacks, fraud, impersonation, and other harmful acts, but the model could be repurposed or used to facilitate such activities if safeguards are circumvented.",
+                "description": "The Terms explicitly warn against using Output as a sole source of truth and prohibit automation of high\u2011stakes decisions without human review; nonetheless, users may automate decisions (credit, employment, legal, medical, critical infrastructure), risking serious harms if outputs are unvetted.",
                 "severity": "critical",
-                "tags": [
-                    "malicious use",
-                    "information and safety"
-                ],
-                "title": "Malicious use for illegal or dangerous activities"
+                "tag": "information and safety",
+                "title": "Use in high\u2011stakes decisions without human review"
             },
             {
-                "description": "Privacy Policy states OpenAI collects Account Information, Content, logs, and may use Content to improve models (unless a user opts out). Data is retained for business, safety, legal reasons and shared with vendors/affiliates, which creates privacy, compliance, and re-identification risks.",
+                "description": "Content you provide may be used to improve and train models unless you opt out; while an opt\u2011out is available, the Terms and Privacy Policy indicate model training uses aggregated or de\u2011identified data and can be necessary for service improvement, creating privacy and consent risks and loss of control over personal or proprietary information.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Personal data collection, retention, and secondary use (model training)"
+                "tag": "human autonomy and integrity harms",
+                "title": "User Content used to train models (default processing and opt\u2011out limits)"
             },
             {
-                "description": "Policy allows sharing Personal Data with vendors, affiliates, and government authorities when required or at OpenAI's discretion to protect rights or security. This raises risks of compelled disclosure, cross-border transfers, and loss of control over user data.",
+                "description": "Privacy Policy permits disclosure to vendors, affiliates, business account administrators, and to comply with legal obligations. This raises risk of broader access, surveillance, data transfers, and compelled disclosure to authorities.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Disclosure to third parties and government access"
+                "tag": "information and safety",
+                "title": "Sharing of Personal Data with vendors, affiliates, employers, and governments"
             },
             {
-                "description": "Usage Policies prohibit automation of high\u2011stakes decisions (credit, employment, legal, medical, etc.) without human review. If outputs are nevertheless used for such decisions, individuals may suffer significant legal, financial, or health harms.",
+                "description": "Accounts created on corporate domains may be transferred to an organisation\u2019s business account; admins can access Content and control accounts, creating workplace surveillance and loss of autonomy over communications and outputs.",
                 "severity": "high",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "information and safety"
-                ],
-                "title": "Use in high\u2011stakes automated decisions without human review"
+                "tag": "human autonomy and integrity harms",
+                "title": "Organizational account admin access and employer monitoring"
             },
             {
-                "description": "Terms allow accounts created with corporate domains to be added to organization business accounts, where administrators can access Content and control accounts, posing confidentiality and workplace privacy risks.",
-                "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Exposure via corporate account transfers and administrator access"
-            },
-            {
-                "description": "Usage Policies strictly forbid CSAM, grooming, sexualization of minors and underage roleplay, but any failure to detect or prevent such misuse risks serious harm to minors and legal exposure for users and the service.",
+                "description": "Although Usage Policies prohibit facilitating weapons development, cyberattacks, terrorism, illicit goods, and other harms, the model could still be misused or prompted to produce actionable guidance for wrongdoing if safeguards are circumvented.",
                 "severity": "critical",
-                "tags": [
-                    "representation and toxicity",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Child safety and exploitation risks"
+                "tag": "malicious use",
+                "title": "Malicious use enabling illicit activities"
             },
             {
-                "description": "OpenAI may remove content, restrict features, suspend or terminate accounts for policy breaches or to mitigate risks. Sudden enforcement or limited notice can cause service disruption, loss of user data, and business continuity impacts.",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "information and safety"
-                ],
-                "title": "Account suspension, content moderation, and loss of access"
-            },
-            {
-                "description": "Terms prohibit representing Output as human-generated and note Output may not be unique. Users may inadvertently infringe third-party IP or mislead recipients about authorship, creating legal and ethical risks.",
-                "severity": "medium",
-                "tags": [
-                    "representation and toxicity",
-                    "misinformation"
-                ],
-                "title": "Misrepresentation of AI output and content similarity/copyright risks"
-            },
-            {
-                "description": "Business Addendum limits OpenAI\u2019s liability (including caps and disclaimers) and requires indemnity from business users for third\u2011party claims, which can leave organisations financially exposed if harms occur from use of the Services.",
+                "description": "Business Addendum limits OpenAI's aggregate liability and requires organisations to indemnify OpenAI for third\u2011party claims related to their use. This shifts financial and legal risk to users and organisations that deploy the Services commercially.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Limited liability and indemnity exposure for businesses"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited provider liability and indemnity burdens for businesses"
+            },
+            {
+                "description": "OpenAI may remove content, restrict features, or suspend accounts for terms violations; while appeals exist, erroneous moderation or delayed appeals can interrupt access, cause business disruption, and create uncertainty for users.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Content moderation actions, account suspension, and appeals friction"
+            },
+            {
+                "description": "The Terms acknowledge Output may not be unique and other users may receive similar outputs. That creates risks of unintended copyright infringement, trade\u2011secret leakage, or disputes over ownership of overlapping content.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Similarity of Output and intellectual property exposure"
+            },
+            {
+                "description": "The service is not directed to children under 13 and requires parental permission for under\u201118s, but enforcement depends on user honesty; minors may still be exposed to age\u2011inappropriate content or exploited via grooming or other prohibited behaviors.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Risks to minors despite age restrictions"
             }
         ]
     },
@@ -331,90 +242,64 @@
         "id": 4,
         "risks": [
             {
-                "description": "Terms acknowledge Outputs may be inaccurate or incomplete and warn against reliance. Users may act on incorrect legal, medical, financial, or other consequential advice generated by the model, causing direct harm to individuals or organizations.",
+                "description": "Terms acknowledge Outputs may be inaccurate, out-of-date, or materially wrong. Users relying on model outputs (e.g., for medical, legal, or safety-critical decisions) may suffer physical, financial, or reputational harm if they do not independently verify results.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Inaccurate or misleading outputs (hallucinations)"
+                "tag": "misinformation",
+                "title": "Harm from inaccurate or misleading Outputs"
             },
             {
-                "description": "TOS states Materials may be used to improve services and models and that certain exceptions (e.g., flagged safety reviews or Feedback) will override an opt-out. This creates privacy and control risks for users who believe their content will not be used for training.",
+                "description": "Although the policy requires human-in-the-loop and disclosure for defined high\u2011risk use cases (healthcare, legal, finance, employment, housing, etc.), improper deployment or failure to follow these requirements could lead to serious harms to individuals (wrong diagnoses, wrongful denials, etc.).",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "User data reuse for model training despite opt-out"
+                "tag": "information and safety",
+                "title": "Misuse in high\u2011risk domains without proper human oversight"
             },
             {
-                "description": "Anthropic can remove Third-Party Content, suspend or terminate accounts (including immediately for security reasons) and may delete account data on termination. Although appeals exist, users can lose access or content with limited prior notice, impacting freedom of expression and continuity of services.",
+                "description": "Anthropic reserves broad rights to remove Third\u2011Party Content, suspend or terminate Accounts (including immediately for perceived material breaches) and may delete Materials upon termination. Users may lose access to content or be subject to enforcement actions with limited prior notice or recourse.",
                 "severity": "medium",
-                "tags": [
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Enforcement, takedowns, and account termination with limited recourse"
+                "tag": "human autonomy and integrity harms",
+                "title": "Enforcement, takedown, and account suspension risk to users\u2019 access and content"
             },
             {
-                "description": "Disclaimer and liability caps limit Anthropic\u2019s responsibility (greater of six-month payments or \u00a3100), leaving users with little financial recourse for consequential losses caused by the Service (e.g., business interruption, bad advice).",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Limited liability and narrow remedies for users"
-            },
-            {
-                "description": "The Usage Policy prohibits generating content to develop weapons, exploit vulnerabilities, or facilitate illegal acts, but model outputs could still be misused or bypassed via jailbreaks or prompt manipulation, enabling malicious actors.",
+                "description": "Materials may be used to improve models unless users opt out; opt\u2011out exceptions exist (feedback or flagged content). This creates risk to user privacy and control over their data, particularly for sensitive or proprietary Inputs.",
                 "severity": "high",
-                "tags": [
-                    "malicious use"
-                ],
-                "title": "Potential facilitation of illegal, harmful, or weaponizable instructions"
+                "tag": "human autonomy and integrity harms",
+                "title": "Data use and limited opt\u2011out for training and safety reviews"
             },
             {
-                "description": "Policy bans CSAM, grooming, and sexualization of minors and states reporting to authorities for CSAM, but detection and enforcement may be imperfect; failure could result in serious harm to minors and legal exposure for users and Anthropic.",
+                "description": "Terms state Anthropic may comply with government, court, or law enforcement requests and may report Inputs or Outputs. Users could be exposed to legal risk or loss of confidentiality when using the Services for sensitive matters.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Disclosure and reporting to law enforcement / legal compliance exposure"
+            },
+            {
+                "description": "The Usage Policy prohibits generating content to facilitate illegal or harmful activities (cyberattacks, weapons design, malware). However, enforcement is imperfect and there remains a risk that the Service could be used or abused to produce operationally useful malicious guidance.",
                 "severity": "critical",
-                "tags": [
-                    "representation and toxicity",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Risks to children despite explicit prohibitions"
+                "tag": "malicious use",
+                "title": "Facilitation of malicious activities despite prohibitions"
             },
             {
-                "description": "TOS forbids targeted political campaign activity and synthetic political media, but outputs could still be used to generate deceptive political messaging or automated communications that undermine democratic processes.",
+                "description": "The Terms prohibit content that incites violence or hateful behavior and other abusive content, but model outputs may still produce biased, toxic, or discriminatory content that harms targeted groups or individuals and exposes users or deployers to reputational and legal risk.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Political manipulation and targeted misinformation"
+                "tag": "representation and toxicity",
+                "title": "Generation or amplification of hateful, abusive, or toxic content"
             },
             {
-                "description": "Services may incorporate third-party content, links, or integrations for which Anthropic disclaims responsibility. Malicious or inaccurate third\u2011party content can expose users to misinformation, privacy leaks, or security vulnerabilities.",
-                "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Third-party integrations and external content risks"
+                "description": "Accounts and API keys control access and Actions; the Terms place responsibility on users for account security. Compromised credentials could enable fraud, data exfiltration, abuse of the Service, or breaches of export/compliance restrictions.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Account compromise and unauthorized use"
             },
             {
-                "description": "Automatic renewals, non-refundable payments (except narrow 14\u2011day right to cancel for website purchases), and differing distributor refund rules risk unexpected charges and consumer financial harm or confusion.",
+                "description": "Anthropic disclaims warranties and caps liability (greater of fees paid in prior six months or \u00a3100). Users harmed by erroneous Outputs, service outages, or data loss face limited financial recourse, which is especially consequential for consumers relying on the Service.",
                 "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Consumer billing, subscription renewal, and refund complexity"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited remedies and liability cap for users"
             },
             {
-                "description": "TOS allows compliance with government, court, or law enforcement requests and prohibits export to embargoed regions or sanctioned persons. Users face risks of data disclosure to authorities and access restrictions based on legal or export-control decisions.",
+                "description": "Export controls and Supported Regions Policy prohibit use in embargoed jurisdictions or by restricted parties. Missteps in geolocation, user identity, or distribution can expose users or integrators to legal penalties and disrupt service availability.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Government requests, export controls, and forced disclosure"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Access and legal restrictions (export controls, regional support) limiting availability and creating compliance risk"
             }
         ]
     },
@@ -428,92 +313,64 @@
         "id": 5,
         "risks": [
             {
-                "description": "Copilot can produce incomplete, inaccurate, or convincing but wrong information and explicitly warns it can make mistakes. Users relying on outputs for important decisions may be harmed by misinformation.",
-                "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Inaccurate or misleading Responses (misinformation)"
-            },
-            {
-                "description": "The Terms disclose that Copilot may include both automated and manual (human) processing of data and that you shouldn't share information you don't want reviewed. Sensitive personal information or confidential data you submit may therefore be seen or processed by humans.",
+                "description": "Terms state Copilot may include both automated and manual (human) processing of data and that you shouldn\u2019t share anything you don\u2019t want reviewed. User Prompts (text, images, audio, files) may therefore be accessed by humans or systems used to operate or improve Copilot, risking disclosure of sensitive personal, health, financial, or proprietary information.",
                 "severity": "critical",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "information and safety"
-                ],
-                "title": "Exposure of user content to automated and human review"
+                "tag": "information and safety",
+                "title": "Exposure of sensitive user data via human or automated review"
             },
             {
-                "description": "By using Copilot you grant Microsoft broad rights to copy, display, edit, translate, reformat and share your conversation content and Microsoft may use Your Content to operate and improve Copilot without payment or notice. This can lead to loss of control over copyrighted, proprietary, or sensitive materials.",
+                "description": "By using Copilot you grant Microsoft broad rights to copy, distribute, edit, translate, reformat and otherwise use Your Content and to give those same rights to third parties. Microsoft can decide to use or stop using your content without payment or notice, creating risk of unauthorized reuse, loss of trade secrets, or weakened claims to ownership.",
                 "severity": "high",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Loss of control and reuse of your content (IP and privacy risks)"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Loss of control and commercial use of your content / IP leakage"
             },
             {
-                "description": "The Terms require users to indemnify Microsoft for claims, losses and expenses arising from their use of Copilot (including publishing Responses). Users therefore carry significant legal and financial risk if Copilot outputs infringe rights, defame, or otherwise cause harm.",
+                "description": "The Terms explicitly warn Copilot can make mistakes and use unreliable internet sources. Users are told not to rely on Copilot for important advice. This creates risk of acting on false medical, legal, financial, or safety-critical information.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "User indemnification and legal liability"
+                "tag": "misinformation",
+                "title": "Hallucinations, inaccurate or misleading Responses"
             },
             {
-                "description": "When you request Copilot to take Actions on your behalf, the Terms state you are solely responsible for those Actions and any results or consequences. Automated actions could produce harmful or unintended outcomes (financial, safety, legal).",
+                "description": "You agree to indemnify Microsoft for claims arising from your use of Copilot, including sharing or publishing Copilot content or breaching the Terms. Combined with a disclaimer of warranties, this shifts significant legal and financial risk to users who publish or act on Copilot output.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Automated Actions can cause real-world consequences"
+                "tag": "socioeconomic and environmental harms",
+                "title": "User liability and broad indemnity obligations"
             },
             {
-                "description": "Although the Code of Conduct prohibits creating abusive, hateful, violent, sexual/exploitative content, Copilot can still generate inappropriate or manipulated media (deepfakes) and may be used maliciously to harass, deceive, or harm others.",
+                "description": "TOS warns Responses may be similar across users and Microsoft cannot promise Responses won\u2019t infringe others\u2019 copyrights or defame. Publishing or relying on Copilot output could expose users to copyright, defamation, or other legal claims.",
                 "severity": "high",
-                "tags": [
-                    "representation and toxicity",
-                    "malicious use"
-                ],
-                "title": "Potential generation and misuse of harmful content (deepfakes, hate, violence, sexual exploitation)"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Responses may not be unique and may infringe third-party rights"
             },
             {
-                "description": "Microsoft may limit, suspend, or permanently revoke access to Copilot (and other services) at any time and without notice for many reasons. Users risk losing access to conversations, stored Actions, or integrations with little recourse beyond a review request.",
+                "description": "Microsoft may limit, suspend, or permanently revoke access to Copilot (and other Services) at any time, without notice. There is no guarantee of continued access or preservation of conversational data, which risks disruption to workflows that depend on Copilot.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Service availability and unilateral suspension risk"
+            },
+            {
+                "description": "When Copilot takes Actions on your behalf you are solely responsible for the results. Automated actions (e.g., sending messages, making purchases, executing tasks) could produce legal, financial, or safety consequences for which the user bears responsibility.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "User responsibility for Actions performed by Copilot"
+            },
+            {
+                "description": "If you buy items via Copilot, purchases are sold and shipped by third-party merchants and subject to their policies; Microsoft disclaims responsibility for merchant disputes, payment issues, or fraud. Copilot also shares transaction and personal information with merchants and payment processors.",
                 "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Account suspension, unilateral restrictions and service removal"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Financial and fraud risk from third-party merchant integrations"
             },
             {
-                "description": "Copilot Labs features are highly experimental, may not work as intended, and Microsoft may add, modify, or remove them at any time. Reliance on experimental outputs risks operational failures or errors.",
+                "description": "Copilot Labs features are labeled highly experimental and may not work as intended; the service may also limit speed or performance. Using experimental features for important tasks increases risk of errors, outages, or unexpected behavior.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "misinformation"
-                ],
-                "title": "Experimental features (Copilot Labs) may be unstable or change without notice"
+                "tag": "information and safety",
+                "title": "Experimental features and performance/accuracy limitations (Copilot Labs)"
             },
             {
-                "description": "Purchases via Copilot are fulfilled by third-party merchants; Copilot and merchants share personal and transaction information. Microsoft disclaims responsibility for merchant disputes, creating potential financial or privacy risks for users.",
+                "description": "Microsoft may remove or restrict content at its discretion and can block users without notice. Enforcement is unilateral and may be inconsistent, leaving risks that harmful content is sometimes produced or that legitimate users are unfairly restricted without clear remediation.",
                 "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Third-party shopping and payment data sharing / merchant disputes"
-            },
-            {
-                "description": "The Terms expressly disclaim warranties and do not guarantee Responses won't infringe rights or defame. Microsoft limits its liability, leaving users exposed to harms from Copilot outputs without remedies from the provider.",
-                "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "No warranties and limited provider liability"
+                "tag": "representation and toxicity",
+                "title": "Content moderation and enforcement are discretionary"
             }
         ]
     },
@@ -531,93 +388,64 @@
         "id": 6,
         "risks": [
             {
-                "description": "The Service includes an opt-in feature that can automatically execute code Suggestions without manual review. Enabling it shifts full responsibility to the user for system outages, defects, data loss, and security vulnerabilities caused by automatically executed code (TOS \u00a71.7). This creates a high risk of immediate, severe operational and security harm (e.g., data exfiltration, infrastructure compromise, production outages) if safeguards are inadequate.",
+                "description": "The Service can automatically run machine\u2011generated code without manual review if the user enables the feature. This creates risk of system outages, data loss, accidental data exposure, infrastructure compromise, and introduction of security vulnerabilities or malicious behavior into user environments.",
                 "severity": "critical",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Automatic execution of generated code (Auto-Code Execution)"
+                "tag": "information and safety",
+                "title": "Automatic execution of generated code (Auto\u2011Code Execution)"
             },
             {
-                "description": "The TOS explicitly states Suggestions are generated automatically and may contain errors, bias, or misleading information and that users assume responsibility for reliance on Suggestions (TOS \u00a71.4, \u00a714). For a coding platform this can produce insecure code, flawed logic, or harmful outputs that propagate into production systems or downstream decisions.",
+                "description": "Suggestions are provided \u201cas\u2011is\u201d and may contain errors, incomplete logic, security flaws, or misleading information. Relying on these outputs for production systems, safety\u2011critical code, or business decisions can cause operational failures, safety incidents, or harm to third parties.",
                 "severity": "high",
-                "tags": [
-                    "misinformation",
-                    "representation and toxicity"
-                ],
-                "title": "Inaccurate, biased, or unsafe Suggestions"
+                "tag": "misinformation",
+                "title": "Incorrect, misleading, or unsafe Suggestions from models"
             },
             {
-                "description": "Anysphere disclaims almost all warranties and limits aggregate liability to the greater of (a) amounts paid in the prior six months or (b) $100 (TOS \u00a714, \u00a715.2). This leaves users and organizations with minimal financial recourse for potentially large losses (security breaches, data loss, business interruption) caused by the Service.",
+                "description": "Aggregate liability is capped at the greater of (six months of fees) or $100, which may be far lower than potential losses caused by faulty Suggestions, automated code execution, or data breaches\u2014leaving users with little compensation for significant harms.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Very limited liability and warranty disclaimers"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Very limited liability and low monetary cap on damages"
             },
             {
-                "description": "The Terms require binding arbitration and waive jury trials and class actions, with limited opt-out windows (TOS \u00a716). This restricts collective or public legal remedies and may reduce users' ability to obtain full redress for systemic harms or coordinate litigation.",
-                "severity": "medium",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Mandatory arbitration and waiver of class/representative actions"
-            },
-            {
-                "description": "The Privacy Policy permits sharing personal data with service providers, affiliates, third\u2011party integrations, and in corporate transactions; it also permits disclosure to comply with legal processes (Privacy \u00a7\u00a73, 4). Cross-border transfers to the U.S. and other jurisdictions occur. These practices create privacy, surveillance, and disclosure risks for sensitive or regulated data.",
+                "description": "The Terms require binding arbitration and bar class or representative actions for most users, restricting access to public court procedures and collective remedies and making dispute resolution more burdensome and potentially more expensive for individuals.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Data sharing, transfers, and disclosure risks"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Mandatory arbitration and waiver of class actions (limits legal recourse)"
             },
             {
-                "description": "The TOS/Privacy Policy state Inputs/Suggestions will not be used to train models unless the user explicitly agrees, except for cases flagged for security review or user-submitted Feedback (TOS \u00a71.3; Privacy \u00a72). Those carve-outs create ambiguity and a risk that user content may be analyzed or retained beyond user expectations.",
-                "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Exceptions and ambiguity around use of Inputs for model training"
-            },
-            {
-                "description": "Anysphere can suspend/terminate access and may delete Content or account data on termination, in some cases with limited notice (TOS \u00a7\u00a79,10). For paid customers this can cause business continuity, data loss, and operational disruption with little recourse.",
+                "description": "Although Anysphere states it will not use Inputs/Suggestions to train models without explicit consent, there are carve\u2011outs (security reviews, user\u2011reported Feedback) and reliance on in\u2011product preference controls; this creates risk that sensitive or proprietary Inputs could be used for internal analysis or model improvement.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms",
-                    "information and safety"
-                ],
-                "title": "Account suspension, termination, and data deletion without liability"
+                "tag": "information and safety",
+                "title": "Narrow exceptions to non\u2011training promise and ambiguous consent controls"
             },
             {
-                "description": "Beta Services are explicitly provided \"as\u2011is\" with no warranty, support, or guaranteed stability and Anysphere assumes no liability for harms arising from Beta use (TOS \u00a71.6). Using beta features in production can lead to unexpected failures, security gaps, or data loss.",
+                "description": "Personal data, Usage Data, and account information are shared with service providers (e.g., cloud hosts, analytics, Stripe). These transfers and dependencies increase risk of data exposure, cross\u2011border transfers, and reliance on third\u2011party security and privacy practices.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Use of Beta Services without warranties or support"
+                "tag": "information and safety",
+                "title": "Sharing with third parties and use of processors (including payment processor)"
             },
             {
-                "description": "Pricing and subscription terms include automatic renewals, a requirement to cancel >24 hours before renewal to avoid charges, non-refundable fees except as required by law, and potential account deletion for delinquent payments (TOS \u00a74). These terms can cause unexpected financial loss and loss of access/data for users.",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Payment, auto\u2011renewal, and non\u2011refund terms"
+                "description": "Anysphere may suspend, modify, or discontinue services or delete account Content on termination or for delinquent payments, with limited notice and no guaranteed backups or refunds (except limited pro rata refunds). Users risk losing access to critical code, project history, or data.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Account termination, service changes, and content deletion risk"
             },
             {
-                "description": "Anysphere collects Usage Data, Feedback, Inputs, and device/log information and retains data as needed for safety, compliance, and business purposes (Privacy \u00a7\u00a71,4). While de-identification is claimed, ongoing retention and wide permitted uses raise reidentification and secondary\u2011use risks, especially when combined with shared or aggregated disclosures.",
+                "description": "Users must indemnify Anysphere for a wide range of claims arising from their use of the Service (including misuse, violations of Terms, and IP claims), which can expose individuals and small businesses to substantial legal and financial liability.",
+                "severity": "high",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Broad user indemnity obligations"
+            },
+            {
+                "description": "Beta or early\u2011access features are explicitly not for production use, not supported, and carry no liability. Users who test or adopt these features risk service instability, data loss, or unaddressed security bugs without recourse.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Collection, retention, and de\u2011identification/reidentification risk for Usage Data and Feedback"
+                "tag": "information and safety",
+                "title": "Beta Services and features provided \u201cas\u2011is\u201d with no liability"
+            },
+            {
+                "description": "Anysphere can change prices with notice and charge recurring subscription fees automatically; cancelation deadlines (e.g., 24 hours before renewal) and jurisdictional cancellation rules vary, creating financial risk for users who miss deadlines or are subject to sudden price increases.",
+                "severity": "medium",
+                "tag": "socioeconomic and environmental harms",
+                "title": "Ability to change pricing, automatic renewals, and limited cancellation windows"
             }
         ]
     },
@@ -643,88 +471,64 @@
         "id": 7,
         "risks": [
             {
-                "description": "By default OpenAI may use Input and Output (your Content) to develop and improve models; although an opt-out exists, users who do not enable it can have their data incorporated into training and derivative models, creating risks to confidentiality and unexpected reuse of sensitive information.",
+                "description": "The policy allows OpenAI to collect, process, and (unless a user opts out) use prompts, uploaded files, images, audio/video and other Content to improve and train models. Personal Data may also be aggregated/de\u2011identified and processed outside the EEA/UK/Switzerland using transfer mechanisms. This creates risks of unintended exposure, re\u2011identification, and loss of control over sensitive information you submit.",
                 "severity": "high",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Use of user Content for model training unless opted out"
+                "tag": "information and safety",
+                "title": "Use of user Content for model training and broad processing of Personal Data"
             },
             {
-                "description": "ChatGPT Enterprise/Business administrators may access, share, and remove End Users\u2019 Content and view usage logs. Users on corporate domains may have accounts transferred to org admins who can control or monitor account data, risking workplace surveillance and loss of personal privacy.",
+                "description": "The Terms repeatedly warn that model Output may be incomplete, incorrect, or offensive and should not be relied on as a sole source of truth or for important decisions. Using Output in legal, financial, medical, or other consequential contexts without human verification risks harm to individuals and organisations.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "Enterprise administrators can access and control user Content"
+                "tag": "misinformation",
+                "title": "Inaccurate or misleading Output (hallucinations) and prohibition on sole reliance"
             },
             {
-                "description": "Enabling Apps or Actions authorizes the platform to send portions of your Content and metadata to external Applications, which are governed by third\u2011party terms; OpenAI disclaims responsibility for data after it is provided to those Applications, increasing risk of data leakage or misuse.",
+                "description": "When you enable Apps or Actions, App Data (parts of your Content and metadata) may be sent to third\u2011party Applications and handled under their terms. OpenAI disclaims responsibility for App Data after transfer, creating risk of data leakage, tracking, or use by untrusted third parties.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "malicious use"
-                ],
-                "title": "Third\u2011party Apps/Actions can expose user data to external services"
+                "tag": "information and safety",
+                "title": "Data exposure via third\u2011party Apps, Actions, and integrations"
             },
             {
-                "description": "The Terms warn Output may be incorrect or probabilistic and explicitly disallow relying on it for important decisions. If users treat Output as authoritative (for healthcare, legal, financial, safety decisions), this can cause severe or life\u2011threatening harm.",
-                "severity": "critical",
-                "tags": [
-                    "misinformation",
-                    "information and safety"
-                ],
-                "title": "Inaccurate, incomplete, or misleading Output with real\u2011world harm (medical/legal/financial)"
-            },
-            {
-                "description": "Output may not be unique and can resemble third\u2011party works. Indemnity and infringement protections are limited or exclude cases where customers knew of infringement risk, altered Output, or combined Output with other products\u2014exposing users and businesses to IP claims and commercial losses.",
+                "description": "Accounts created with corporate/corporate\u2011domain emails can be added to an organisation\u2019s business account. Administrators may access, control, and view End Users\u2019 Content and logs, enabling employee surveillance, loss of privacy, or forced disclosure of private work or personal data.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Intellectual property and similarity of Output leading to infringement risk"
+                "tag": "human autonomy and integrity harms",
+                "title": "Administrator access and organisational account control (enterprise/business accounts)"
             },
             {
-                "description": "Terms limit OpenAI\u2019s aggregate liability and require arbitration with class\u2011action waivers, while setting California law and NAM arbitration rules for businesses; these provisions can restrict users\u2019 ability to obtain relief or participate in collective actions for systemic harms.",
+                "description": "Output may reproduce or closely resemble third\u2011party copyrighted content. Indemnity and warranty provisions limit OpenAI\u2019s indemnification in many scenarios (e.g., if user knew Output was infringing, disabled safety/citation features, or modified Output), leaving users and businesses exposed to infringement claims and financial liability.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Limited liability and mandatory arbitration / class\u2011action waivers reduce legal remedies"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Intellectual property and infringement risk for Output"
             },
             {
-                "description": "Personal data may be processed outside the EEA/UK/Switzerland (e.g., U.S.). OpenAI relies on adequacy decisions, SCCs, and addenda, which may still expose data to jurisdictions with weaker protections or government access, increasing privacy and legal risk.",
+                "description": "Services are provided \u201cas\u2011is\u201d with broad disclaimers and strict limits on liability (aggregate cap = greater of amount paid in prior 12 months or $100 for businesses) and mandatory arbitration with class action waivers. This restricts users\u2019 legal remedies and increases the risk of uncompensated losses from service failures or data incidents.",
                 "severity": "high",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Cross\u2011border data transfers and reliance on transfer mechanisms"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Limited warranties, liability caps, mandatory arbitration and class\u2011action waiver"
             },
             {
-                "description": "Although users can delete content and enable Temporary Chats, the company may retain data longer for legal, safety, fraud prevention, or accounting reasons (and keep audit records of deletion requests), limiting effective data erasure and privacy promises.",
+                "description": "Visual Capabilities forbid identifying a person or inferring private or sensitive attributes, but enforcement rests on users and platform moderation. Uploading images/videos (especially public sharing) grants OpenAI rights to reproduce and promote them, increasing risk of misuse, doxxing, or unauthorized dissemination of likenesses.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Restrictions and misuse risks from Visual Capabilities (images/videos)"
+            },
+            {
+                "description": "Although users can delete chats and data, OpenAI may retain Personal Data for safety, fraud prevention, legal obligations, or for audit records of deletion requests. Temporary chats are deleted within 30 days unless retained for safety/legal reasons, raising the risk that supposedly deleted data remains accessible to the company or third parties.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Retention and incomplete deletion (legal, safety, and audit exceptions)"
+                "tag": "information and safety",
+                "title": "Retention, deletion exceptions, and incomplete erasure"
             },
             {
-                "description": "Users can build and share custom GPTs and Actions; OpenAI may remove them but does not guarantee vetting. Third\u2011party GPTs or Actions may produce harmful, biased, or malicious outputs or perform unsafe operations, and creators license OpenAI broad rights over their GPTs, complicating accountability.",
-                "severity": "high",
-                "tags": [
-                    "malicious use",
-                    "representation and toxicity"
-                ],
-                "title": "Malicious or unsafe GPTs, user\u2011created models and third\u2011party content risks"
-            },
-            {
-                "description": "Beta/preview features are offered \u201cas\u2011is\u201d with no warranties and may be excluded from indemnities; ChatGPT Voice Output has restricted usage rights. Relying on such features can lead to unexpected availability, quality, IP or reuse limitations, and regulatory/compliance gaps.",
+                "description": "Beta/early access features are excluded from warranties and indemnities, and ChatGPT Voice Output is limited to non\u2011commercial use and cannot be redistributed. Relying on beta features or voice outputs in production or commercial contexts risks instability, data loss, or contractual non\u2011compliance.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Beta services, voice output and feature disclaimers increase operational risk"
+                "tag": "information and safety",
+                "title": "Beta services, voice output, and other \u201cas\u2011is\u201d feature disclaimers"
+            },
+            {
+                "description": "The Terms explicitly state the Services are not intended for diagnosis, treatment, or other regulated decision\u2011making (and warn against analyzing medical images/signal data). Using Output in high\u2011stakes regulated contexts without independent professional review can cause direct harm to people and regulatory non\u2011compliance for organisations.",
+                "severity": "high",
+                "tag": "human autonomy and integrity harms",
+                "title": "Use in regulated or safety\u2011critical contexts (medical, diagnostic, legal)"
             }
         ]
     },
@@ -738,87 +542,64 @@
         "id": 8,
         "risks": [
             {
-                "description": "The Terms state that Outputs are AI-generated and may contain errors, omissions, or outdated information (Sections 4.4, 4.5, 4.6). Users are required to verify accuracy and not treat Outputs as professional advice. Reliance on incorrect Outputs can cause financial, legal, medical, or reputational harm.",
+                "description": "The Terms explicitly state Outputs may be incomplete, inaccurate, or contain errors and should not be treated as professional advice. Users relying on Outputs for medical, legal, financial, or safety\u2011critical decisions may suffer harm or loss.",
                 "severity": "high",
-                "tags": [
-                    "misinformation"
-                ],
-                "title": "Inaccurate or misleading outputs (misinformation)"
+                "tag": "misinformation",
+                "title": "Inaccurate or misleading AI outputs (hallucinations)"
             },
             {
-                "description": "Although the Terms forbid generating hateful, pornographic, or abusive content (Section 3.4), the service can still produce offensive or discriminatory outputs in practice. Such content risks harming individuals, groups, or communities and may expose users and the platform to reputational and legal consequences.",
+                "description": "The TOS require users to indemnify DeepSeek and place responsibility for consequences of using Outputs on users. Combined with broad limitation of DeepSeek's warranties and liability caps, users may face significant legal and financial exposure for harms resulting from use of the service or user-provided Inputs.",
                 "severity": "high",
-                "tags": [
-                    "representation and toxicity"
-                ],
-                "title": "Generation or dissemination of harmful, hateful, or toxic content"
+                "tag": "socioeconomic and environmental harms",
+                "title": "User bears legal responsibility and broad indemnity obligations"
             },
             {
-                "description": "The Terms prohibit using the Service to produce instructions for criminal offenses or dangerous activities (Sections 3.4, 3.6), but generated Outputs could still enable wrongdoing (e.g., step-by-step instructions, social-engineering scripts). This creates risks of physical harm, security breaches, and serious legal liability for users and third parties.",
-                "severity": "critical",
-                "tags": [
-                    "malicious use",
-                    "information and safety"
-                ],
-                "title": "Facilitation of illegal, dangerous, or malicious activities"
-            },
-            {
-                "description": "DeepSeek may use Inputs and Outputs for service improvement under de-identification and encryption (Section 4.3), and retains certain data after account deletion as required by law (Section 2.5). This creates risks of unintended personal data exposure, re-identification, or use of sensitive Inputs in model training unless users opt out.",
+                "description": "The service may (under de\u2011identification and encryption) use Inputs/Outputs to develop or improve models and retain data as required by law; opting out is possible but the default behavior and retention obligations may expose user or third\u2011party data to continued processing and risks of reidentification.",
                 "severity": "high",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "User data privacy, retention, and model training exposure"
+                "tag": "information and safety",
+                "title": "Data use, retention and model improvement (privacy risk)"
             },
             {
-                "description": "Users bear responsibility for account security, lost/stolen credentials, and all activity under their account (Sections 2.2\u20132.4). The Terms limit DeepSeek\u2019s liability for account breaches, potentially leaving users exposed to fraud, abuse, or losses if credentials are compromised.",
+                "description": "DeepSeek reserves the right to technically review Inputs/Outputs, filter risk, and suspend or close accounts. Automated moderation and risk\u2011filtering risks false positives, wrongful content takedowns, loss of access, or disproportionate enforcement without clear appeal guarantees.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety"
-                ],
-                "title": "Account security, user responsibility, and financial/legal exposure"
+                "tag": "human autonomy and integrity harms",
+                "title": "Automated monitoring, review and account actions (risk of wrongful restriction)"
             },
             {
-                "description": "DeepSeek asserts ownership of platform IP while users retain rights in Inputs and are assigned rights in Outputs subject to Terms (Sections 4.1\u20134.3, 5.1). Users must indemnify DeepSeek for third-party claims arising from their use (Section 7.5). This creates risk of IP disputes, takedowns, or costly indemnity claims if Outputs infringe third-party rights.",
+                "description": "Although the TOS prohibit producing hateful, violent, sexual, exploitative or criminal\u2011instruction content, the generative models can still produce such material. That creates risk of harm to individuals, legal exposure, reputational damage, or facilitating malicious actors.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Intellectual property risk and indemnity obligations"
+                "tag": "malicious use",
+                "title": "Generation of harmful, illegal, or toxic content despite prohibitions"
             },
             {
-                "description": "The service is provided 'as is' with explicit disclaimers and caps on liability (Sections 7.3\u20137.4). DeepSeek disclaims accuracy, availability, and fitness for purpose, and excludes many indirect damages. Users and businesses relying on the service may face uncovered losses and reduced legal remedies.",
-                "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Limited warranties and broad limitation of liability"
-            },
-            {
-                "description": "DeepSeek may review Inputs/Outputs and apply technical risk-filtering and illegal content databases (Section 3.3). This can lead to opaque moderation decisions, false positives/negatives, removal or restriction of content, and potential impacts on expression, fairness, or service continuity.",
+                "description": "While users retain rights to their Inputs and are assigned 'any rights...in the Outputs,' DeepSeek retains broad IP rights over the service and forbids certain uses (e.g., trademark use, unauthorized sublicensing). This can create disputes over ownership, derivative uses, and commercial exploitation of Outputs.",
                 "severity": "medium",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "representation and toxicity"
-                ],
-                "title": "Automated monitoring, content filtering, and potential for opaque moderation"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Intellectual property and usage ambiguity"
             },
             {
-                "description": "Users are responsible for complying with export control and sanctions laws and may be prohibited from using the Service in sanctioned jurisdictions or for regulated end-uses (Section 8). Misuse or noncompliance can lead to blocked access, sanctions violations, and criminal or civil liability.",
+                "description": "The TOS are governed by PRC law and restrict use in sanctioned jurisdictions and by restricted parties. International users may face compliance complexity, access limitations, or legal exposures due to governing law, sanctions controls, or cross\u2011border data issues.",
                 "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Export control and sanctions compliance risks"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Jurisdiction, export control and sanctions risks"
             },
             {
-                "description": "The Terms are governed by the laws of the People's Republic of China and disputes are subject to local courts (Section 9). The platform reserves rights to retain records and report suspected illegal activity to authorities (Section 7.2). International users may face limited legal recourse, data requests by local authorities, or conflicts with other jurisdictions\u2019 laws.",
+                "description": "Users are solely responsible for safeguarding account credentials and bear losses from leaked credentials except where DeepSeek is negligent. This shifts operational security risk to users and increases exposure if accounts are compromised.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Account security and user responsibility for breaches"
+            },
+            {
+                "description": "Users are responsible for ensuring Inputs do not violate third\u2011party rights. Submitting personal, sensitive, or copyrighted data can lead to privacy breaches, IP infringement claims, or regulatory violations for the submitting user and possibly affected third parties.",
                 "severity": "high",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Governing law, jurisdiction, and cooperation with authorities"
+                "tag": "information and safety",
+                "title": "Privacy and third\u2011party rights risk from user Inputs/Outputs"
+            },
+            {
+                "description": "The TOS permit applying Outputs to downstream use cases including training other models. Outputs that contain errors, bias, or toxic content can be reused and amplified across systems, increasing misinformation, discriminatory outcomes, and systemic harms.",
+                "severity": "medium",
+                "tag": "misinformation",
+                "title": "Propagation of bias and reuse of Outputs for further model training"
             }
         ]
     },
@@ -832,89 +613,64 @@
         "id": 9,
         "risks": [
             {
-                "description": "The Terms grant ElevenLabs a perpetual, irrevocable, royalty-free, worldwide, and sub-licensable license to use, modify, reproduce, create derivative works from, distribute, and publicly perform your Input (including voice recordings) and any User Voice Models to operate, improve, and develop products and services. This license cannot be withdrawn and permits multi-tier sublicensing.",
-                "severity": "high",
-                "tags": [
-                    "human autonomy and integrity harms",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Perpetual, irrevocable, sublicensable license over user Input and Voice Models"
-            },
-            {
-                "description": "Because ElevenLabs allows creation and reuse of User Voice Models and retains broad rights to reproduce and distribute voice indicia, synthetic voices could be used for impersonation, fraud, defamation, harassment, or other malicious acts. The company\u2019s broad license and sublicensing rights increase the potential for downstream misuse by third parties.",
+                "description": "Users grant ElevenLabs a perpetual, irrevocable, royalty-free, sublicensable, worldwide license to use, reproduce, modify, create derivative works from, publicly perform and distribute Input (including voice recordings and indicia of persona). This allows long-term commercial use of users\u2019 voices/personas and prevents users from fully retracting that permission.",
                 "severity": "critical",
-                "tags": [
-                    "malicious use",
-                    "human autonomy and integrity harms"
-                ],
-                "title": "High risk of voice cloning misuse and impersonation"
+                "tag": "human autonomy and integrity harms",
+                "title": "Perpetual, irrevocable, worldwide license over user Input and voice recordings"
             },
             {
-                "description": "ElevenLabs may use user-provided Content to improve its Services and Models. Although users can opt out of training use via account settings, the opt-out does not affect uses or materials produced prior to processing the request, meaning previously contributed data may remain in models and derivatives.",
+                "description": "ElevenLabs may use users\u2019 Input and User Voice Models to improve Services and develop new products. Although users can opt out of future training, the opt-out does not affect prior uses or derivatives already created \u2014 meaning users cannot fully prevent prior or ongoing reuse of their data.",
                 "severity": "high",
-                "tags": [
-                    "information and safety",
-                    "misinformation"
-                ],
-                "title": "Default use of Content for model training with limited retroactive effect of opt-out"
+                "tag": "information and safety",
+                "title": "Company use of user Content for model training with limited retrospective control"
             },
             {
-                "description": "The Terms disclaim any obligation to monitor or review Content and reserve broad unilateral rights to remove Content. This limited proactive moderation combined with powerful generation capabilities increases the likelihood of producing or amplifying toxic, illegal, or dangerous content that may not be caught or mitigated by the provider.",
+                "description": "Outputs created with certain features (e.g., SFX) and User Voice Models are subject to sublicensable licenses that let ElevenLabs make them available to third parties. Opting out of sublicensing may only prevent new third-party use and does not retroactively revoke existing sublicenses.",
                 "severity": "high",
-                "tags": [
-                    "representation and toxicity",
-                    "malicious use"
-                ],
-                "title": "Limited moderation obligations and potential for harmful outputs"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Broad sublicensable license to Outputs (SFX and User Voice Models) and limited opt-out effect"
             },
             {
-                "description": "The Terms acknowledge that Outputs may not be unique across users and identical or similar outputs may be generated for different users. This raises risks of inadvertent copyright infringement, leakage of confidential or proprietary phrasing, and disputes over ownership or originality.",
+                "description": "Users must indemnify and hold ElevenLabs harmless for a wide range of claims (including IP and privacy violations) arising from their Content or use of Services. ElevenLabs controls defense and settlement, which can expose users to financial and legal risk with limited influence over outcomes.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Outputs may not be unique \u2014 intellectual property and confidentiality risk"
+                "tag": "socioeconomic and environmental harms",
+                "title": "User indemnification obligations and company control of defense"
             },
             {
-                "description": "Users agree to indemnify and hold ElevenLabs (and related parties) harmless for claims arising from the user's access, use, Content, and violations of the Terms. ElevenLabs controls the defense and settlement, potentially imposing substantial legal and financial burdens on users (including attorneys' fees).",
+                "description": "Disputes are subject to individual binding arbitration (opt-out required within 30 days), waiver of class actions and jury trials, and a damages cap equal to $100 or the amount paid in the prior 12 months. These clauses significantly limit users\u2019 ability to seek collective or full remedies.",
                 "severity": "high",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Strong indemnification obligations placed on users"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Mandatory binding arbitration, class-action waiver, limited remedies and low liability cap"
             },
             {
-                "description": "ElevenLabs limits total liability to the greater of $100 USD or the amount paid by the user in the prior 12 months and disclaims warranties. Users therefore face a very limited ability to recover damages for service failures, data loss, misuse, or harms caused by the service.",
+                "description": "Services are provided \u201cas is\u201d with explicit disclaimers that Outputs may be inaccurate, non-unique, error-prone, or harmful. ElevenLabs disclaims liability for consequential harms, which raises risks from misinformation, defamation, or harmful automated decisions based on Outputs.",
                 "severity": "critical",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Severe limitation of liability and minimal monetary remedy"
+                "tag": "misinformation",
+                "title": "No warranties; disclaimers for accuracy, uniqueness, and safety of Output"
             },
             {
-                "description": "The Terms require binding, individual arbitration for most disputes (with a 30-day opt-out window) and waive class actions and jury trials. This limits users\u2019 access to public court remedies, potential collective redress, and may increase the cost and complexity of pursuing claims.",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Mandatory binding arbitration and class-action waiver restricting legal recourse"
+                "description": "ElevenLabs disclaims any obligation to monitor Content and will not necessarily review Content proactively. While it may remove or suspend Content at its discretion, lack of proactive moderation increases the risk that the system will be used to generate or distribute abusive, illegal, or harmful content before action is taken.",
+                "severity": "high",
+                "tag": "malicious use",
+                "title": "Limited content moderation and discretionary removal policy"
             },
             {
-                "description": "SFX Outputs are subject to a worldwide, transferable, sublicensable license allowing ElevenLabs to exploit them; while users can opt out of new sublicensing, the opt-out does not affect sublicenses or uses already granted prior to the opt-out, enabling ongoing third-party use of user-created SFX materials.",
-                "severity": "medium",
-                "tags": [
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Sublicensing and commercial exploitation of SFX Outputs with limited retroactive opt-out"
+                "description": "ElevenLabs may process personal data contained in Inputs for billing, account management, product development, model R&D, benchmarking, and compliance. This broad processing for business purposes increases privacy and re-identification risks and may involve sharing with third parties.",
+                "severity": "high",
+                "tag": "information and safety",
+                "title": "Extensive personal data processing for product and R&D purposes"
             },
             {
-                "description": "The Services rely on third-party providers (storage, LLMs, payment processors). Disruptions, different third-party policies, cross-border data transfers, or export control/sanctions restrictions may limit availability or lead to account suspension. Additionally, automatic billing, stored payment data, and forfeiture of unused credits on termination create financial risks for users.",
+                "description": "Recurring subscriptions auto-renew at ElevenLabs\u2019 then-current price; payment methods are stored and may be updated without user action. All sales are final, refunds are discretionary, and unused credits are forfeited on account termination \u2014 creating financial exposure for users.",
                 "severity": "medium",
-                "tags": [
-                    "information and safety",
-                    "socioeconomic and environmental harms"
-                ],
-                "title": "Dependency on third-party services, export control and account/payment risks"
+                "tag": "socioeconomic and environmental harms",
+                "title": "Automatic renewals, stored payment methods, non-refundable subscriptions, and forfeiture of credits"
+            },
+            {
+                "description": "The Services rely on third-party infrastructure (storage, LLM providers, payment processors) beyond ElevenLabs\u2019 control, creating availability, security, and data-transfer risks. Users are also solely responsible for export-control and sanctions compliance, with potential legal exposure if violated.",
+                "severity": "medium",
+                "tag": "information and safety",
+                "title": "Dependence on third-party services and export/compliance obligations"
             }
         ]
     },
