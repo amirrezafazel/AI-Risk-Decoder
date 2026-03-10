@@ -11,6 +11,7 @@
           "items": {
             "type": "object",
             "properties": {
+              "title": { "type": "string" },
               "description": { "type": "string" },
               "severity": {
                 "type": "string",
@@ -31,7 +32,7 @@
                 }
               }
             },
-            "required": ["description", "severity", "tags"],
+            "required": ["title", "description", "severity", "tags"],
             "additionalProperties": false
           }
         }

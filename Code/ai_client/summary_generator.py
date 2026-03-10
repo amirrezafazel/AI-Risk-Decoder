@@ -4,7 +4,7 @@ from Code.ai_client.open_ai_client import ai_query
 
 
 
-def generate_risk_summary(documents: dict[str, dict[str, str]]) -> dict:
+def generate_risk_summary(documents: dict) -> dict:
     coallessed_documents = [f"{title}: {content['content']}" for title, content in documents.items()]
     prompt = "\n".join(coallessed_documents)
     risk_summary = ai_query(prompt)
@@ -15,13 +15,13 @@ if __name__ == "__main__":
     DATABASE_PATH = Path("Data/database.json")
 
     with open(DATABASE_PATH, "r", encoding='utf-8') as f:
-        data: dict[str, dict[str, dict[str, str]]] = json.load(f)
+        data: dict = json.load(f)
 
     for company in data:
-        print(f"Generating risk summary for {company}")
         documents = data[company]["documents"]
         
-        if company == "Apple_Intelligence":
+        if "risks" not in data[company] and data[company]["id"] < 10:
+            print(f"Generating risk summary for {company}")
             risks = generate_risk_summary(documents)
             data[company]["risks"] = risks["risks"]
     
