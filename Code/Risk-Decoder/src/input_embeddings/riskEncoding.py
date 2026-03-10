@@ -1,17 +1,20 @@
 from sentence_transformers import SentenceTransformer
-
-# test case
-database = [
-    "How to reset my password",
-    "Where can I find my billing statements",
-    "Contacting technical support",
-    "Changing my profile picture"
-]
+import json
 
 def construct_embeddings(data):
      model = SentenceTransformer('./embeddingsModel')
      return model.encode(data)
+ 
+with open(r"C:\Users\marap\source\repos\AI-Risk-Decoder\Data\database.json") as f:
+    data = json.load(f)
 
-embeddings = construct_embeddings(database)
+for product in data.values():
+    if "risks" in product:
+        descriptions = [risk["description"] for risk in product["risks"]]
+        embeddings = construct_embeddings(descriptions)
 
-# TODO go through all risks, encode & add to database
+        for risk, embedding in zip(product["risks"], embeddings):
+            risk["embedding"] = embedding.tolist()
+
+with open(r"C:\Users\marap\source\repos\AI-Risk-Decoder\Data\database.json", "w") as f:
+    json.dump(data, f, indent=2)
