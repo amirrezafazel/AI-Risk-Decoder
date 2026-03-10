@@ -118,7 +118,7 @@ const Card = ({service_name,risk_page,record,articles}) => {
                          onTouchStart={(e) => e.stopPropagation()}>
                         <ul className="card__risks">
                             {record.risks && record.risks.map(record => {return (
-                                <RiskRecord  icon_name={symbol_conversions[record.tags[0]]} risk={record.title}/>
+                                <RiskRecord  icon_name={symbol_conversions[record.tag]} risk={record.title}/>
                             )})}
                         </ul>
                     </div>
@@ -197,7 +197,7 @@ function MainPage() {
         var ret=0;
         for(const risk of risks){
             for(let i=0; i<fears.length; i++){
-                if(databse_to_front[risk.tags[0]]===fears[i]) {
+                if(databse_to_front[risk.tag]===fears[i]) {
                     ret += 1
                 }
             }
