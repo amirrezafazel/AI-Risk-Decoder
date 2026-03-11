@@ -159,8 +159,8 @@ const Card = ({ service_name, risk_page, record, articles }) => {
                                 }
                             }
                             }>
-                            <img className="min_icon" src={read} alt="analyze icon" />
-                            &nbsp;Analyze Documents
+                            <img className="min_icon" src={read} alt="read icon" />
+                            &nbsp;View Source
                         </button>
                     </div>
                 </div>
