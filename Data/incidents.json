@@ -46,7 +46,7 @@
     "incidents": [
       {
         "tag": "compliance",
-	"title": "rominent AI Chatbots Allegedly Produced Incorrect UK Financial and ISA Guidance",
+	"title": "Prominent AI Chatbots Allegedly Produced Incorrect UK Financial and ISA Guidance",
 	"description": "In November 2025, a major study by Which? and the Guardian found that ChatGPT provided dangerous and incorrect UK financial advice. It failed to identify the legal £20,000 ISA limit, instead recommending a fictional £25,000 allowance, which would lead users to incur HMRC penalties and lose tax benefits.",
         "link": "https://incidentdatabase.ai/cite/1279/"
        },
