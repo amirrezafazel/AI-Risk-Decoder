@@ -157,7 +157,7 @@ const Card = ({ service_name, risk_page, record, articles, fears, bestMatch }) =
                                 }
                             }}>
                             <img className="min_icon" src={read} alt="analyze icon" />
-                            &nbsp;Analyze Documents
+                            &nbsp;View Source
                         </button>
                     </div>
                 </div>
