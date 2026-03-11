@@ -1,7 +1,7 @@
 import json
 import os
 
-DB_FILE = "Data/database_test.json"
+DB_FILE = "Data/database.json"
 
 # Load or initialize database
 if os.path.exists(DB_FILE):
