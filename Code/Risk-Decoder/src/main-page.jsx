@@ -159,8 +159,8 @@ const Card = ({ service_name, risk_page, record, articles,fears }) => {
                                 }
                             }
                             }>
-                            <img className="min_icon" src={read} alt="analyze icon" />
-                            &nbsp;Analyze Documents
+                            <img className="min_icon" src={read} alt="read icon" />
+                            &nbsp;View Source
                         </button>
                     </div>
                 </div>
@@ -172,11 +172,10 @@ const Card = ({ service_name, risk_page, record, articles,fears }) => {
                     onTouchStart={(e) => e.stopPropagation()}>
                     <div className="card__header">
                         <img className="logo" src={icon} alt={service_name + " icon"} />
-                        <h2>{service_name}</h2>
+                        <h2>{articles.incidents[0].title}</h2>
                         <img className="flip_icon" src={turn} alt="flip the card" />
                     </div>
                     <div className="card__body">
-                        <h2>{articles && articles.incidents[0].title}</h2>
                         {articles && articles.incidents[0].description}
 
                     </div>

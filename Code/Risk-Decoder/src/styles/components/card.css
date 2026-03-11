@@ -78,12 +78,13 @@
   /*capitalizes*/
   text-transform: capitalize;
 }
-.card__header h2{ width: 100%; }
+.card__header h2{ width: 75%; }
 
 .card__body{
   background-color: var(--card-inner);
   border-radius: var(--small-radius);
   margin: 0 1.25rem;
+  font-size: 1.2rem;
   text-align: left;
   height: 60%;
   flex: 1 1 0;
