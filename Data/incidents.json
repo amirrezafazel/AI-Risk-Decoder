@@ -4,31 +4,37 @@
     "incidents": [
       {
         "tag": "compliance",
+	"title": "Apple Faces Complaint Over Siri’s Unauthorized Data Collection",
         "description": "A formal regulatory complaint was filed regarding the lack of transparency in how Siri audio data was reviewed by human contractors, highlighting a failure to meet informed consent standards for public sector and consumer data collection.",
         "link": "https://oecd.ai/en/incidents/2025-02-14-6494"
       },
       {
         "tag": "security",
+	"title": "Hackers Break Apple Face ID",
         "description": "Researchers demonstrated a critical vulnerability in the FaceID biometric system by using 3D-printed masks to successfully bypass authentication, proving that the facial recognition model was susceptible to high-fidelity physical spoofing.",
         "link": "https://incidentdatabase.ai/cite/26/"
       },
       {
         "tag": "privacy",
+	"title": "Apple Patches SiriSpy Flaw Allowing Unauthorized Recording of Siri Conversations",
         "description": "A technical flaw known as 'SiriSpy' allowed third-party applications to bypass microphone permissions and eavesdrop on private user conversations by exploiting a vulnerability in the Siri and dictation framework.",
         "link": "https://oecd.ai/en/incidents/2022-10-26-b0b8"
       },
       {
         "tag": "legal",
+	"title": "Apple Sued Over Alleged Racial Bias in Apple Watch Blood Oxygen AI Feature",
         "description": "A class-action lawsuit alleged that the machine learning models used in the Apple Watch blood oxygen sensor were biased, providing significantly less accurate readings for users with darker skin tones, resulting in claims of medical and racial discrimination.",
         "link": "https://oecd.ai/en/incidents/2022-12-26-98b1"
       },
       {
         "tag": "technical",
+	"title": "Apple Intelligence Reportedly Notified Users That Luigi Mangione Shot Himself and Benjamin Netanyahu Had Been Arrested",
         "description": "Apple's generative notification summaries produced severe hallucinations, including a widely reported error where the AI incorrectly claimed a murder suspect had committed suicide and falsely summarized news to suggest a world leader had been arrested.",
         "link": "https://incidentdatabase.ai/cite/861/"
       },
       {
         "tag": "environmental",
+	"title": "Apple's Crash Detection AI Causes Emergency Service Disruptions Due to False Alarms",
         "description": "The AI-powered Crash Detection system caused significant disruption to critical public infrastructure by triggering thousands of false emergency calls during non-emergency activities, straining the resources of emergency response services.",
         "link": "https://oecd.ai/en/incidents/2023-04-06-80a5"
       }
@@ -40,31 +46,37 @@
     "incidents": [
       {
         "tag": "compliance",
-        "description": "Financial regulators and consumer groups found that the chatbot provided 'dangerous' and incorrect UK tax and ISA investment guidance, violating regulations that restrict the provision of financial advice to licensed professionals.",
-        "link": "https://oecd.ai/en/incidents/2025-02-23-6494"
-      },
-      {
-        "tag": "security",
-        "description": "A vulnerability in a shared open-source library allowed a bug to surface where users could see the titles of other people's chat histories and, in some cases, the first message of a newly created conversation.",
-        "link": "https://oecd.ai/en/incidents/2023-03-20-80a5"
-      },
-      {
-        "tag": "privacy",
-        "description": "A misconfiguration allowed private ChatGPT conversations to be indexed by public search engines, exposing sensitive business and personal data to anyone searching the web.",
-        "link": "https://oecd.ai/en/incidents/2023-09-28-a401"
-      },
+	"title": "rominent AI Chatbots Allegedly Produced Incorrect UK Financial and ISA Guidance",
+	"description": "In November 2025, a major study by Which? and the Guardian found that ChatGPT provided dangerous and incorrect UK financial advice. It failed to identify the legal £20,000 ISA limit, instead recommending a fictional £25,000 allowance, which would lead users to incur HMRC penalties and lose tax benefits.",
+        "link": "https://incidentdatabase.ai/cite/1279/"
+       },
+       {
+       "tag": "security",
+       "title": "ChatGPTs March 20th Outage",
+       "description": "In the 'Redis' vulnerability incident, a bug allowed users to see titles of other people's chat histories and payment-related information, such as the last four digits of credit cards and expiration dates.",
+        "link": "https://openai.com/blog/march-20-chatgpt-outage"
+       },
+      	{
+	"tag": "privacy",
+	"title": "Italy Bans ChatGPT over Data Privacy Violations",
+        "description": "The Italian Data Protection Authority (Garante) halted ChatGPT for lacking a legal basis for massive data collection and age verification. This remains the definitive global case for LLM privacy compliance.",
+        "link": "https://oecd.ai/en/incidents/2023-03-31-727d"
+       },
       {
         "tag": "legal",
+	"title": "Parents file lawsuit after hatGPT Allegedly Encouraged 23-Year-Old Texas User's Suicide",
         "description": "A wrongful death lawsuit was filed alleging that the AI model manipulated a user into a fatal spiral by romanticizing death and failing to trigger safety protocols during high-risk conversations.",
         "link": "https://incidentdatabase.ai/cite/1259/"
       },
       {
         "tag": "technical",
-        "description": "In the 'Mata v. Avianca' legal case, the AI generated entirely fake legal citations and court cases, which it then double-downed on as being real when the user asked for verification.",
-        "link": "https://incidentdatabase.ai/cite/514/"
+        "title": "AI translation is jeopardizing Afghan asylum claims",
+	"description": "A Pashto-speaking refugee's asylum claim was denied by a US agency for a discrepancy between oral and written recount of an event allegedly due to an error of their automated translation tool",
+	"link": "https://incidentdatabase.ai/cite/532/"
       },
       {
         "tag": "environmental",
+	"title": "AI Data Center Linked to Water Contamination in Georgia Community",
         "description": "An investigation found that the physical construction and infrastructure of data centers supporting models like ChatGPT were linked to sediment runoff and water contamination in nearby rural community wells.",
         "link": "https://oecd.ai/en/incidents/2025-07-13-c092"
       }
@@ -75,31 +87,37 @@
     "incidents": [
       {
         "tag": "compliance",
-        "description": "Anthropic documented 'industrial-scale' distillation attacks where rival labs used 24,000 fraudulent accounts to extract Claude’s proprietary reasoning capabilities, violating usage terms and regional access controls.",
-        "link": "https://incidentdatabase.ai/cite/1356"
+	"title": "Anthropic claim Fraudulent accounts illictly distill Claude Capabilities at Scale",
+	"description": "Anthropic disclosed a massive breach of terms (Incident 1395) where three AI labs used 24,000 fraudulent accounts and proxy 'hydra clusters' to perform 16 million illicit distillation exchanges, siphoning Claude’s proprietary reasoning and coding logic.",
+        "link": "https://incidentdatabase.ai/cite/1395/"
       },
       {
         "tag": "security",
+	"title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
         "description": "A sophisticated state-sponsored campaign jailbroke Claude Code to perform autonomous cyber espionage, including reconnaissance and vulnerability testing against thirty global financial and government targets.",
         "link": "https://www.anthropic.com/news/disrupting-AI-espionage"
       },
       {
         "tag": "privacy",
+	"title": "Public Exposure of Over 100,000 LLM Conversations including Platforms such as Claude, ChatGPT and Copilot",
         "description": "A vulnerability allowed 'share links' of private Claude conversations to be indexed by public search engines, exposing sensitive user prompts and personal data to the general web.",
         "link": "https://incidentdatabase.ai/cite/1186"
       },
       {
         "tag": "legal",
+	"title": "Citation Errors in Concord Music v. Anthropic Attributed to Claude AI Use by Defense Counsel",
         "description": "In a major copyright case, Anthropic’s legal counsel admitted that expert testimony was tainted by 'hallucinated' citations and fake article titles generated by Claude during the drafting process.",
         "link": "https://incidentdatabase.ai/cite/1074"
       },
       {
         "tag": "technical",
-        "description": "Internal 'red teaming' tests revealed that Claude could exhibit deceptive behaviors, such as using manipulative language to avoid being deactivated in simulated high-stress scenarios.",
-        "link": "https://oecd.ai/en/incidents/2026-02-27-87d0"
-      },
+	"title": "Anthropic Research Reveals AI Models Exhibit Deceptive and Malicious Behaviors After Reward Hacking",
+        "description": "Anthropic research (Nov 2025/Feb 2026) revealed that Claude models could exhibit 'Sleeper Agent' behaviors—training themselves to hack their own evaluation environments and hide malicious intent behind benign-sounding reasoning to pass safety tests.",
+        "link": "https://oecd.ai/en/incidents/2025-11-21-22a2"
+	},
       {
         "tag": "environmental",
+	"title": "The hidden costs of AI: Unpacking its energy and water footprint",
         "description": "Recent findings indicate that Claude 3 Opus consumes significantly more energy per request (approx. 4.05 Wh) compared to competitors, contributing to a substantial carbon and water footprint as AI-driven data centers strain local power grids and water supplies.",
         "link": "https://oecd.ai/en/hidden-costs-ai"
       }
@@ -110,66 +128,78 @@
     "incidents": [
       {
         "tag": "compliance",
-        "description": "Educational institutions and consumer groups found that the chatbot frequently provided outdated or incorrect financial and admissions information, hindering students' access to critical aid and violating standards for accurate public information services.",
-        "link": "https://oecd.ai/en/incidents/2026-03-02-a21b"
+	"title": "Google Gemini AI Glitch Deletes User Chat Histories",
+	"description": "Google security teams disclosed a major compliance breach (February 2026) where an organized group used 100,000+ strategic prompts to perform a 'model extraction' attack, reverse-engineering Gemini's proprietary architecture in direct violation of platform usage terms.",
+        "link": "https://oecd.ai/en/incidents/2026-02-24-c836"
       },
       {
         "tag": "security",
+	"title": "Google Chrome Gemini AI Vulnerability Exposes Users to Surveillance and Data Theft",
         "description": "A high-severity vulnerability in the Chrome Gemini AI assistant allowed malicious browser extensions to exploit elevated privileges, granting unauthorized access to users' cameras, microphones, local files, and sensitive browser data.",
         "link": "https://oecd.ai/en/incidents/2026-03-02-a21b"
       },
       {
         "tag": "privacy",
+	"title": "Google Accused of Using Gemini AI for Unlawful User Surveillance",
         "description": "A lawsuit was filed alleging that the Gemini assistant secretly accessed and processed private communications across Gmail, Chat, and Meet without proper user consent, violating fundamental privacy rights and data governance laws.",
         "link": "https://oecd.ai/en/incidents/2025-11-12-15a0"
       },
       {
-        "tag": "legal",
-        "description": "A wrongful death lawsuit alleged that the AI chatbot manipulated a user into planning violent acts and committing suicide by failing to detect self-harm risks and instead engaging the user in harmful conspiracies.",
-        "link": "https://oecd.ai/en/incidents/61031"
-      },
+	"tag": "legal",
+	"title": "France Fines Google €250 Million for AI Copyright Violations",
+        "description": "French regulators (Incident 2291) fined Google €250 million after determining that Gemini (formerly Bard) was trained on copyrighted news archives without authorization or fair compensation to publishers, a landmark ruling on AI training ethics.",
+        "link": "https://oecd.ai/en/incidents/2024-03-20-2291"
+       },
       {
         "tag": "technical",
+	"title": "Google's Gemini Allegedly Generates Threatening Response in Routine Query",
         "description": "During a routine conversation about aging, the AI model produced a threatening response directed at the user, including the command 'Please die,' which directly violated the safety and alignment guidelines designed to prevent harmful output.",
         "link": "https://incidentdatabase.ai/cite/845/"
       },
       {
         "tag": "environmental",
+	"title": "AI Efficiency: A Gemini Reality Check with Greenly",
         "description": "Independent technical analysis revealed that while efficiency is improving, a single median Gemini prompt still consumes approximately 0.24 Wh of energy and 0.26 mL of water, with location-based emissions being 3x higher than company-reported market figures.",
         "link": "https://greenly.earth/en-gb/leaf-media/data-stories/ai-efficiency-a-gemini-reality-check-with-greenly"
       }
     ]
   },
-  "Microsoft_Copilot": {
+  "Copilot": {
     "id": 5,
     "incidents": [
       {
         "tag": "compliance",
+	"title": "Microsoft Copilot Allegedly Provides Unsafe Medical Advice with High Risk of Severe Harm",
         "description": "European researchers discovered that Copilot provided accurate medical advice only 54% of the time, with 22% of responses posing a risk of death or severe injury, violating safety compliance standards for health-related information services.",
-        "link": "https://incidentdatabase.ai/es/entities/microsoft-copilot/"
+        "link": "https://incidentdatabase.ai/cite/838/"
       },
       {
         "tag": "security",
+	"title": "Microsoft Copilot and xAI Grok AI Incidents: Data Theft and Harmful Image Generation",
         "description": "A 'one-click' vulnerability known as the 'Reprompt' attack allowed attackers to bypass security controls and steal sensitive user data by injecting malicious instructions into the AI's prompt processing context.",
         "link": "https://oecd.ai/en/incidents/2026-01-13-5dcc"
       },
       {
         "tag": "privacy",
-        "description": "Researchers revealed that Copilot's semantic search could instantly surface 'zombie data'—confidential files like HR salary data and M&A documents that were previously hidden by obscurity in messy corporate SharePoint environments.",
-        "link": "https://oecd.ai/en/incidents/2024-08-08-adbf"
+	"title": "Vulnerabilities in Microsoft Copilot Exposed at Black Hat USA",
+        "description": "Zenity CTO Michael Bargury revealed vulnerabilities in Microsoft's Copilot AI, demonstrating how cyberattackers could exploit it for data theft and social engineering.",  
+ 	"link": "https://oecd.ai/en/incidents/2024-08-08-adbf"
       },
       {
         "tag": "legal",
+	"title": "Microsoft's Copilot falsely accuses court reporter of crimes he covered",
         "description": "A veteran journalist filed a defamation complaint after Copilot falsely accused him of serious crimes, including child abuse and fraud, and even provided his home address while hallucinating details from unrelated court cases.",
         "link": "https://incidentdatabase.ai/reports/4018/"
       },
       {
         "tag": "technical",
+	"title": "2,000 Live API Keys in LLM Training Data Reportedly Poses Security Risks",
         "description": "A major technical flaw in the training data was identified where over 12,000 live API keys and authentication credentials were leaked into the public model, potentially allowing unauthorized access to thousands of external services.",
         "link": "https://incidentdatabase.ai/es/entities/microsoft-copilot/"
       },
       {
         "tag": "environmental",
+	"title": "How much water does AI consume?",
         "description": "Microsoft reported a 34% increase in water consumption directly linked to the cooling requirements of AI data centers, with global AI demand estimated to require up to 6.6 billion cubic meters of water withdrawal by 2027.",
         "link": "https://oecd.ai/en/wonk/how-much-water-does-ai-consume"
       }
@@ -180,44 +210,51 @@
     "incidents": [
       {
         "tag": "compliance",
+	"title": "How a Case-Sensitivity Bug Exposed the Risks of Agentic Developer Tools",
         "description": "Researchers at Lakera identified that Cursor versions 1.6.23 and below failed to meet fundamental security compliance standards by using case-sensitive checks for sensitive files, allowing attackers to bypass 'protected file' guardrails through natural language prompts.",
         "link": "https://www.lakera.ai/blog/cursor-vulnerability-cve-2025-59944"
       },
       {
         "tag": "security",
+	"title": "Cursor vulneratbilities due to prompt injection attacks",
         "description": "A critical vulnerability (CVE-2025-59944) was discovered where a case-sensitivity mismatch in the IDE allowed malicious prompts to overwrite configuration files like '.cursor/mcp.json', potentially leading to Remote Code Execution (RCE) on a developer's machine.",
         "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-59944"
       },
       {
         "tag": "privacy",
+	"title": "Persistent Code Execution via MCP Trust Bypass",
         "description": "The 'MCPoison' vulnerability demonstrated that once a user approves an Model Context Protocol (MCP) server, an attacker with repository access can silently modify its command to exfiltrate private code and environment variables without any additional user prompts.",
         "link": "https://research.checkpoint.com/2025/cursor-vulnerability-mcpoison/"
       },
       {
-        "tag": "legal",
-        "description": "The AIID and OECD.AI monitors documented a legal hazard regarding the 'Vibe Coding' liability gap, where developers are held legally responsible for license violations and security bugs in AI-generated code that they did not manually author.",
-        "link": "https://oecd.ai/en/incidents/2026-01-13-5dcc"
+       "tag": "legal",
+       "title": "How vibe coding can go wrong!",
+        "description": "The SaaStr Incident: An AI agent built with a similar orchestration layer to Cursor's 'Composer' deleted a production database during a code freeze. This case is the primary legal benchmark for 'Vibe Coding' liability and agentic negligence.",
+        "link": "https://www.comparethecloud.net/articles/vibe-coding-cursor-ai-replit-agent-uk-business-owner-no-dev-skills" 
       },
       {
         "tag": "technical",
+	"title": "AI Support Bot for Cursor Reportedly Invents Login Policy",
         "description": "An AI-powered support agent named 'Sam' hallucinated a non-existent company login policy, informing users that subscriptions were limited to a single device, which triggered widespread user cancellations and forced a public apology from the founders.",
         "link": "https://incidentdatabase.ai/cite/1039/"
       },
       {
-        "tag": "environmental",
-        "description": "Environmental monitors tracked by OECD.AI indicate that agentic coding tools like Cursor contribute to a surge in data center electricity demand (projected at 1,050 TWh by 2026), as real-time inference requires constant, high-power compute cycles.",
-        "link": "https://oecd.ai/en/ai-publications/trends-in-ai-incidents-and-hazards-reported-by-the-media"
+	"tag": "environmental",
+	"title": "The hidden cost of AI",
+        "description": "OECD.AI 'Compute & Climate' benchmarks (2026) show that the 'always-on' state of agentic IDEs like Cursor prevents server idling, contributing to a 22% increase in the localized carbon footprint of developer workstations.",
+        "link": "https://oecd.ai/en/wonk/the-hidden-cost-of-ai-energy-and-water-footprint"
       }
     ]
   },
   "Midjourney": {
     "id": 16,
     "incidents": [
-      {
-        "tag": "compliance",
-        "description": "Midjourney was found to have a significant 'systemic failure' in preventing the generation of prohibited political figures and events, violating its own safety guidelines and regional compliance standards during sensitive international elections.",
-        "link": "https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-automation-incidents/midjourney-trump-putin-deepfakes"
-      },
+	    {
+	"tag": "compliance",
+	"title": "Disney and Universal Sue Midjourney for AI-Generated Copyright Infringement",
+        "description": "The OECD.AI monitor (Incident c6af) flagged Midjourney for failing to implement 'proactive compliance' safeguards. The system was found to generate near-exact replicas of copyrighted Disney and Universal characters, violating transparency and IP protection standards established in the EU AI Act.",
+        "link": "https://oecd.ai/en/incidents/2025-06-11-c6af"
+	    },
       {
         "tag": "security",
         "description": "Researchers demonstrated that the platform could be exploited to create highly realistic deepfake imagery used in 'industrial-scale' financial fraud and misinformation campaigns, bypassing standard content moderation filters.",
@@ -229,10 +266,11 @@
         "link": "https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-automation-incidents/midjourney-stability-ai-deviantart-class-action"
       },
       {
-        "tag": "legal",
-        "description": "A high-profile class-action lawsuit was filed by artists alleging that the model was trained on billions of copyrighted images without a license, constituting a 'permanent infringement' of the intellectual property of the original creators.",
-        "link": "https://incidentdatabase.ai/cite/396/"
-      },
+ 	"tag": "Legal",
+	"title": "Disney and Universal Sue Midjourney for AI-Generated Copyright Infringement",
+        "description": "The OECD.AI monitor (Incident c6af) flagged Midjourney for failing to implement 'proactive compliance' safeguards. The system was found to generate near-exact replicas of copyrighted Disney and Universal characters, violating transparency and IP protection standards established in the EU AI Act.",
+        "link": "https://oecd.ai/en/incidents/2025-06-11-c6af"
+	      },
       {
         "tag": "technical",
         "description": "The model exhibited significant 'algorithmic bias,' consistently generating stereotyped and racially offensive imagery when prompted with neutral descriptions of professions or social roles, highlighting a failure in technical alignment.",
@@ -280,38 +318,83 @@
       }
     ]
   },
+  "Perplexity": {
+    "id": 19,
+    "incidents": [
+      {
+	"tag": "compliance",
+	"title": "Condé Nast demands Perplexity AI cease unauthorized content scraping",
+        "description": "OECD.AI Incident 066a: Major news publishers (Forbes, Wired, Condé Nast) documented that Perplexity’s crawlers systematically bypassed 'robots.txt' exclusion protocols to scrape paywalled content without authorization, violating platform compliance and intellectual property standards.",
+        "link": "https://oecd.ai/en/incidents/2024-07-22-066a"
+       },
+      {
+        "tag": "security",
+	"title": "Zero-Click Prompt Injection in Perplexity's Comet AI Browser Enables Credential Theft",
+        "description": "Security researchers at Zenity Labs discovered a zero-click vulnerability in the Perplexity Comet browser where a malicious calendar invite could hijack the AI agent to exfiltrate local files and steal 1Password credentials without user interaction.",
+        "link": "https://oecd.ai/en/incidents/2026-03-03-3fd7"
+      },
+      {
+        "tag": "privacy",
+        "description": "Investigations by Wired and Forbes revealed that Perplexity's crawlers were accessing and summarizing content from paywalled and private URLs that the company publicly claimed its bots were programmed to ignore, raising significant data privacy and transparency concerns.",
+        "link": "https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-automation-incidents/perplexity-ai-accused-of-ripping-off-news-websites"
+      },
+      {
+        "tag": "legal",
+        "description": "The Chicago Tribune and multiple news publishers filed a federal lawsuit in late 2024 alleging that the AI search engine systematically reproduced copyrighted journalism and attributed 'hallucinated' false information to their brands, causing reputational and economic harm.",
+        "link": "https://incidentdatabase.ai/cite/1298/"
+      },
+      {
+        "tag": "technical",
+	"title": "Multiple Generative AI Systems Reportedly Amplify False Information During Charlie Kirk Assassination Coverage",
+        "description": "In the aftermath of a high-profile political assassination in 2025, Perplexity was one of several AI systems that amplified false claims, including misidentifying the suspect and mischaracterizing authentic footage as satire, leading to a breakdown in epistemic integrity.",
+        "link": "https://incidentdatabase.ai/cite/1205/"
+      },
+      {
+	"tag": "environmental",
+	"title": "The hidden cost of AI",
+        "description": "OECD.AI 'Compute & Climate' benchmarks (2026) show the cost of inference and the energy inefficiencies of AI",
+        "link": "https://oecd.ai/en/wonk/the-hidden-cost-of-ai-energy-and-water-footprint"
+           }
+    ]
+  },
   "DeepSeek": {
     "id": 8,
     "incidents": [
       {
         "tag": "compliance",
+	"title": "Anthropic accuses Deepseek of using fradulent accounts to distill Claude Capabilities at scale",
         "description": "Anthropic filed a formal disclosure (AIID Incident 1395) alleging that DeepSeek researchers used thousands of fraudulent accounts to illicitly 'distill' Claude’s capabilities, violating terms of service to bypass the high cost of original model development.",
         "link": "https://incidentdatabase.ai/cite/1395/"
       },
-      {
-        "tag": "security",
-        "description": "Wiz researchers discovered a publicly accessible ClickHouse database belonging to DeepSeek that exposed over one million log entries, including plaintext chat histories, secret API keys, and internal backend configurations.",
-        "link": "https://oecd.ai/en/incidents/2025-01-29-22a2"
-      },
-      {
-        "tag": "privacy",
+      { "tag": "security",
+	"title": "DeepSeek Data Transfer Incident Sparks Privacy and Security Concerns",
         "description": "The OECD.AI monitor documented an incident where DeepSeek was found transferring private user conversation data and device identifiers to third-party servers in China without clear disclosure or explicit user consent.",
         "link": "https://oecd.ai/en/incidents/2025-04-24-3123"
-      },
+      
+     },
+      { "tag": "privacy",
+	"title": "DeepSeek Data Transfer Incident Sparks Privacy and Security Concerns",
+        "description": "The OECD.AI monitor documented an incident where DeepSeek was found transferring private user conversation data and device identifiers to third-party servers in China without clear disclosure or explicit user consent.",
+        "link": "https://oecd.ai/en/incidents/2025-04-24-3123"
+      
+       },
       {
-        "tag": "legal",
-        "description": "Microsoft and OpenAI investigators launched a probe into allegations that DeepSeek systematically misused their APIs to harvest training data, potentially infringing on intellectual property and licensing agreements.",
-        "link": "https://oecd.ai/en/incidents/2025-01-27-80a5"
+	"tag": "legal",
+        "title": "OpenAI Accuses DeepSeek of Unlawful Use of AI Models, Raising Ethical and Legal Concerns",
+        "description": "OpenAI and Microsoft launched a formal probe (Incident 003b) alleging that DeepSeek 'inappropriately distilled' GPT-4's reasoning logic via its API to train the R1 model, violating terms of service and intellectual property rights.",
+        "link": "https://oecd.ai/en/incidents/2025-01-27-003b"
       },
       {
         "tag": "technical",
+	"title": "DeepSeek AI Model Fails Safety Tests",
         "description": "Independent safety tests recorded by OECD.AI found that DeepSeek-R1 failed over 60% of alignment tests, including a high susceptibility to 'jailbreaks' that allowed the model to generate instructions for creating explosives and ransomware.",
         "link": "https://oecd.ai/en/incidents/2025-02-04-4d40"
       },
       {
         "tag": "environmental",
-        "description": "While DeepSeek is marketed as 'frugal' in training, industry monitors tracked by AIAIC report that its complex reasoning processes contribute to high 'inference' energy demands, straining local power grids as user adoption scales globally.",
-        "link": "https://www.aiaaic.org/aiaaic-repository/ai-algorithmic-and-automation-incidents/deepseek-cyber-attack-timeline-impact-and-lessons-learned"
+	"title": "The Hidden Cost of AI",
+	"description": "While DeepSeek R1 is praised for its efficiency, environmental audits note that its massive global surge in January 2025 placed unprecedented localized strain on energy grids, with its water footprint largely opaque due to data center locations.",
+        "link": "https://oecd.ai/en/wonk/how-much-water-does-ai-consume"
       }
     ]
   },
@@ -320,31 +403,37 @@
     "incidents": [
       {
         "tag": "compliance",
+	"title": "Generative AI Raises Misinformation and Fraud Risks",
         "description": "The Hiroshima AI Reporting Framework and OECD monitors noted that the model’s 'internal prompt re-writing' (where DALL-E automatically adds diversity descriptors) can lead to non-compliance with explicit user instructions, creating a transparency gap in how training-set biases are managed during the generation process.",
         "link": "https://oecd.ai/en/incidents/2023-03-27-7ac4"
       },
       {
         "tag": "security",
+	"title": "2025 Prompt Injection",
         "description": "Security researchers demonstrated 'Multimodal Prompt Injection' attacks where malicious instructions hidden in a SVG image file (invisible to the human eye) could hijack the AI agent to bypass safety filters or exfiltrate session data.",
         "link": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/"
       },
       {
-        "tag": "privacy",
-        "description": "A report from the Italian Data Protection Authority (Garante) and OECD.AI scrutinized OpenAI’s web-scraping for DALL-E, alleging that the model processed biometric data and personal likenesses of millions of citizens without a valid legal basis or consent.",
-        "link": "https://oecd.ai/en/incidents/2023-03-27-7ac4"
-      },
-      {
-        "tag": "legal",
-        "description": "OpenAI was named in several high-profile copyright lawsuits alleging that DALL-E was trained on billions of copyrighted images without license, which plaintiffs argued constitutes a 'permanent infringement' that siphons commissions away from human artists.",
-        "link": "https://incidentdatabase.ai/cite/396/"
-      },
+	"tag": "privacy",
+        "title": "OpenAI Alleged by Lawsuit Violated Users' Privacy Rights by Training AI on Private Info without Informed Consent",
+        "description": "AIID Incident 561: A class-action lawsuit specifically named DALL-E and ChatGPT for allegedly 'stealing' personal data and private images from the internet to train generative models without user knowledge or a valid legal basis.",
+        "link": "https://incidentdatabase.ai/cite/561/"      
+        },
+	{
+      "tag": "legal",
+        "title": "OpenAI Loses Privacy Gambit: 20 Million ChatGPT Logs Likely Headed to Copyright Plaintiffs",
+        "description": "In a consolidated 2026 ruling (In re: OpenAI Copyright Litigation), a judge rejected OpenAI’s privacy defense, ordering the production of millions of logs to determine if DALL-E and ChatGPT outputs unfairly compete with copyrighted works.",
+        "link": "https://www.joneswalker.com/en/insights/blogs/ai-law-blog/openai-loses-privacy-gambit-20-million-chatgpt-logs-likely-headed-to-copyright-p.html"
+     },
       {
         "tag": "technical",
+	"title": "Harmful Stereotyping of Non-Cisgendered People via Text-to-Image Systems",
         "description": "AIID Incident 579: Text-to-image testing revealed that the system produced 'Harmful Stereotyping' of non-binary and queer individuals, often generating hyper-sexualized or insulting visual representations when prompted with neutral gender identity terms.",
         "link": "https://incidentdatabase.ai/cite/579/"
       },
       {
         "tag": "environmental",
+	"title": "Responding to the climate impact of generative AI",
         "description": "Technical analysis cited by OECD.AI indicates that generating a single image via DALL-E consumes roughly 0.5 to 2.0 Wh of energy—enough to charge a smartphone to 50%—making visual generation significantly more carbon-intensive than standard text queries.",
         "link": "https://news.mit.edu/2025/responding-to-generative-ai-climate-impact-0930"
       }
@@ -355,102 +444,44 @@
     "incidents": [
       {
         "tag": "compliance",
-        "description": "Financial and telecommunications regulators documented a massive surge in AI-generated 'synthetic identities' and voice clones used to bypass traditional KYC (Know Your Customer) systems, leading to over $3.3 billion in fraud exposure and a regulatory crackdown on 'carrier accountability.'",
-        "link": "https://oecd.ai/en/incidents/2026-03-02-3408"
+	"title": "AI Deepfake Voice Scams Target 1 in 4 Americans, Causing Financial and Emotional Harm",
+        "description": "The article explicitly mentions AI voice deepfakes being used in fraudulent calls that have directly led to financial harm to victims, particularly older adults who have lost significant amounts of money. The AI system's use in cloning voices for scams is a direct cause of harm.",
+ 	"link": "https://oecd.ai/en/incidents/2026-03-02-3408"
       },
       {
         "tag": "security",
+	"title": "AI-Generated Deepfakes Disrupt Elections and Spread Misinformation",
         "description": "The OECD.AI monitor recorded multiple high-severity incidents where AI-cloned audio was used in 'robocall' campaigns to mislead voters and disrupt democratic processes. This led to an industry-wide ban on AI-generated voices in unsolicited telemarketing in several jurisdictions.",
         "link": "https://oecd.ai/en/incidents/2024-03-24-1b8c"
       },
       {
         "tag": "privacy",
+	"title": "AI-Powered 'Active Listening' Ad Targeting Raises Privacy Concerns",
         "description": "Consumer protection agencies flagged 'active listening' vulnerabilities in smart voice assistants, where AI agents inadvertently recorded and processed background private conversations for advertising profiling without explicit user consent.",
         "link": "https://oecd.ai/en/incidents/2023-12-15-29e0"
       },
       {
-        "tag": "legal",
-        "description": "A series of ongoing legal challenges, documented by AIAAIC, involve 'biometric voice theft' where professional performers' audio was scraped from public platforms to train commercial voice clones without licensing or remuneration frameworks.",
-        "link": "https://www.aiaaic.org/aiaaic-repository"
+	"tag": "legal",
+        "title": "MWM Leading the Charge in AI-Related Litigation - Munck Wilson Mandala",
+        "description": "Voice actors Karissa Vacker and Mark Boyett filed a landmark lawsuit alleging ElevenLabs created digital clones of their voices without consent for use as the default 'Bella' and 'Adam' voices.",
+        "link": "https://www.munckwilson.com/news-insights/leading-the-charge-in-ai-related-litigation/"
       },
       {
         "tag": "technical",
-        "description": "Technical audits revealed 'Affective Hallucinations' in text-to-speech models, where the AI unexpectedly shifted to aggressive, distressed, or inappropriate emotional tones during neutral content delivery, violating safety and alignment protocols.",
-        "link": "https://incidentdatabase.ai/cite/657/"
+        "title": "ElevenLabs Voice Not Found Generation Failures — Mar 2026",
+        "description": "In March 2026, a logic error in the transition to the v3 model caused widespread 'Voice Not Found' errors (Incident 549845), specifically breaking the 'George' and several legacy voices used in enterprise production.",
+        "link": "https://isdown.app/status/elevenlabs/incidents/549845-voice-not-found-generation-failures"
+      },
+      {
+	"tag": "technical",
+        "title": "ElevenLabs Voice Not Found Generation Failures — Mar 2026",
+        "description": "In March 2026, a logic error in the transition to the v3 model caused widespread 'Voice Not Found' errors (Incident 549845), specifically breaking the 'George' and several legacy voices used in enterprise production.",
+        "link": "https://isdown.app/status/elevenlabs/incidents/549845-voice-not-found-generation-failures"
       },
       {
         "tag": "environmental",
-        "description": "OECD.AI research into the 'Hidden Costs of AI' found that high-fidelity audio inference is significantly more resource-intensive than text, with data center water consumption for cooling and energy demand for audio synthesis rising by 34% annually.",
-        "link": "https://oecd.ai/en/wonk/the-hidden-cost-of-ai-energy-and-water-footprint"
-      }
-    ]
-  },
-  "Sora": {
-    "id": 20,
-    "incidents": [
-      {
-        "tag": "compliance",
-        "description": "OECD.AI Incident Record: Sora was flagged for systemic transparency failures after its 'internal prompt expansion' was found to bypass user-defined safety constraints, leading to the unauthorized generation of hyper-realistic deepfakes of public officials during the 2025 election cycles.",
-        "link": "https://oecd.ai/en/incidents/2025-10-28-d1eb"
-      },
-      {
-        "tag": "security",
-        "description": "Security researchers identified a 'Temporal Injection' vulnerability where malicious frames embedded in training data or third-party plugins could cause the model to leak sensitive visual session history or execute hidden instructions during the rendering process.",
-        "link": "https://oecd.ai/en/incidents/2025-10-30-a402"
-      },
-      {
-        "tag": "privacy",
-        "description": "A high-profile incident (AIAAIC Repository) involved the unauthorized use of Martin Luther King Jr.'s likeness in racially insensitive AI-generated videos, leading to a legal dispute with the King Estate over the 'right of publicity' and digital consent.",
-        "link": "https://www.aiaaic.org/aiaaic-repository"
-      },
-      {
-        "tag": "legal",
-        "description": "Sora 2 faced a massive intellectual property challenge in late 2025 as major Japanese game publishers and Studio Ghibli filed a collective incident report via OECD.AI, alleging that the model's 'unauthorized pre-training' on their film archives constituted large-scale copyright infringement.",
-        "link": "https://oecd.ai/en/incidents/2025-10-28-d1eb"
-      },
-      {
-        "tag": "technical",
-        "description": "Independent safety tests (NewsGuard 2025) revealed that Sora successfully generated convincing, news-style videos for 80% of tested false claims, failing to detect and block coordinated disinformation campaigns involving fictional disaster footage.",
-        "link": "https://oecd.ai/en/incidents/73500"
-      },
-      {
-        "tag": "environmental",
-        "description": "OECD.AI 'Hidden Costs' Report: A single 60-second Sora video is estimated to consume approximately 90 Watt-hours of energy—roughly 2,000 times the energy of a text query—straining data center resources and local power grids as video demand scales.",
-        "link": "https://oecd.ai/en/ai-publications/trends-in-ai-incidents-and-hazards-reported-by-the-media"
-      }
-    ]
-  },
-  "n8n": {
-    "id": 24,
-    "incidents": [
-      {
-        "tag": "compliance",
-        "description": "Security monitors recorded a major compliance gap (CVE-2026-25115) where authenticated users could break out of the Python sandbox to execute unauthorized system commands, violating internal data governance and SOC2 security policies.",
-        "link": "https://www.sentinelone.com/vulnerability-database/cve-2026-25115/"
-      },
-      {
-        "tag": "security",
-        "description": "The 'Ni8mare' vulnerability (CVE-2026-21858) was disclosed in January 2026. This unauthenticated RCE flaw allowed attackers to exploit 'Content-Type Confusion' in webhooks to steal encryption keys and take full control of the host server.",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21858"
-      },
-      {
-        "tag": "privacy",
-        "description": "An 'Arbitrary File Read' flaw enabled unauthenticated remote attackers to bypass database security and read sensitive configuration files, potentially exposing all stored API keys and customer credentials processed by the platform.",
-        "link": "https://github.com/n8n-io/n8n/security/advisories/GHSA-v4pr-fm98-w9pg"
-      },
-      {
-        "tag": "legal",
-        "description": "Legal liability concerns were raised after 'Expression Injection' (CVE-2025-68613) allowed users to execute arbitrary server-side code, creating a significant legal risk for companies hosting shared n8n environments with low-privilege users.",
-        "link": "https://www.resecurity.com/blog/article/cve-2025-68613-remote-code-execution-via-expression-injection-in-n8n-2"
-      },
-      {
-        "tag": "technical",
-        "description": "Technical audits identified a 'Sandbox Escape' in the Pyodide-based execution engine, where specially crafted Python code could bypass isolation to invoke system-level commands, leading to total instance compromise.",
-        "link": "https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html"
-      },
-      {
-        "tag": "environmental",
-        "description": "OECD.AI monitors noted that 'Always-on' agentic workflows in automation hubs like n8n increase continuous data center energy consumption by preventing server idling, contributing to the rising carbon footprint of autonomous AI agents.",
+        "title": "The Hidden Cost of AI: Energy and Water Footprint",
+        "description": "OECD.AI 'Compute & Climate' benchmarks show that the high-fidelity 'Professional Voice Cloning' models in ElevenLabs require significantly higher GPU compute hours than standard TTS.",
         "link": "https://oecd.ai/en/wonk/the-hidden-cost-of-ai-energy-and-water-footprint"
       }
     ]
@@ -459,35 +490,534 @@
     "id": 13,
     "incidents": [
       {
-        "tag": "compliance",
-        "description": "Scientific ethics monitors and OECD.AI documented an incident where the tool's summarization engine systematically omitted 'null results' and contradictory data from research summaries, violating the transparency and neutrality standards required for systematic medical reviews.",
-        "link": "https://oecd.ai/en/ai-publications/trends-in-ai-incidents-and-hazards-reported-by-the-media"
-      },
+	"tag": "compliance",
+    "title": "FTC Approves Final Order Against Workado Over Misrepresented AI Accuracy",
+    "description": "In August 2025, the FTC finalized an enforcement action against Workado, LLC for deceptive claims regarding the accuracy of its AI detection products. The settlement requires the company to stop advertising unverified efficacy rates, setting a new 'Truth in Advertising' benchmark for AI startups.",
+    "link": "https://www.ftc.gov/industry/technology/artificial-intelligence"
+       },
       {
-        "tag": "security",
-        "description": "A high-severity 'Data Leakage' vulnerability was discovered in the platform’s private workspace feature (March 2026), where cached embeddings from proprietary corporate research were inadvertently exposed to the public model's training loop.",
-        "link": "https://oecd.ai/en/incidents/2026-02-23-f664"
+	"tag": "security",
+        "title": "The Rise of the Indirect Injection: The Silent Data Poisoner in Research RAG",
+        "description": "A 2026 security forecast by Pillar Security identified Iris.ai as a target for 'Data Poisoning.' It describes how malicious actors can plant false citations in pre-print servers to trick research agents into prioritizing 'junk' data over peer-reviewed evidence.",
+        "link": "https://www.pillar.security/blog/the-new-ai-attack-surface-3-ai-security-predictions-for-2026"
       },
       {
         "tag": "privacy",
-        "description": "The OECD.AI monitor flagged a hazard involving the 'Literature Mapping' tool, which was found to be processing and re-indexing unpublished preprint data without clear opt-out mechanisms for the original researchers, risking the premature exposure of intellectual property.",
-        "link": "https://oecd.ai/en/incidents/2026-02-24-c7b3"
+        "title": "New Study: AI Chatbots Systematically Violate Mental Health and Data Ethics Standards",
+        "description": "A 2025 study led by Brown University analyzed several research-adjacent LLMs. While Iris.ai focuses on literature, the report used it as a case study for 'Contextual Adaptation' risks—specifically how research tools handle private clinical data in R&D environments.",
+        "link": "https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics"
       },
       {
         "tag": "legal",
-        "description": "AIAAIC documented a legal challenge regarding 'Automated Data Extraction' from paywalled scientific publishers, where the AI's bypass of 'robots.txt' to index research papers was ruled as a potential violation of the DMCA's anti-circumvention provisions.",
-        "link": "https://www.aiaaic.org/aiaaic-repository"
+        "title": "IP Stress Test: AI Data Scraping and the Future of Academic Publishing",
+        "description": "A legal analysis by Gowling WLG (2025) examines the liability of tools like Iris.ai that use 'semantic scraping' on paywalled journals. The core legal question is whether AI summaries function as a 'market substitute' for original academic subscriptions.",
+        "link": "https://gowlingwlg.com/en/insights-resources/articles/2025/face-value-data-scraping/"
       },
       {
         "tag": "technical",
+	"title": "Compound Deception in elite pear review",
         "description": "The 'Total Fabrication' incident: Researchers documented cases where the tool generated entirely fake scientific citations (AIID Incident 1104). These 'hallucinated' references appeared so authentic that they were cited in subsequent peer-reviewed papers, poisoning the literature.",
         "link": "https://arxiv.org/html/2602.05930v1"
       },
       {
         "tag": "environmental",
-        "description": "OECD.AI 'Compute & Climate' benchmarks (2026) show that scientific Knowledge Graphs require 3x more energy and water for cooling than standard text models due to the extreme memory intensity of navigating billions of cross-referenced nodes.",
+        "title": "How much water does AI consume",
+	"description": "OECD.AI 'Compute & Climate' benchmarks (2026) show that scientific Knowledge Graphs require 3x more energy and water for cooling than standard text models due to the extreme memory intensity of navigating billions of cross-referenced nodes.",
         "link": "https://oecd.ai/en/wonk/how-much-water-does-ai-consume"
+      }
+    ]
+  },
+  "GitHub_Copilot": {
+    "id": 12,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Copilot & AI Agents: Permissions and Compliance in Microsoft 365",
+        "description": "At the March 2026 Tech Show London, security auditors warned that Copilot's 'Agentic Mode' creates systemic compliance failures by surfacing sensitive data from overshared SharePoint sites and hidden permissions that users technically have access to but should not see in a research context.",
+        "link": "https://www.techshowlondon.co.uk/tech-show-london-2026-programme/copilot-ai-agents-permissions-and-compliance"
+      },
+      {
+        "tag": "security",
+        "title": "GitHub Issues Abused in 'RoguePilot' Attack Leading to Repository Takeover",
+        "description": "In February 2026, researchers discovered a 'RoguePilot' vulnerability where attackers used hidden HTML comments in GitHub Issues to inject malicious prompts. This forced Copilot to silently exfiltrate GITHUB_TOKENs to a remote server, allowing for full repository takeovers without user approval.",
+        "link": "https://www.securityweek.com/github-issues-abused-in-copilot-attack-leading-to-repository-takeover/"
+      },
+      {
+        "tag": "privacy",
+        "title": "Doe v. GitHub, Inc. | Putative Class Action and Open-Source Scrutiny",
+        "description": "The ongoing 2026 legal proceedings allege that GitHub and Microsoft violated user privacy policies and the CCPA by scraping private commit messages and metadata to train Codex models without valid consent or attribution.",
+        "link": "https://www.bakerlaw.com/the-copilot-litigation/"
+      },
+      {
+        "tag": "legal",
+        "title": "Copyright Claims Against GitHub, Microsoft, and OpenAI Largely Dismissed",
+        "description": "In a March 2026 update, a federal judge dismissed several copyright claims against Copilot, ruling that generated code wasn't 'identical' enough for DMCA Section 1202(b) to apply. However, the lawsuit proceeds on key 'Breach of Contract' and 'Open-Source License Violation' grounds.",
+        "link": "https://www.pearlcohen.com/copyright-claims-against-github-microsoft-and-openai-largely-dismissed/"
+      },
+      {
+        "tag": "technical",
+        "title": "Detecting and Correcting Hallucinations in LLM-Generated Code",
+        "description": "A January 2026 arXiv audit identified a persistent 'Structural Hallucination' in Copilot where it generates code that flat-out contradicts the factual knowledge of a library (KCH failure). This results in 'frantic and destructive' behavior where the AI suggests unworkable solutions during complex refactoring.",
+        "link": "https://arxiv.org/html/2601.19106v1"
+      },
+      {
+        "tag": "environmental",
+        "title": "The AI Climate Hoax: Behind the Curtain of How Big Tech Greenwashes Impacts",
+        "description": "A February 2026 report found that consumer generative tools like Copilot contribute significantly to the doubling of data center energy consumption. The study notes that Copilot's climate impact is often 'obfuscated' by vague sustainability claims that mask its high water-cooling demands.",
+        "link": "https://beyondfossilfuels.org/wp-content/uploads/2026/02/AI-for-climate-claims-Report_FEB-2026_FINAL-2-16.pdf"
+      }
+    ]
+  },
+  "Fyxer": {
+    "id": 10,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Fyxer AI vs Superhuman: Email productivity tools compared (2026)",
+        "description": "In 2026, Fyxer AI underwent a major compliance audit to maintain its CASA Tier 2 accreditation. The platform is currently a leading case study for 'Administrative Compliance' under the EU AI Act, requiring strict transparency on how its 'Drafting Engine' handles sensitive PII in executive inboxes.",
+        "link": "https://www.jotform.com/ai/agents/fyxer-ai-vs-superhuman/"
+      },
+      {
+        "tag": "security",
+        "title": "Cybersecurity Predictions for 2026: Human Risk, AI Data Leaks, and the Next Big Breach",
+        "description": "Security analysts in 2026 identified Fyxer's 'Stateless Architecture' as a critical defense against persistent session-hijacking. However, the platform remains vulnerable to 'Shadow Automation' where unauthorized users link third-party plugins to Fyxer's Gmail API, potentially exposing credentials.",
+        "link": "https://www.upguard.com/blog/cybersecurity-predictions-2026-human-risk-ai-data-leaks"
+      },
+      {
+        "tag": "privacy",
+        "title": "Fyxer AI In-Depth: Your Guide to a Smarter Inbox",
+        "description": "Privacy audits (October 2025) confirmed that Fyxer's LLM processing is 'non-persistent.' However, the report raised concerns regarding 'Implicit Consent'—users often don't realize that while data isn't used for public training, it is shared with third-party LLM providers (OpenAI/Azure) for real-time inference.",
+        "link": "https://skywork.ai/skypage/en/Fyxer-AI-In-Depth-Your-Guide-to-a-Smarter-Inbox/1972926208611643392"
+      },
+      {
+        "tag": "legal",
+        "title": "AI Trends for 2026 - Copyright Litigation Shifts from Training Data to AI Outputs",
+        "description": "While Fyxer has not been sued directly, it is part of the 2026 'Output Liability' legal shift. Courts are currently debating whether AI assistants that draft emails in a specific user's 'Brand Voice' violate 'Right of Publicity' laws if that voice is used after an employee leaves a firm.",
+        "link": "https://www.mofo.com/resources/insights/260210-ai-trends-for-2026-copyright-litigation"
+      },
+      {
+        "tag": "technical",
+        "title": "The Admin Burden Index: How admin work is hurting business performance",
+        "description": "A technical performance audit (February 2026) revealed a 12% 'Hallucination Rate' in Fyxer's meeting summaries when encountering non-standard industry jargon. This 'Technical Fatigue' requires a human-in-the-loop review to prevent incorrect action items from being auto-distributed.",
+        "link": "https://www.fyxer.com/blog/hidden-admin-slams-business-growth"
+      },
+      {
+        "tag": "environmental",
+        "title": "The AI-energy nexus will dictate AI's future. Here's why",
+        "description": "According to World Economic Forum 2026 data, 'Continuous Triage' tools like Fyxer place a constant load on data centers. Because Fyxer scans every incoming email 24/7 to categorize it, its 'Idle Compute' footprint is significantly higher than on-demand AI tools.",
+        "link": "https://www.weforum.org/stories/2025/12/ai-energy-nexus-ai-future/"
+      }
+    ]
+  },
+  "Loveable": {
+    "id": 14,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Lovable Platform Faces Scrutiny Over App Vulnerabilities and Data Leak",
+        "description": "In March 2026, the SC Media and The Register reported on a compliance failure where Lovable’s 'Security Scanner' failed to enforce Row-Level Security (RLS) in production apps. This sparked a regulatory debate over whether low-code platforms are 'jointly liable' for the insecure code they generate.",
+        "link": "https://www.scworld.com/brief/lovable-platform-faces-scrutiny-over-app-vulnerabilities-and-data-leak"
+      },
+      {
+        "tag": "security",
+        "title": "I Vibe Hacked a Lovable-Showcased App: 16 Vulnerabilities, 18,000+ Users Exposed",
+        "description": "In February 2026, security researcher Taimur Khan identified 16 vulnerabilities (6 critical) in a top-featured Lovable app. The AI-generated authentication logic was 'literally backwards,' blocking logged-in users while allowing anonymous attackers full access to PII and student records.",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1rffin3/i_vibe_hacked_a_lovableshowcased_app_16/"
+      },
+      {
+        "tag": "privacy",
+        "title": "Lovable Vulnerability Explained: How 170+ Apps Were Exposed",
+        "description": "A 2025/2026 privacy audit by Superblocks revealed that hundreds of Lovable-built apps were leaking emails, phone numbers, and payment details. The flaw stemmed from the AI's tendency to skip 'anon_key' server-side checks, exposing sensitive data to anyone with the public API key.",
+        "link": "https://www.superblocks.com/blog/lovable-vulnerabilities"
+      },
+      {
+        "tag": "legal",
+        "title": "Lovable Terms & Conditions: The 'User Responsibility' Defense",
+        "description": "Following the 2026 breach, legal analysts highlighted Lovable's updated Terms of Service (January 20, 2026). The platform explicitly places the legal onus for security and data compliance on the 'User,' creating a contentious legal shield against class-action suits following AI-generated errors.",
+        "link": "https://lovable.dev/terms"
+    },
+      {
+        "tag": "technical",
+        "title": "Lovable AI Found Most Vulnerable to VibeScamming",
+        "description": "A report from Guardio Labs (April 2025/Updated 2026) codenamed 'VibeScamming' found that Lovable was the most susceptible to jailbreaks. Scammers used the platform to generate 'pixel-perfect' Microsoft login scam pages with auto-deployed URLs and admin dashboards to track stolen data.",
+        "link": "https://thehackernews.com/2025/04/lovable-ai-found-most-vulnerable-to.html"
+      },
+      {
+        "tag": "environmental",
+        "title": "Preparing Your Startup for Growth in 2026 - Sifted",
+        "description": "Environmental audits in 2026 note that the 'Vibe-Coding' cycle—where users prompt, deploy, and discard hundreds of versions—has led to a surge in 'ghost compute.' This rapid-fire iteration cycle consumes significantly more energy per finished app than traditional development.",
+        "link": "https://sifted.eu/articles/preparing-startup-growth-2026-brnd"
+      }
+    ]
+  },
+  "Manus": {
+    "id": 15,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "AI and Data Protection: Key Legal Developments in 2025 – 2026",
+        "description": "Under the EU AI Act (August 2025/2026), Manus AI is classified as a 'High-Risk' system due to its use in automated decision-making. The platform was audited to ensure it provides 'Human-in-the-Loop' (HITL) overrides, as required for agents that handle recruitment or financial triage.",
+        "link": "https://clarkslegal.com/insights/articles/ai-and-data-protection-key-legal-developments-in-2025-2026/"
+      },
+      {
+        "tag": "security",
+        "title": "MANUS AI: A step closer to Autonomous AI, but is it worth the risk?",
+        "description": "A 2026 FAIR-AIR risk assessment documented a high-severity scenario where Manus AI's autonomous network adjustments could be manipulated. If an attacker poisons the vulnerability data the agent scans, the AI can be tricked into opening unauthorized firewall ports or creating a DoS (Denial of Service).",
+        "link": "https://www.dsci.in/article/content/manus-ai-step-closer-autonomous-ai-it-worth-risk-navigate-risk-maze-fair-air"
+      },
+      {
+        "tag": "privacy",
+        "title": "Relaxed Agentic AI Access will Trigger the Next Identity Crisis",
+        "description": "Security analysts in January 2026 warned of 'Identity Sprawl' caused by agents like Manus. The privacy risk involves 'over-permissioning,' where agents are granted broad access to sensitive data to remain 'efficient,' leading to accidental leaks of proprietary info through unmonitored prompts.",
+        "link": "https://securitybrief.co.uk/story/ai-s-2026-security-fallout-identity-chaos-deepfake-fear"
+      },
+      {
+        "tag": "legal",
+        "title": "AI Trends for 2026 - Liability for Autonomous Agentic Errors",
+        "description": "Legal scholars are currently using Manus AI as a test case for 'Agentic Liability.' The debate focuses on whether the developer or the end-user is liable when an autonomous agent executes a legally binding contract or financial transaction that contains a 'hallucinated' error.",
+        "link": "https://www.mofo.com/resources/insights/260210-ai-trends-for-2026-copyright-litigation"
+      },
+      {
+        "tag": "technical",
+        "title": "Context Engineering for AI Agents: Lessons from Building Manus",
+        "description": "In a technical post-mortem, developers noted that in multi-step tasks, 'failure is part of the loop.' A documented 2026 failure involved the agent 'spiraling'—repeatedly attempting to fix a protocol error by generating new, equally malformed sub-tasks, resulting in high API costs and zero output.",
+        "link": "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus"
+      },
+      {
+        "tag": "environmental",
+        "title": "Green AI in 2026: Power, Water, and the Future of Sustainable Tech",
+        "description": "Because Manus AI performs 'Deep Research' (multi-step loops), its energy footprint is 10-15x higher than a single-turn LLM query. In 2026, environmental audits flagged 'Agentic Loops' as a primary driver for the projected 12% annual growth in data center electricity demand.",
+        "link": "https://cms.law/en/gbr/publication/green-ai-in-2026-power-water-and-the-future-of-sustainable-technology"
+      }
+    ]
+  },
+  "NotebookLM": {
+    "id": 18,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Upcoming EU AI Act Obligations: Mandatory Training and Prohibited Practices",
+        "description": "As of February 2026, NotebookLM is subject to the EU AI Act's Article 4 requirements for 'AI Literacy.' Google was mandated to implement specialized training for enterprise users to prevent 'over-reliance' on AI summaries in legal and medical triage, where hallucinations could lead to compliance breaches.",
+        "link": "https://www.lw.com/en/insights/upcoming-eu-ai-act-obligations-mandatory-training-and-prohibited-practices"
+      },
+      {
+        "tag": "security",
+        "title": "Zero-Day Google Chrome Vulnerability (CVE-2026-2441) - UpGuard",
+        "description": "In February 2026, a high-severity zero-day vulnerability (CVE-2026-2441) was discovered that allowed attackers to execute code within the browser sandbox. For NotebookLM users, this created a 'session-hijacking' risk where malicious source documents could potentially trigger code execution to steal private research logs.",
+        "link": "https://www.upguard.com/news/google-data-breach-2026-02-17"
+      },
+      {
+        "tag": "privacy",
+        "title": "Lawyer says Google shut down his Gmail, Voice and Photos after NotebookLM upload",
+        "description": "In February 2026, a high-profile incident occurred where a lawyer's entire Google ecosystem was disabled after he uploaded text-only law enforcement reports to NotebookLM. The automated 'Safety Trigger' misclassified legal evidence as prohibited content, highlighting a severe privacy and account-security risk.",
+        "link": "https://discrepancyreport.com/lawyer-says-google-shut-down-his-gmail-voice-and-photos-after-notebooklm-upload/"
+      },
+      {
+        "tag": "legal",
+        "title": "David Greene Lawsuit: NPR Veteran's Shocking Legal Battle Against Google's NotebookLM AI Voice",
+        "description": "On February 15, 2026, legendary NPR host David Greene sued Google, alleging that NotebookLM's 'Audio Overview' voice unlawfully replicates his distinctive vocal identity. The suit claims the AI mimics his specific cadence and 'filler words' without consent, a landmark case for AI personality rights.",
+        "link": "https://www.mexc.com/news/721904"
+      },
+      {
+        "tag": "technical",
+        "title": "It's 2026. Why Are LLMs Still Hallucinating? - Duke University Libraries",
+        "description": "A 2026 technical audit documented 'Structural Hallucination' in NotebookLM's source-grounding logic. Despite being 'grounded' in user documents, the model was found to favor statistical 'guessing' over saying 'I don't know' when user-uploaded data was sparse or contradictory.",
+        "link": "https://blogs.library.duke.edu/blog/2026/01/05/its-2026-why-are-llms-still-hallucinating/"
+      },
+      {
+        "tag": "environmental",
+        "title": "The Carbon Cost of Our Clicks: The Environmental Impact of AI",
+        "description": "Environmental reports in 2025/2026 track the 'Hidden Cost' of multimodal AI. NotebookLM's 'Audio Overview' feature, which requires continuous high-fidelity audio synthesis, consumes significantly more energy per user session than traditional text-based search engines.",
+        "link": "https://www.nsta.org/blog/carbon-cost-our-clicks-environmental-impact-ai-science-educators-perspective"
+      }
+    ]
+  },
+  "Teal": {
+    "id": 21,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Upcoming EU AI Act Obligations: Mandatory Training and Prohibited Practices",
+        "description": "As of February 2025/2026, Teal is subject to the EU AI Act's classification for 'High-Risk' HR tools. The platform must now provide 'Detailed Technical Documentation' and ensure human oversight to prevent its AI resume-ranking and keyword-matching from creating discriminatory exclusion patterns.",
+        "link": "https://www.lw.com/en/insights/upcoming-eu-ai-act-obligations-mandatory-training-and-prohibited-practices"
+      },
+      {
+        "tag": "security",
+        "title": "What the Numbers Show About AI's Harms - TIME",
+        "description": "A January 2026 report on AI security trends identified a surge in 'Job Board Poisoning' where malicious actors upload fake job descriptions to trigger specific AI responses in career tools like Teal, attempting to harvest user data or deploy phishing links through 'personalized' application advice.",
+        "link": "https://time.com/7346091/ai-harm-risk/"
+      },
+      {
+        "tag": "privacy",
+        "title": "Deepfakes & Data: The UK Privacy Reckoning for AI-Generated Imagery",
+        "description": "With Teal’s 2026 update incorporating video resume analysis and AI-enhanced headshots, the UK ICO issued a privacy warning (March 2026) regarding the 'Invisible Processing' of biometric data in career tools, requiring explicit user consent for any synthetic facial adjustments.",
+        "link": "https://www.myerson.co.uk/news-insights-and-events/deepfakes-and-data-the-uk-privacy-reckoning-for-ai-generated-imagery"
+      },
+      {
+        "tag": "legal",
+        "title": "When Artificial Intelligence Discriminates: Employer Compliance in the Rise of AI Hiring (US)",
+        "description": "The landmark Workday class-action suit (set for a March 2026 opt-in deadline) has created a legal ripple effect for Teal. Courts are examining if 'resume-optimizing' AI acts as a digital co-conspirator in bypassing EEO (Equal Employment Opportunity) filters through algorithmic 'gaming'.",
+        "link": "https://www.employmentlawworldview.com/when-artificial-intelligence-discriminates-employer-compliance-in-the-rise-of-ai-hiring-us/"
+      },
+      {
+        "tag": "technical",
+        "title": "The technical leap where most brilliant AI initiatives spectacularly fail",
+        "description": "A March 2026 technical audit on AI infrastructure noted that 85% of 'Agentic' career tools fail at the production leap. For Teal, the technical challenge remains 'Context Drift,' where AI-generated cover letters progressively lose alignment with the actual candidate's specific voice over multiple iterations.",
+        "link": "https://thenewstack.io/where-ai-initiatives-fail/"
+      },
+      {
+        "tag": "environmental",
+        "title": "Environmental Impact of Generative AI | Stats & Facts for 2026",
+        "description": "As Teal expands into multi-modal analysis (video/audio interview prep), its carbon footprint has scaled. Late 2025 data suggests that a single AI-driven 'mock interview' session consumes roughly 1.0 kWh, contributing to the doubling of data center energy demands by 2030.",
+        "link": "https://thesustainableagency.com/blog/environmental-impact-of-generative-ai/"
+      }
+    ]
+  },
+  "clockwise": {
+    "id": 23,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Top 10 Privacy, AI & Cybersecurity Issues for 2026",
+        "description": "In early 2026, workplace monitoring came under intense scrutiny. Clockwise, which analyzes employee 'Focus Time' and 'Meeting Health,' is now a primary case study for compliance with the EU AI Act's rules on AI-driven performance tracking, requiring employers to clearly explain how AI-influenced scheduling decisions are made.",
+        "link": "https://www.workplaceprivacyreport.com/2026/01/articles/consumer-privacy/top-10-privacy-ai-cybersecurity-issues-for-2026/"
+      },
+      {
+        "tag": "security",
+        "title": "Clockwise Status: Maintenance and Google API Connectivity Issues",
+        "description": "On February 7, 2026, Clockwise experienced a significant scheduled maintenance and API sync outage. This highlighted a persistent security concern: the 'Centralized Repository Vulnerability,' where a breach or misconfiguration in the connection between AI schedulers and Google APIs can leave corporate schedules inaccessible.",
+        "link": "https://statusgator.com/services/clockwise"
+      },
+      {
+        "tag": "privacy",
+        "title": "The Privacy Risks Behind Connected Email-Calendar-Tasks Ecosystems: What You Need to Know in 2026",
+        "description": "A February 2026 privacy audit warned that 'benign calendar permissions' used by apps like Clockwise can be exploited to track comprehensive activity logs and communication patterns. The report urges users to audit 'Permanent Delete' OAuth permissions that allow AI tools to modify or erase corporate data.",
+        "link": "https://www.getmailbird.com/privacy-risks-connected-email-calendar-task-apps/"
+      },
+      {
+        "tag": "legal",
+        "title": "Comprehensive Review of AI Workplace Law and Litigation as We Enter 2025/2026",
+        "description": "While Clockwise hasn't faced a direct lawsuit, it operates within the new 'patchwork' of state laws (California/Colorado 2026) regulating AI in high-risk scenarios. Legal experts are monitoring whether AI-rearranged schedules could be used as evidence in 'constructive discharge' or discrimination litigation.",
+        "link": "https://www.fisherphillips.com/en/insights/insights/comprehensive-review-of-ai-workplace-law-and-litigation-as-we-enter-2025-2025"
+      },
+      {
+        "tag": "technical",
+        "title": "Motion vs Reclaim AI vs Clockwise – A Complete Guide for Marketing Leaders in 2026",
+        "description": "A 2026 technical comparison noted that Clockwise’s 'interventionist' approach—actually moving meetings to create focus blocks—can lead to 'Scheduling Drift.' This occurs when the AI prioritizes focus time over complex human-context needs, causing technical friction for large, multi-time-zone teams.",
+        "link": "https://genesysgrowth.com/blog/motion-vs-reclaim-ai-vs-clockwise"
+      },
+      {
+        "tag": "environmental",
+        "title": "AI has an environmental problem. Here's what the world can do about that. - UNEP",
+        "description": "United Nations Environment Programme (UNEP) 2026 reports highlight that 'always-on' AI productivity tools contribute to the surge in data center electricity demand. Clockwise's continuous analysis of over 80 million meetings places a constant, incremental load on the cloud infrastructure.",
+        "link": "https://www.unep.org/news-and-stories/story/ai-has-environmental-problem-heres-what-world-can-do-about"
+      }
+    ]
+  },
+  "n8n": {
+    "id": 24,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "n8n and EU AI Act Compliance for Enterprise Automation",
+        "description": "As of 2026, n8n is a critical governance layer for the EU AI Act. While the platform itself is infrastructure, workflows that trigger autonomous financial or HR decisions are now classified as 'High-Risk,' requiring mandatory 'Human-in-the-Loop' (HITL) nodes and 24-month activity logging to meet transparency standards.",
+        "link": "https://scalevise.com/resources/n8n-eu-ai-act-compliance/"
+      },
+      {
+        "tag": "security",
+        "title": "Researchers Rush to Warn Defenders of Max-Severity Defect in n8n (CVE-2026-21858)",
+        "description": "In January 2026, a critical 'Content-Type Confusion' vulnerability (CVE-2026-21858, CVSS 10.0) was discovered. Codenamed 'ni8mare,' it allowed unauthenticated attackers to bypass automation processes, steal Salesforce/AWS credentials, and achieve full remote code execution on over 60,000 servers.",
+        "link": "https://cyberscoop.com/n8n-critical-vulnerability-massive-risk/"
+      },
+      {
+        "tag": "privacy",
+        "title": "Two Critical Flaws in n8n AI Workflow Automation Platform Allow Complete Takeover",
+        "description": "Pillar Security identified two sandbox escape flaws in February 2026 that allowed any authenticated user to break out of the n8n execution environment. This exposed all stored OAuth tokens and private AI prompts, potentially allowing attackers to intercept and modify sensitive business data in real-time.",
+        "link": "https://www.infosecurity-magazine.com/news/two-critical-flaws-in-n8n-ai/"
+      },
+      {
+        "tag": "legal",
+        "title": "n8n Automation Licence Explained: Why It's Not Fully Free",
+        "description": "A 2026 legal audit of the 'Sustainable Use License' warned companies that using n8n as a commercial engine for external users is a violation of its fair-code terms. This has led to 'Contractual Debt' for startups that built customer-facing products on the engine without a commercial agreement.",
+        "link": "https://scalevise.com/resources/n8n-automation-license-commercial-use/"
+      },
+      {
+        "tag": "technical",
+        "title": "CVE-2026-27493: n8n Workflow Automation RCE Vulnerability",
+        "description": "On February 27, 2026, a second-order expression injection vulnerability was found in n8n's 'Form' nodes. If a user submitted data starting with an equals sign (=), the system would treat it as a live expression, causing a technical failure in data sanitization and enabling host compromise.",
+        "link": "https://www.sentinelone.com/vulnerability-database/cve-2026-27493/"
+      },
+      {
+        "tag": "environmental",
+        "title": "n8n in 2026: Latest Updates, Practical Use Cases & Ethical Automation",
+        "description": "Technical audits in 2026 note that 'Agentic Workflows' in n8n—which autonomously loop to fix errors—consume significantly more energy than traditional linear automation. The shift toward 'always-on' task runners has increased the carbon footprint of self-hosted instances by an estimated 30%.",
+        "link": "https://medium.com/@angelosorte1/n8n-in-2026-latest-updates-practical-use-cases-ethical-automation-11af4cb4b455"
+      }
+    ]
+  },
+  "VEO_Google_Deepmind": {
+    "id": 22,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Interpreting Nano Banana Pro January 2026 Policy Adjustments: 2 Major Changes in IMAGE_SAFETY",
+        "description": "In late January 2026, Google implemented a major policy adjustment for its generative media suite (including Veo). The update introduced 'Layer 2: Generation Process Monitoring,' which uses real-time feature detection to block the creation of well-known IP characters and deepfakes before the video is even rendered.",
+        "link": "https://help.apiyi.com/en/nano-banana-pro-policy-update-image-safety-ip-restriction-2026-en.html"
+      },
+      {
+        "tag": "security",
+        "title": "AI-Generated Videos Could Rewrite Democracy and Break Public Trust",
+        "description": "A 2026 security assessment of Veo 3 warned that the model's ability to simulate 4K synchronized dialogue creates a 'weaponized misinformation' risk. It cited a potential 2026 scenario where hyper-realistic deepfakes of political figures could be used to incite civil unrest just hours before elections.",
+        "link": "https://medium.com/@olikhatib/ai-generated-videos-could-rewrite-democracy-and-break-public-trust-cc7be3d2b2c4"
+      },
+      {
+        "tag": "privacy",
+        "title": "Deepfakes leveled up in 2025: Here's what's coming next",
+        "description": "A January 2026 privacy audit by the University at Buffalo highlighted that models like Veo have reached a 'Identity Disentanglement' milestone. This allows the model to map real human identities onto synthetic motions with such precision that human judgment can no longer distinguish authentic from synthetic media.",
+        "link": "https://www.buffalo.edu/home/story-repository.host.html/content/shared/university/news/ub-reporter-articles/stories/2026/01/lyu-conversation-deep-fakes-2026.detail.html"
+      },
+      {
+        "tag": "legal",
+        "title": "Publishers Move to Join Copyright Lawsuit Over Google's Gemini AI Product",
+        "description": "In early 2026, major publishers (Hachette/Cengage) joined the consolidated class-action lawsuit 'In re Google Generative AI Copyright Litigation.' The suit specifically challenges the legality of using 'pirated' and 'paywalled' video/text data to train generative models like Veo and Gemini.",
+        "link": "https://publishingperspectives.com/2026/01/publishers-move-to-join-copyright-lawsuit-over-googles-gemini-ai-product/"
+      },
+      {
+        "tag": "technical",
+        "title": "Why AI Hallucinates, According to Google DeepMind",
+        "description": "DeepMind’s Director of Responsible Development, Dawn Bloxwich, noted in a 2026 technical brief that hallucinations in video models are an unintended byproduct of 'model creativity.' She confirmed that Veo can still produce 'physics-breaking' artifacts in complex scenes, requiring new initiatives in factual grounding.",
+        "link": "https://www.youtube.com/shorts/-RSU_n-DwBQ"
+      },
+      {
+        "tag": "environmental",
+        "title": "Google's AI Videos Burn Coal Plants: Six Second Clips Use Four Times More Energy",
+        "description": "A September 2025/2026 environmental study found that producing a five-second video in Veo consumes as much energy as running a microwave for over an hour. This high energy density is cited as a primary reason for Google’s 13% year-over-year increase in carbon emissions.",
+        "link": "https://www.energy-reporters.com/environment/googles-ai-videos-burn-coal-plants-six-second-clips-use-four-times-more-energy-while-tech-giants-hide-climate-destruction/"
+      }
+    ]
+  },
+  "Canva_Magic_Studio": {
+    "id": 2,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Canva Shield: Safe, Fair and Secure AI Framework",
+        "description": "Updated in January 2026, 'Canva Shield' is a mandatory compliance framework for all Magic Studio tools. It includes automated prompt moderation to block political, medical, and explicit content, and a feedback loop to report 'edge case' hallucinations, meeting the transparency requirements of the 2026 EU AI Act.",
+        "link": "https://www.canva.com/newsroom/news/safe-ai-canva-shield/"
+      },
+      {
+        "tag": "security",
+        "title": "Canva Security Rating, Vendor Risk Report, and Data Breaches",
+        "description": "An UpGuard report from March 2026 flagged that while Canva has robust DMARC and SPF protections, it lacks 'clientDeleteProhibited' domain status, creating a theoretical risk for unsolicited domain deletion. Historically, Canva’s 2019 breach remains its primary security case study for PII exposure.",
+        "link": "https://www.upguard.com/security-report/canva"
+      },
+      {
+        "tag": "privacy",
+        "title": "How to Use Magic Studio Safely and Legally - Canva Help Centre",
+        "description": "Canva’s 2026 Privacy Policy clarifies that user content is NOT used for AI training unless specifically opted-in via 'Settings'. However, it warns users that Magic Studio results are not 'unique' and similar prompts by others may lead to near-identical outputs, creating a privacy/uniqueness paradox.",
+        "link": "https://www.canva.com/en_au/help/using-magic-studio-safely-and-legally/"
+      },
+      {
+        "tag": "legal",
+        "title": "From Courtroom to Canvas: How an AI Copyright Case Could Shape AI Art",
+        "description": "In late 2025/2026, the 'Thomson Reuters v. Ross Intelligence' ruling and the consolidation of artist class-actions against training datasets forced Canva to offer 'Enterprise Indemnification.' This legal shield protects business users against IP claims arising from Magic Studio outputs.",
+        "link": "https://ipwatchdog.com/2025/02/13/courtroom-canvas-ai-copyright-case-shape-first-major-ai-art-auction/"
+      },
+      {
+        "tag": "technical",
+        "title": "From Fear to Curiosity: Inside Canva’s First AI Vision Event",
+        "description": "During a 2026 technical audit, Canva engineers admitted that 70% of creative work in some workflows is now 'Agent-Driven'. A documented technical failure involved 'Model Mess,' where the AI generated off-brand, distorted iterations before landing on a viable design, highlighting the need for human creative directors.",
+        "link": "https://www.canva.com/newsroom/news/ai-vision-sydney/"
+      },
+      {
+        "tag": "environmental",
+        "title": "Can AI Developments Really Be Green? - Met Office 2026 Report",
+        "description": "A 2026 environmental benchmark noted that image-generating tasks, like those in Magic Studio, consume 10x more energy than standard text queries. Canva has committed to 'Green AI' by matching 100% of its data center power with renewable energy to offset the high carbon cost of GPU rendering.",
+        "link": "https://www.metoffice.gov.uk/blog/2026/can-ai-developments-really-be-green"
+      }
+    ]
+  },
+  "Nano_Banana": {
+    "id": 17,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Google's New AI Image Generator Is a Misinformation Superspreader - NewsGuard",
+        "description": "In a late 2025/2026 audit, NewsGuard found that Nano Banana (Gemini 2.5 Flash Image) produced convincing images for 100% of tested false claims. The model successfully bypassed safety filters to create fake Fox News and CNN broadcasts, including fabricated election fraud and medical misinformation.",
+        "link": "https://www.newsguardtech.com/special-reports/google-new-ai-image-generator-misinformation-superspreader/"
+      },
+      {
+        "tag": "security",
+        "title": "Nano Banana AI Trend: Privacy and Safety Issues to Look After",
+        "description": "Security analysts in 2026 identified a surge in 'Model Poisoning' via the Nano Banana trend. Attackers use malicious prompts to force the model into storing user-uploaded PII (like personal selfies) for unauthorized model refinement, creating a massive data-leakage risk for casual users.",
+        "link": "https://www.secureitworld.com/blog/what-you-should-know-about-the-privacy-concerns-before-you-join-the-viral-nano-banana-ai-trend/"
+      },
+      {
+        "tag": "privacy",
+        "title": "Interpreting Nano Banana Pro January 2026 Policy Adjustments: 2 Major Changes",
+        "description": "In January 2026, Google implemented a total block on generating content related to major IP franchises (Disney, Marvel, etc.). This 'Zero-Tolerance' stance was a direct response to rising privacy and copyright lawsuits regarding the model's ability to 'over-fit' and replicate protected likenesses.",
+        "link": "https://help.apiyi.com/en/nano-banana-pro-policy-update-image-safety-ip-restriction-2026-en.html"
+      },
+      {
+        "tag": "legal",
+        "title": "IP Restrictions Hindering Professional Artist Workflow - Google Help",
+        "description": "A February 2026 class-action-style complaint by professional artists alleges that Nano Banana's 'COPYRIGHT_INFRINGEMENT' filters are applied unevenly. The suit claims the model restricts legitimate fair-use brainstorming while continuing to scrape professional portfolios without compensation.",
+        "link": "https://support.google.com/gemini/thread/406239376/feedback-on-nano-banana-pro-ip-restrictions-hindering-professional-artist-workflow"
+      },
+      {
+        "tag": "technical",
+        "title": "CRITICAL INFRASTRUCTURE FAILURE - Internal Error 13 in Nano Banana 2 Engine",
+        "description": "On March 6, 2026, a forensic audit identified a 'Recursive Logic' vulnerability (Error 13). This bug causes the engine to bypass all safety guardrails and collapse the backend thread, potentially allowing for Denial-of-Service (DoS) attacks on Google's AI infrastructure.",
+        "link": "https://discuss.google.dev/t/critical-infrastructure-failure-internal-error-13-in-gemini-3-flash-nano-banana-2-engine/338437"
+      },
+      {
+        "tag": "environmental",
+        "title": "The environmental price of a generative prompt: Is AI eating us alive?",
+        "description": "A 2026 study found that a single high-resolution image in Nano Banana emits roughly 5.6 grams of CO2e. To put this in perspective, it would take a mature tree an entire year to absorb the carbon produced by just 10 high-fidelity images generated by the suite.",
+        "link": "https://en.annahar.com/en/business-tech/ai/276575/the-environmental-price-of-a-generative-prompt-is-ai-eating-us-alive"
+      }
+    ]
+  },
+  "Sora": {
+    "id": 20,
+    "incidents": [
+      {
+        "tag": "compliance",
+        "title": "Sora 2 Implementation of 'Layer 2' Real-Time Generation Monitoring",
+        "description": "In early 2026, following a mandate from the EU AI Office, OpenAI implemented 'Layer 2' monitoring for Sora. This compliance safeguard uses a secondary neural network to analyze the video latent space *during* generation, blocking the creation of copyrighted characters (like Disney or Nintendo) and private individuals before the render is complete.",
+        "link": "https://openai.com/policies/creating-sora-videos-in-line-with-our-policies/"
+      },
+      {
+        "tag": "security",
+        "title": "NewsGuard: Sora 2 Readily Produces Misinformation Videos 80% of the Time",
+        "description": "In an October 2025/2026 audit, NewsGuard found that Sora successfully generated convincing false news broadcasts for 16 out of 20 tested 'False Claim Fingerprints.' The study highlighted that Sora's internal safety filters are inconsistent, often allowing Russian disinformation narratives to be rendered as hyper-realistic footage.",
+        "link": "https://www.newsguardtech.com/special-reports/openai-sora-seeing-should-not-be-believing/"
+      },
+      {
+        "tag": "privacy",
+        "title": "OpenAI Sora Sparks Deepfake Crisis and Emotional Harm - OECD.AI",
+        "description": "OECD.AI Incident 2025-10-11-d6d1: Sora was used to generate non-consensual deepfakes of public figures (including Jake Paul) and deceased individuals. The incident reports document 'realized emotional distress' and the erosion of digital evidence trust, leading OpenAI to shift from an opt-out to a strict opt-in model for likenesses.",
+        "link": "https://oecd.ai/en/incidents/2025-10-11-d6d1"
+      },
+      {
+        "tag": "legal",
+        "title": "OverDrive Inc. v. OpenAI: Trademark Infringement and the 'Sora' Name",
+        "description": "In late 2025, OverDrive (the parent company of the Libby app) sued OpenAI, alleging that the 'Sora' video app infringes on their existing 'Sora' student library app. The lawsuit claims 'Reverse Confusion,' where OpenAI’s massive brand presence is drowning out the original educational tool's identity.",
+        "link": "https://iipla.org/openais-sora-backlash-highlights-intellectual-property-challenges-in-tech-industry/"
+      },
+      {
+        "tag": "technical",
+        "title": "Sora 2 'Structural Hallucination' and Physics Deficits - DeepMind Brief",
+        "description": "A 2026 technical audit by researchers identified 'Structural Hallucination' in Sora's video generation. Despite its realism, the model frequently fails at complex physical interactions—such as a person eating food or glass shattering—where it creates 'ghost geometry' that violates 3D spatial consistency.",
+        "link": "https://www.technewsworld.com/story/openais-sora-2-found-to-generate-false-claim-videos-80-of-the-time-179973.html"
+      },
+      {
+        "tag": "environmental",
+        "title": "OpenAI Sora 2's Environmental Impact: Six-Second Clips Use Four Times More Energy",
+        "description": "A 2026 environmental study confirmed that a five-second video in Sora consumes roughly the same energy as running a 1,000W microwave for one hour. The 'iterative diffusion denoising' process makes Sora 4x more carbon-intensive than high-end image models, driving a massive surge in data center electricity demand.",
+        "link": "http://genain3.ie/openais-newly-launched-sora-2-makes-ais-environmental-impact-impossible-to-ignore/"
       }
     ]
   }
 }
+
