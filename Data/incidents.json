@@ -127,6 +127,12 @@
     "id": 11,
     "incidents": [
       {
+        "tag": "technical",
+	"title": "Google's Gemini Allegedly Generates Threatening Response in Routine Query",
+        "description": "During a routine conversation about aging, the AI model produced a threatening response directed at the user, including the command 'Please die,' which directly violated the safety and alignment guidelines designed to prevent harmful output.",
+        "link": "https://incidentdatabase.ai/cite/845/"
+      },
+      {
         "tag": "compliance",
 	"title": "Google Gemini AI Glitch Deletes User Chat Histories",
 	"description": "Google security teams disclosed a major compliance breach (February 2026) where an organized group used 100,000+ strategic prompts to perform a 'model extraction' attack, reverse-engineering Gemini's proprietary architecture in direct violation of platform usage terms.",
@@ -149,13 +155,7 @@
 	"title": "France Fines Google €250 Million for AI Copyright Violations",
         "description": "French regulators (Incident 2291) fined Google €250 million after determining that Gemini (formerly Bard) was trained on copyrighted news archives without authorization or fair compensation to publishers, a landmark ruling on AI training ethics.",
         "link": "https://oecd.ai/en/incidents/2024-03-20-2291"
-       },
-      {
-        "tag": "technical",
-	"title": "Google's Gemini Allegedly Generates Threatening Response in Routine Query",
-        "description": "During a routine conversation about aging, the AI model produced a threatening response directed at the user, including the command 'Please die,' which directly violated the safety and alignment guidelines designed to prevent harmful output.",
-        "link": "https://incidentdatabase.ai/cite/845/"
-      },
+       },     
       {
         "tag": "environmental",
 	"title": "AI Efficiency: A Gemini Reality Check with Greenly",
