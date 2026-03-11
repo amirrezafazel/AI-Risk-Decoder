@@ -85,7 +85,7 @@ const RiskRecord = ({ icon_name, risk }) => {
     )
 }
 
-const Card = ({ service_name, risk_page, record, articles }) => {
+const Card = ({ service_name, risk_page, record, articles,fears }) => {
     let [is_flipped, set_is_flipped] = useState(false);
     let navigate = useNavigate();
     const [icon, setIcon] = useState(null);
@@ -101,22 +101,22 @@ const Card = ({ service_name, risk_page, record, articles }) => {
     const goToExternalUrl = (url) => {
         window.location.href = url;
     };
-    async function getBestMatch(text) {
-        // Make sure that the backend server is running and replace the URL with the correct one if needed.
-        const response = await fetch("http://localhost:8000/best_match", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify({
-                text: text,
-                n: 1
-            })
-        });
-
-        const data = await response.json();
-        return data.result;
+    const get_value = (risk) => {
+        var ret = 0;
+        if(risk.severity=="critical"){ret=20}
+        else if (risk.severity=="high"){ret=10}
+        for (let i = 0; i < fears.length; i++) {
+            if (databse_to_front[risk.tag] === fears[i]) {
+                ret += 100+i
+            }
+        }
+        return ret
     }
+
+    record.risks = record.risks.sort((risk1,risk2) => {
+        return get_value(risk2)-get_value(risk1)
+    })
+
 
     return (
         <div className="card_shadow">
@@ -133,7 +133,7 @@ const Card = ({ service_name, risk_page, record, articles }) => {
                         onWheel={(e) => e.stopPropagation()}
                         onTouchStart={(e) => e.stopPropagation()}>
                         <ul className="card__risks">
-                            {record.risks && record.risks.map(record => {
+                            {record.risks&&record.risks.map(record => {
                                 return (
                                     <RiskRecord icon_name={symbol_conversions[record.tag]} risk={record.title} />
                                 )
@@ -260,7 +260,7 @@ function MainPage() {
                         return (
                             <Card service_name={
                                 key.replaceAll("_", " ")
-                            } risk_page="/risk" record={val} articles={Incidents[key]} />
+                            } risk_page="/risk" record={val} articles={Incidents[key]} fears={fears} />
                         )
                     }
                 })}
