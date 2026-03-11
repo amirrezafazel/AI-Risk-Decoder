@@ -81,6 +81,7 @@ function RiskPage() {
                 {articles.incidents.slice(0, 2).map((incident, i) => (
                 <aside className="news_article" key={i} style={{ boxSizing: 'border-box', position: 'static' }}>
                     <div className="news_article__badge">Breaking News</div>
+                    <h2>{incident.title}</h2>
                     <p>{incident.description}</p>
                 </aside>
                 ))}
