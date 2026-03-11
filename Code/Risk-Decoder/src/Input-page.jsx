@@ -19,6 +19,16 @@ function InputPage() {
 
   const navigate = useNavigate()
 
+  const handleNextPage = async (userInput) => {
+     /* server port */
+    await fetch('http://127.0.0.1:5000/calculate_embedding', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ user_input: userInput }),
+    });
+    navigate('/main');
+  };
+
   function toggleCategory(id) {
     setSelectedCategories(prev => {
       const next = new Map(prev)
@@ -29,7 +39,7 @@ function InputPage() {
 
   function handleSubmit() {
     updatePreferences(selectedCategories, additionalPrefs)
-    navigate('/main')
+    handleNextPage(additionalPrefs)
   }
 
   return (
