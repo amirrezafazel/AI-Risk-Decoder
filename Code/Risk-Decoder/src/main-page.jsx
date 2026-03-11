@@ -176,6 +176,7 @@ const Card = ({ service_name, risk_page, record, articles }) => {
                         <img className="flip_icon" src={turn} alt="flip the card" />
                     </div>
                     <div className="card__body">
+                        <h2>{articles && articles.incidents[0].title}</h2>
                         {articles && articles.incidents[0].description}
 
                     </div>
@@ -188,8 +189,8 @@ const Card = ({ service_name, risk_page, record, articles }) => {
                                 }
                             }
                             }>
-                            <img className="min_icon" src={original} alt="original icon" />
-                            &nbsp;See Original
+                            <img className="min_icon" src={original} alt="article icon" />
+                            &nbsp;See Article
                         </div>
                     </div>
                 </div>
