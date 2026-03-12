@@ -8,7 +8,7 @@ if os.path.exists(DB_FILE):
     with open(DB_FILE, "r") as f:
         db = json.load(f)
 else:
-    raise FileNotFoundError(f"Database file '{DB_FILE}' not found.")
+    raise FileNotFoundError(f"Database file '{DB_FILE}' not found. Make sure you run this script from the root directory of the project.")
 
 def save_db():
     with open(DB_FILE, "w") as f:
