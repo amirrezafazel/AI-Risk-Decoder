@@ -7,11 +7,21 @@ In order to communicate these risks clearly to the average person, we aim to cre
 
 ## Dependencies
 - Python 3.8+
+- Node.js 14+
 
 ## Installation
-
+Go inside the Risk-Decoder directory and install the dependencies using npm:
+```bash
+cd Code/Risk-Decoder
+npm install
+```
 
 ## Usage
+To run the website, run the following command from the project root directory:
+```bash
+cd Code/Risk-Decoder
+npm run dev
+```
 To run the Database CLI, run the following command from the project root directory:
 ```bash
 python Code/Database/interactive_cli.py
